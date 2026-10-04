@@ -31,6 +31,19 @@ Stuff bends. A little, under small load, in proportion to the load (Hooke). A lo
 3. Build a kinematic mount from a plate with three divots, three balls, and a mating plate. Lift the top off. Put it back. Verify it returns to the same position within what you can measure.
 4. Weigh a chunk of carbon fiber composite and a chunk of aluminum. Flex them. Carbon fiber feels like aluminum but weighs half. That's why satellites are made of it.
 
+## The example everyone should work
+
+A 100 g mass hanging from a 50 N/m spring, with 0.2 N·s/m of damping — the model behind every scale, accelerometer and motion stage:
+
+1. Equation of motion: m·ẍ + c·ẋ + k·x = F(t).
+2. Natural frequency: ωₙ = √(k/m) = √(50 / 0.1) = 22.4 rad/s, so fₙ = ωₙ / 2π = 3.56 Hz.
+3. Damping ratio: ζ = c / (2√(k·m)) = 0.2 / (2√5) = 0.045.
+4. Quality factor: Q = 1 / (2ζ) = 11.2.
+5. Read it: ζ is far below 1, so the system is underdamped. Tap it and it rings at about 3.6 Hz for roughly Q ≈ 11 visible cycles before settling.
+6. To make it settle without overshoot (critical damping, ζ = 1) you would need c = 2√(k·m) = 4.5 N·s/m — about 22× more damping.
+
+One spring, one mass, one damper: the same three numbers (ωₙ, ζ, Q) describe a kitchen scale, a car suspension, a MEMS accelerometer and a precision stage.
+
 ## Material + technique
 
 ### Key materials

@@ -33,6 +33,19 @@ Photons with energy above a material's bandgap get absorbed and knock out electr
 3. Open a Blu-ray drive. The laser is a GaN diode. The optics are plastic. The sensor is a photodiode array. All assembly done by machines.
 4. Image a fluorescent tube with a cheap CMOS camera at a short shutter. See the stripes from the 60 Hz flicker.
 
+## The example everyone should work
+
+Will this detector see this light, and how much current will it give? (Bench 7, build 2):
+
+1. Photon energy: E = hc/λ, or in practical units E[eV] = 1240 / λ[nm].
+2. Red laser, 650 nm: E = 1.91 eV. Telecom, 1550 nm: E = 0.80 eV.
+3. Silicon's bandgap is 1.12 eV, so its cutoff is 1240 / 1.12 = 1,107 nm. It sees 650 nm easily and is blind to 1550 nm. InGaAs (≈ 0.75 eV, cutoff ≈ 1,650 nm) is what you need there.
+4. Responsivity of a photodiode: R = QE · λ[nm] / 1240 A/W. A silicon BPW34 with QE ≈ 0.8 at 650 nm: R = 0.8 × 650 / 1240 = 0.42 A/W.
+5. All of a 1 mW red laser spot on the diode: I = 0.42 A/W × 1 mW = 0.42 mA.
+6. Into a transimpedance amplifier with a 10 kΩ feedback resistor: V = I · R_f = 0.42 mA × 10 kΩ = 4.2 V. For dim room light (nanoamps to microamps), raise R_f to 1–10 MΩ.
+
+Bandgap decides *whether* you see the light; responsivity decides *how much* signal you get. Every camera, encoder, lidar and fiber receiver is sized with these two numbers.
+
 ## Material + technique
 
 ### Key materials

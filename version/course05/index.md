@@ -82,10 +82,11 @@ Every pile file follows the same order:
 2. The one thing to understand
 3. This pile on the three pillars
 4. What to build
-5. Material + technique — key materials, key techniques, the clever trick, materials/techniques/features table, signature techniques
-6. Who to know — with the discoverers table
-7. Important terms
-8. What to read later (where a book is named)
+5. The example everyone should work
+6. Material + technique — key materials, key techniques, the clever trick, materials/techniques/features table, signature techniques
+7. Who to know — with the discoverers table
+8. Important terms
+9. What to read later (where a book is named)
 
 ## Seven Primary Domains at a Glance
 

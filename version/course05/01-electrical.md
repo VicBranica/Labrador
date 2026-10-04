@@ -30,6 +30,19 @@ Voltage pushes current through resistance. That's Ohm's law, and 90% of electric
 2. Make an RC filter with a resistor and a capacitor. Watch an input square wave become a smoothed curve on an oscilloscope (or a phone-based scope).
 3. Breadboard an op-amp as a non-inverting amplifier with gain 10. Verify the gain.
 
+## The example everyone should work
+
+A red LED on a 9 V battery, then a 1 kHz RC low-pass filter:
+
+1. A red LED drops about V_LED ≈ 2.0 V. The resistor takes the rest: 9 − 2 = 7 V.
+2. For 20 mA: R = 7 V / 0.020 A = 350 Ω. The nearest standard (E12) value above is 390 Ω.
+3. Check the current: I = 7 / 390 = 17.9 mA — just under the target, which is where you want it.
+4. Check the resistor's power: P = V² / R = 7² / 390 = 0.13 W. A 1/4 W resistor is fine.
+5. Now the filter. The −3 dB corner is f = 1 / (2πRC). Pick C = 100 nF (easy to buy), then R = 1 / (2π · 1000 Hz · 100 nF) = 1,592 Ω.
+6. The nearest standard (E24) value is 1.6 kΩ, giving f = 995 Hz.
+
+Ohm's law sized the resistor; one time constant set the filter. Every pull-up, every LED, every anti-aliasing filter in front of an ADC is one of these two calculations.
+
 ## Material + technique
 
 ### Key materials

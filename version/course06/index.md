@@ -198,6 +198,6 @@
 | [Thorlabs](07-suppliers/thorlabs.md) | Suppliers & distributors | Manufacturer | course04 |
 | [VACUUMSCHMELZE (VAC)](06-materials-and-trade-names/vacuumschmelze.md) | Materials & trade names | Manufacturer | course05 |
 | [Vickers (now Danfoss Power Solutions)](05-motion-and-fluid-power/vickers-danfoss.md) | Motion & fluid power | Brand | course01, course05 |
-| [Vishay Intertechnology](03-semiconductors/vishay.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Vishay Intertechnology](03-semiconductors/vishay.md) | Semiconductor manufacturers | Manufacturer | course01, course04, course05 |
 | [WCH (Nanjing Qinheng Microelectronics)](03-semiconductors/wch.md) | Semiconductor manufacturers | Manufacturer | course04 |
 | [Winsen (Zhengzhou Winsen Electronics Technology)](04-sensor-and-module-makers/winsen.md) | Sensor & module makers | Manufacturer | course04 |

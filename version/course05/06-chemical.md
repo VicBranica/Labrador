@@ -29,6 +29,19 @@ Put two different metals in a conductive solution and you get a voltage. The vol
 2. Dip two bits of different metals in salty water. Measure the voltage. Change the salinity. Watch it shift.
 3. Buy a $20 pH meter. Open the probe (carefully — the glass bulb is fragile). Note how little is inside: a glass membrane, a wire, a reference, a connector.
 
+## The example everyone should work
+
+Two copper strips in copper sulfate at different concentrations — a concentration cell (Bench 6, build 2):
+
+1. Nernst: E = (RT / nF) · ln(c₁ / c₂). At 25 °C, RT/F · ln(10) = 59.16 mV, so E = (59.16 mV / n) · log₁₀(c₁ / c₂).
+2. For Cu²⁺ + 2e⁻ → Cu, n = 2: each decade of concentration is worth 59.16 / 2 = 29.6 mV.
+3. Use 0.1 M on one side and 0.001 M on the other: two decades → E = 29.6 × 2 = 59 mV.
+4. The more concentrated side is the positive electrode (copper plates out there; it dissolves on the dilute side).
+5. Same law, n = 1, gives the pH probe: 59.16 mV per pH unit. Between the pH 4 and pH 7 buffers you should read 3 × 59.16 = 177 mV.
+6. If your probe reads 170 mV across that span, its slope is 170 / 177 = 96% — that's what a pH meter's calibration screen is reporting.
+
+Millivolts per decade: one equation turns concentration into voltage for pH probes, ion-selective electrodes and every reference electrode.
+
 ## Material + technique
 
 ### Key materials

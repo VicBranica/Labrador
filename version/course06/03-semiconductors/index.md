@@ -19,6 +19,6 @@ The chip makers behind the part numbers in the course04 BOMs. Many of these part
 | [Bosch Sensortec](bosch-sensortec.md) | Manufacturer | Reutlingen, Germany | course04 |
 | [NXP Semiconductors](nxp.md) | Manufacturer | Eindhoven, Netherlands | course04 |
 | [Analog Devices](analog-devices.md) | Manufacturer | Wilmington, Massachusetts, USA | course04 |
-| [Vishay Intertechnology](vishay.md) | Manufacturer | Malvern, Pennsylvania, USA | course04 |
+| [Vishay Intertechnology](vishay.md) | Manufacturer | Malvern, Pennsylvania, USA | course01, course04, course05 |
 | [ams OSRAM](ams-osram.md) | Manufacturer | Premstätten, Austria and Munich, Germany | course04 |
 | [Sensirion](sensirion.md) | Manufacturer | Stäfa, Switzerland | course04 |

@@ -31,6 +31,19 @@ Heat is slow. Everything thermal has a time constant equal to thermal mass × th
 3. Watch a bimetal strip bend in the flame of a candle. Count seconds — that's its time constant.
 4. Fill a mug with hot water. Measure the temperature every minute for an hour. Fit an exponential. That's your lumped RC model.
 
+## The example everyone should work
+
+A mug of coffee cooling on a desk, as a lumped RC model (Bench 5, build 4 measures this):
+
+1. Thermal mass: 300 g of water, c = 4,186 J/(kg·K) → C_θ = 0.3 × 4,186 = 1,256 J/K.
+2. Surface area (8 cm diameter, 10 cm tall, open top): side π · 0.08 · 0.10 = 0.025 m², top π · 0.04² = 0.005 m², total A ≈ 0.030 m².
+3. Heat-transfer coefficient for still air (convection + radiation together): h ≈ 10 W/(m²·K).
+4. Thermal resistance: R_θ = 1 / (h·A) = 1 / (10 × 0.030) = 3.3 K/W.
+5. Time constant: τ = R_θ · C_θ = 3.3 × 1,256 ≈ 4,160 s ≈ 70 minutes.
+6. Prediction: from 80 °C in a 22 °C room, T(t) = 22 + 58·e^(−t/τ). After 30 minutes: 22 + 58·e^(−0.43) ≈ 60 °C.
+
+Measure it and you'll find it cools faster — evaporation from the open top is a second heat path the model left out. Add a lid and the model gets better. That's why thermal bandwidth is measured in minutes, and why the slowest domain sets the bandwidth.
+
 ## Material + technique
 
 ### Key materials

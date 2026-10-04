@@ -31,6 +31,21 @@ Hydraulics is water. Pneumatics is air. Water is nearly incompressible — press
 3. Rig two syringes with a tube. Push one, the other extends. That's a hydraulic circuit.
 4. Measure pressure by hanging the syringe vertically with weight on top and reading travel.
 
+## The example everyone should work
+
+Two syringes joined by a tube and filled with water — a hydraulic press on the kitchen table (Bench 4, build 1):
+
+1. Bores (typical): 10 mL syringe ≈ 14.5 mm, 60 mL syringe ≈ 26.7 mm.
+2. Piston areas: A₁ = π(7.25 mm)² = 165 mm², A₂ = π(13.35 mm)² = 560 mm².
+3. Push the small plunger with 20 N. Pressure in the water: P = F / A₁ = 20 N / 165 mm² = 121 kPa (about 1.2 bar).
+4. The same pressure acts on the big piston: F₂ = P · A₂ = 121 kPa · 560 mm² = 68 N — 3.4× the input force (the area ratio).
+5. Nothing is free: push the small plunger 30 mm and it displaces 165 × 30 = 4,950 mm³. The big piston moves 4,950 / 560 = 8.8 mm.
+6. Check energy: 20 N × 30 mm = 600 N·mm in; 68 N × 8.8 mm = 598 N·mm out. Force went up, travel went down, work stayed the same.
+
+Bonus — laminar or turbulent? Water at 1 m/s in a 10 mm pipe: Re = ρvD/μ = 1000 · 1 · 0.01 / 0.001 = 10,000. Well above ~2,300, so turbulent.
+
+That's Pascal and Bramah: an excavator arm and an aircraft flight-control actuator run on exactly this area ratio, at 200–300 bar instead of 1.2.
+
 ## Material + technique
 
 ### Key materials

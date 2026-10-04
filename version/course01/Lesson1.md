@@ -20,7 +20,7 @@ Every domain below follows this research structure:
 9.  What to read later             (optional)
 ```
 
-Sections 1–7 come from the [course05 piles](../course05/index.md). Section 9 uses the course05 reading notes where a pile has them, and the [course03](../course03/index.md) sources otherwise. Where a domain has no worked example yet, section 8 points to the matching course01 "Try it" exercises.
+Sections 1–7 come from the [course05 piles](../course05/index.md). Section 9 uses the course05 reading notes where a pile has them, and the [course03](../course03/index.md) sources otherwise. Section 8 is a worked example for every domain, built on one of the bench builds; the course01 "Try it" exercises extend it.
 
 ## Domains
 
@@ -76,7 +76,18 @@ Year-by-year table of what each one measured and with which equipment: [course05
 
 ### 8. The example everyone should work *(optional)*
 
-No worked example yet. Work the "Try it" exercises in [Module 1](index.md#module-1--electrical-domain) instead.
+A red LED on a 9 V battery, then a 1 kHz RC low-pass filter:
+
+1. A red LED drops about V_LED ≈ 2.0 V. The resistor takes the rest: 9 − 2 = 7 V.
+2. For 20 mA: R = 7 V / 0.020 A = 350 Ω. The nearest standard (E12) value above is 390 Ω.
+3. Check the current: I = 7 / 390 = 17.9 mA — just under the target, which is where you want it.
+4. Check the resistor's power: P = V² / R = 7² / 390 = 0.13 W. A 1/4 W resistor is fine.
+5. Now the filter. The −3 dB corner is f = 1 / (2πRC). Pick C = 100 nF (easy to buy), then R = 1 / (2π · 1000 Hz · 100 nF) = 1,592 Ω.
+6. The nearest standard (E24) value is 1.6 kΩ, giving f = 995 Hz.
+
+Ohm's law sized the resistor; one time constant set the filter. Every pull-up, every LED, every anti-aliasing filter in front of an ADC is one of these two calculations.
+
+More practice: the "Try it" exercises in [Module 1](index.md#module-1--electrical-domain).
 
 ### 9. What to read later *(optional)*
 
@@ -219,7 +230,18 @@ Year-by-year table of what each one measured and with which equipment: [course05
 
 ### 8. The example everyone should work *(optional)*
 
-No worked example yet. Work the "Try it" exercises in [Module 3](index.md#module-3--mechanical-domain) instead.
+A 100 g mass hanging from a 50 N/m spring, with 0.2 N·s/m of damping — the model behind every scale, accelerometer and motion stage:
+
+1. Equation of motion: m·ẍ + c·ẋ + k·x = F(t).
+2. Natural frequency: ωₙ = √(k/m) = √(50 / 0.1) = 22.4 rad/s, so fₙ = ωₙ / 2π = 3.56 Hz.
+3. Damping ratio: ζ = c / (2√(k·m)) = 0.2 / (2√5) = 0.045.
+4. Quality factor: Q = 1 / (2ζ) = 11.2.
+5. Read it: ζ is far below 1, so the system is underdamped. Tap it and it rings at about 3.6 Hz for roughly Q ≈ 11 visible cycles before settling.
+6. To make it settle without overshoot (critical damping, ζ = 1) you would need c = 2√(k·m) = 4.5 N·s/m — about 22× more damping.
+
+One spring, one mass, one damper: the same three numbers (ωₙ, ζ, Q) describe a kitchen scale, a car suspension, a MEMS accelerometer and a precision stage.
+
+More practice: the "Try it" exercises in [Module 3](index.md#module-3--mechanical-domain).
 
 ### 9. What to read later *(optional)*
 
@@ -271,7 +293,20 @@ Year-by-year table of what each one measured and with which equipment: [course05
 
 ### 8. The example everyone should work *(optional)*
 
-No worked example yet. Work the "Try it" exercises in [Module 4](index.md#module-4--fluidic-domain) instead.
+Two syringes joined by a tube and filled with water — a hydraulic press on the kitchen table (Bench 4, build 1):
+
+1. Bores (typical): 10 mL syringe ≈ 14.5 mm, 60 mL syringe ≈ 26.7 mm.
+2. Piston areas: A₁ = π(7.25 mm)² = 165 mm², A₂ = π(13.35 mm)² = 560 mm².
+3. Push the small plunger with 20 N. Pressure in the water: P = F / A₁ = 20 N / 165 mm² = 121 kPa (about 1.2 bar).
+4. The same pressure acts on the big piston: F₂ = P · A₂ = 121 kPa · 560 mm² = 68 N — 3.4× the input force (the area ratio).
+5. Nothing is free: push the small plunger 30 mm and it displaces 165 × 30 = 4,950 mm³. The big piston moves 4,950 / 560 = 8.8 mm.
+6. Check energy: 20 N × 30 mm = 600 N·mm in; 68 N × 8.8 mm = 598 N·mm out. Force went up, travel went down, work stayed the same.
+
+Bonus — laminar or turbulent? Water at 1 m/s in a 10 mm pipe: Re = ρvD/μ = 1000 · 1 · 0.01 / 0.001 = 10,000. Well above ~2,300, so turbulent.
+
+That's Pascal and Bramah: an excavator arm and an aircraft flight-control actuator run on exactly this area ratio, at 200–300 bar instead of 1.2.
+
+More practice: the "Try it" exercises in [Module 4](index.md#module-4--fluidic-domain).
 
 ### 9. What to read later *(optional)*
 
@@ -328,7 +363,18 @@ Year-by-year table of what each one measured and with which equipment: [course05
 
 ### 8. The example everyone should work *(optional)*
 
-No worked example yet. Work the "Try it" exercises in [Module 5](index.md#module-5--thermal-domain) instead.
+A mug of coffee cooling on a desk, as a lumped RC model (Bench 5, build 4 measures this):
+
+1. Thermal mass: 300 g of water, c = 4,186 J/(kg·K) → C_θ = 0.3 × 4,186 = 1,256 J/K.
+2. Surface area (8 cm diameter, 10 cm tall, open top): side π · 0.08 · 0.10 = 0.025 m², top π · 0.04² = 0.005 m², total A ≈ 0.030 m².
+3. Heat-transfer coefficient for still air (convection + radiation together): h ≈ 10 W/(m²·K).
+4. Thermal resistance: R_θ = 1 / (h·A) = 1 / (10 × 0.030) = 3.3 K/W.
+5. Time constant: τ = R_θ · C_θ = 3.3 × 1,256 ≈ 4,160 s ≈ 70 minutes.
+6. Prediction: from 80 °C in a 22 °C room, T(t) = 22 + 58·e^(−t/τ). After 30 minutes: 22 + 58·e^(−0.43) ≈ 60 °C.
+
+Measure it and you'll find it cools faster — evaporation from the open top is a second heat path the model left out. Add a lid and the model gets better. That's why thermal bandwidth is measured in minutes, and why the slowest domain sets the bandwidth.
+
+More practice: the "Try it" exercises in [Module 5](index.md#module-5--thermal-domain).
 
 ### 9. What to read later *(optional)*
 
@@ -384,7 +430,18 @@ Year-by-year table of what each one measured and with which equipment: [course05
 
 ### 8. The example everyone should work *(optional)*
 
-No worked example yet. Work the "Try it" exercises in [Module 6](index.md#module-6--chemical-domain) instead.
+Two copper strips in copper sulfate at different concentrations — a concentration cell (Bench 6, build 2):
+
+1. Nernst: E = (RT / nF) · ln(c₁ / c₂). At 25 °C, RT/F · ln(10) = 59.16 mV, so E = (59.16 mV / n) · log₁₀(c₁ / c₂).
+2. For Cu²⁺ + 2e⁻ → Cu, n = 2: each decade of concentration is worth 59.16 / 2 = 29.6 mV.
+3. Use 0.1 M on one side and 0.001 M on the other: two decades → E = 29.6 × 2 = 59 mV.
+4. The more concentrated side is the positive electrode (copper plates out there; it dissolves on the dilute side).
+5. Same law, n = 1, gives the pH probe: 59.16 mV per pH unit. Between the pH 4 and pH 7 buffers you should read 3 × 59.16 = 177 mV.
+6. If your probe reads 170 mV across that span, its slope is 170 / 177 = 96% — that's what a pH meter's calibration screen is reporting.
+
+Millivolts per decade: one equation turns concentration into voltage for pH probes, ion-selective electrodes and every reference electrode.
+
+More practice: the "Try it" exercises in [Module 6](index.md#module-6--chemical-domain).
 
 ### 9. What to read later *(optional)*
 
@@ -442,7 +499,18 @@ Year-by-year table of what each one measured and with which equipment: [course05
 
 ### 8. The example everyone should work *(optional)*
 
-No worked example yet. Work the "Try it" exercises in [Module 7](index.md#module-7--radiant-domain) instead.
+Will this detector see this light, and how much current will it give? (Bench 7, build 2):
+
+1. Photon energy: E = hc/λ, or in practical units E[eV] = 1240 / λ[nm].
+2. Red laser, 650 nm: E = 1.91 eV. Telecom, 1550 nm: E = 0.80 eV.
+3. Silicon's bandgap is 1.12 eV, so its cutoff is 1240 / 1.12 = 1,107 nm. It sees 650 nm easily and is blind to 1550 nm. InGaAs (≈ 0.75 eV, cutoff ≈ 1,650 nm) is what you need there.
+4. Responsivity of a photodiode: R = QE · λ[nm] / 1240 A/W. A silicon BPW34 with QE ≈ 0.8 at 650 nm: R = 0.8 × 650 / 1240 = 0.42 A/W.
+5. All of a 1 mW red laser spot on the diode: I = 0.42 A/W × 1 mW = 0.42 mA.
+6. Into a transimpedance amplifier with a 10 kΩ feedback resistor: V = I · R_f = 0.42 mA × 10 kΩ = 4.2 V. For dim room light (nanoamps to microamps), raise R_f to 1–10 MΩ.
+
+Bandgap decides *whether* you see the light; responsivity decides *how much* signal you get. Every camera, encoder, lidar and fiber receiver is sized with these two numbers.
+
+More practice: the "Try it" exercises in [Module 7](index.md#module-7--radiant-domain).
 
 ### 9. What to read later *(optional)*
 
