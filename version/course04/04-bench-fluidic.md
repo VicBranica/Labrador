@@ -64,7 +64,7 @@ Syringes, tubes, pressure gauges, a hand pump. Hydraulic and pneumatic principle
 
 **Bench 4 — Fluidic total: $129** for components (reuse the starter tools) — the course states ~$115.
 
-## Three builds
+## Four builds
 
 ### Build 1 — Syringe hydraulics
 
@@ -94,6 +94,17 @@ BMP280 + Arduino + laptop. Log pressure for a day; see your weather on a graph.
 | This bench | `4.3.1` Pressure sensors |
 | Starter kit | `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) · `S.2.2` [Jumper wire kit](00-starter-kit.md) |
 | Not in any BOM | Laptop |
+
+### Build 4 — Gravity-fed flow loop
+
+Raise a bucket of water about 1 m above a second one and siphon it down through the tubing, the solenoid valve and the flow sensor. Open the valve from the Arduino through a MOSFET, count the flow sensor's pulses to get Q, and read the pressure drop across a length of tubing with the differential sensor. ΔP / Q is the tube's hydraulic resistance — Ohm's law in the fluidic domain. Change the tube length and measure again. If the flow sensor reads nothing, raise the bucket.
+
+| Uses | |
+|---|---|
+| This bench | `4.1.2` Silicone tubing · `4.1.3` Luer-lock fittings assortment · `4.3.2` Differential pressure sensor · `4.3.3` Turbine flow sensor · `4.4.3` Solenoid valve |
+| Other benches | `1.2.5` [MOSFETs](01-bench-electrical.md) · `1.2.2` [Diodes](01-bench-electrical.md) |
+| Starter kit | `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) · `S.5.2` [Benchtop DC power supply](00-starter-kit.md) · `S.2.2` [Jumper wire kit](00-starter-kit.md) |
+| Not in any BOM | Two buckets · Water |
 
 ## Measurement wins
 

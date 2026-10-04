@@ -27,6 +27,7 @@ TSL2591 light sensor and TCS34725 color sensor (Bench 7) — both originally fro
 | [course04/07-bench-radiant.md](../../course04/07-bench-radiant.md#bom-structure) | BOM structure | 7.3.2 TCS34725 breakout (color sensor) |
 | [course04/07-bench-radiant.md](../../course04/07-bench-radiant.md#multilevel-bom) | Multilevel BOM | 2 7.3.1 TSL2591 or VEML7700 breakout (light sensor) 1 10 Calibrated lux readings |
 | [course04/07-bench-radiant.md](../../course04/07-bench-radiant.md#multilevel-bom) | Multilevel BOM | 2 7.3.2 TCS34725 breakout (color sensor) 1 8 RGB + clear |
+| [course04/07-bench-radiant.md](../../course04/07-bench-radiant.md) | | …and 1 more mentions |
 
 ## Sources
 

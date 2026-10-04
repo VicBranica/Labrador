@@ -62,7 +62,7 @@ Electrodes, a pH meter, a glucose test strip, two different metals in salt water
 
 **Bench 6 — Chemical total: $137** for components (reuse the starter tools) — the course states ~$135.
 
-## Three builds
+## Four builds
 
 ### Build 1 — Volta's pile
 
@@ -93,6 +93,17 @@ Four lemons in series will blink an Arduino's LED.
 |---|---|
 | This bench | `6.3.2` Lemons, potatoes · `6.1.1` Zinc and copper strips |
 | Starter kit | `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) · `S.2.2` [Jumper wire kit](00-starter-kit.md) |
+
+### Build 4 — pH of a weak acid
+
+Calibrate the pH meter in the buffers (pH 7 first, then pH 4). Make a tenfold dilution series of vinegar with distilled water — full strength, 1/10, 1/100 — and read each one. A weak acid's pH rises by only about 0.5 per tenfold dilution, not by 1 as a strong acid's would: you're watching an equilibrium shift, not just a concentration fall.
+
+| Uses | |
+|---|---|
+| This bench | `6.2.1` pH meter · `6.2.2` pH buffer solutions |
+| Other benches | `4.1.1` [Syringes](04-bench-fluidic.md) |
+| Starter kit | `S.4.3` [Nitrile gloves](00-starter-kit.md) · `S.4.1` [Safety glasses](00-starter-kit.md) |
+| Not in any BOM | Vinegar · Distilled water · Cups |
 
 ## Measurement wins
 

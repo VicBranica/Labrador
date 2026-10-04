@@ -29,7 +29,7 @@ BPW34 silicon photodiode, TEMT6000 ambient-light phototransistor and VEML7700 li
 | [course04/07-bench-radiant.md](../../course04/07-bench-radiant.md#bom-structure) | BOM structure | 7.2.2 Phototransistors (TEMT6000 ambient-light) |
 | [course04/07-bench-radiant.md](../../course04/07-bench-radiant.md#bom-structure) | BOM structure | 7.3.1 TSL2591 or VEML7700 breakout (light sensor) |
 | [course04/07-bench-radiant.md](../../course04/07-bench-radiant.md#multilevel-bom) | Multilevel BOM | 2 7.2.1 Photodiodes (BPW34 silicon, 300–1100 nm) 5 5 |
-| [course04/07-bench-radiant.md](../../course04/07-bench-radiant.md) | | …and 3 more mentions |
+| [course04/07-bench-radiant.md](../../course04/07-bench-radiant.md) | | …and 4 more mentions |
 
 ## Sources
 

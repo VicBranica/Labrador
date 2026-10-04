@@ -60,7 +60,7 @@ Resistors, capacitors, inductors, diodes, LEDs, op-amps, transistors, a battery,
 
 **Bench 1 — Electrical total: $101** for components (reuse the starter tools) — the course states ~$100.
 
-## Three builds
+## Four builds
 
 ### Build 1 — LED with current-limiting resistor
 
@@ -88,6 +88,16 @@ Verify gain with a function generator.
 |---|---|
 | This bench | `1.2.3` Op-amps · `1.1.1` Resistor assortment · `1.3.1` 9 V battery + clip, 4×AA holder |
 | Starter kit | `S.2.1` [Breadboard, solderless](00-starter-kit.md) · `S.5.3` [Function generator](00-starter-kit.md) · `S.5.1` [USB oscilloscope](00-starter-kit.md) |
+
+### Build 4 — MOSFET motor speed control
+
+Solder a low-side switch onto perfboard: a logic-level MOSFET with a 100 Ω gate resistor, and a Schottky diode across the motor to catch its back-EMF. The Arduino reads a potentiometer and sets the PWM duty cycle. Run the motor from stop to full speed, and scope the drain to see the diode clamp the switching spike.
+
+| Uses | |
+|---|---|
+| This bench | `1.2.5` MOSFETs · `1.2.2` Diodes · `1.1.3` Potentiometers · `1.1.1` Resistor assortment · `1.4.2` Prototype PCB · `1.3.1` 9 V battery + clip, 4×AA holder |
+| Other benches | `2.4.1` [Small DC brushed motor](02-bench-magnetic.md) |
+| Starter kit | `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) · `S.3.1` [Soldering iron](00-starter-kit.md) · `S.3.2` [Solder](00-starter-kit.md) · `S.3.6` [Wire strippers](00-starter-kit.md) · `S.5.1` [USB oscilloscope](00-starter-kit.md) |
 
 ## Measurement wins
 

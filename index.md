@@ -30,7 +30,7 @@ Labrador/
 | [course01](version/course01/index.md) | Core course | *Physical Domains in Sensors & Actuators* — Modules 0–9, Appendices A–G, and Lessons 1–10 (one per domain, plus three across domains; nine steps each) | — | course02, course03, course04, course05 |
 | [course02](version/course02/index.md) | Reading list | Twelve books and video series, plus the single list of [design heuristics](version/course02/09-gelbart-videos/design.md) | course01 Appendix G | course03 (sources), all courses (heuristics) |
 | [course03](version/course03/index.md) | Domain stack | Three pillars, then one file per domain — hands-on pile (look, understand, build, worked example) and six-layer stack (vocabulary → measurement → discovery → material → technique → features) — then the integration pile | course01, course02 | course04, course05 |
-| [course04](version/course04/index.md) | Hands-on lab | Starter kit + seven benches, each with a multilevel BOM, teardowns and three builds | course03 | Your lab notebook, course05 |
+| [course04](version/course04/index.md) | Hands-on lab | Starter kit + seven benches, each with a multilevel BOM, teardowns and four builds | course03 | Your lab notebook, course05 |
 | [course05](version/course05/index.md) | Manufacturers & brands | 64 companies in 7 categories — instruments, boards, chips, modules, motion and fluid power, material trade-name owners, suppliers — with products, BOM codes, material codes and every place they're cited | course01, course03, course04 | course04 (sourcing) |
 
 ## How the courses interact
@@ -63,7 +63,7 @@ graph LR
 2. **Domain by domain** — for each of the seven domains, in order:
    1. Work the course01 lesson (and the module for theory).
    2. Work the course03 domain file: hands-on pile, then the six layers.
-   3. Set up the course04 bench: teardowns first, then the three builds.
+   3. Set up the course04 bench: teardowns first, then the four builds.
    4. Go deeper with the course02 books for that domain; source parts with course05.
 3. **Across domains** — [course01 Lesson 9](version/course01/Lesson9.md) with [Module 8](version/course01/index.md#module-8--cross-domain-transducers) with [Pillar 2 — Material + technique](version/course03/p2-material-and-technique.md) and [Pillar 3 — Bandwidth and ceiling](version/course03/p3-bandwidth-and-ceiling.md).
 4. **Integration & capstone** — [course01 Lesson 10](version/course01/Lesson10.md) with [Module 9](version/course01/index.md#module-9--integration--system-design), the [integration pile](version/course03/08-integration.md) and the [design heuristics](version/course02/09-gelbart-videos/design.md), building on the benches you've set up.

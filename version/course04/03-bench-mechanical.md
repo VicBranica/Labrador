@@ -105,7 +105,7 @@ All of these are made from the same bearing steel: **AISI 52100** (US), **GCr15*
 
 **For this bench:** LM8UU is the one to buy, with two 8 mm hardened shafts (`3.3.3`). Pull one apart to see the ball circuits — a free lesson in recirculation.
 
-## Three builds
+## Four builds
 
 ### Build 1 — Strain-gauge cantilever
 
@@ -135,6 +135,16 @@ Three divots, three balls. Lift and replace. Measure return position with a dial
 | This bench | `3.3.2` Precision ground steel balls · `3.5.2` Dial indicator + magnetic base |
 | Other benches | `7.1.1` [Laser pointers](07-bench-radiant.md) |
 | Not in any BOM | Plate with three divots |
+
+### Build 4 — Linear-bearing slide
+
+Mount two hardened shafts parallel on the aluminum extrusion and run a small plate on four LM8UU bearings. Set the dial indicator against the plate and push it along: the needle shows how straight the slide runs, and rocking the plate shows the play in the bearings. Tape the accelerometer to the plate and log its tilt as it travels.
+
+| Uses | |
+|---|---|
+| This bench | `3.3.1` Linear ball bearings · `3.3.3` Hardened linear shafts · `3.4.1` Aluminum extrusion · `3.5.2` Dial indicator + magnetic base · `3.5.1` MPU6050 breakout |
+| Starter kit | `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) · `S.2.2` [Jumper wire kit](00-starter-kit.md) · `S.3.5` [Hex key set](00-starter-kit.md) |
+| Not in any BOM | Shaft end supports · Carriage plate · M5 screws and T-nuts |
 
 ## Measurement wins
 

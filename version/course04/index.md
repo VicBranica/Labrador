@@ -2,7 +2,7 @@
 
 > **Course 04 of 05 — Hands-on lab** · [← course03](../course03/index.md) · [Project map](../../index.md) · [course05 →](../course05/index.md)
 >
-> One bench per domain, each with a multilevel BOM, teardowns, and three builds.
+> One bench per domain, each with a multilevel BOM, teardowns, and four builds.
 >
 > **Builds on:** course03 (the domain — pile and six layers — behind each bench)  
 > **Feeds into:** Your own notebook — measurements from every build; course05 (who makes each part)
