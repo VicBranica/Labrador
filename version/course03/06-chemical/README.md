@@ -76,5 +76,5 @@ Sensor families: potentiometric (pH, ISEs) · amperometric (Clark electrode, glu
 ## Related in other courses
 
 - **Course:** [course01 — Module 6: Chemical Domain](../../course01/index.md#module-6--chemical-domain)
-- **Terms:** [course05 — Domain 6: Chemical](../../course05/06-chemical.md)
+- **Pile:** [course05 — Pile 6: Chemical](../../course05/06-chemical.md)
 - **Bench:** [course04 — Bench 6: Chemical](../../course04/06-bench-chemical.md)

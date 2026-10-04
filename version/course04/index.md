@@ -4,7 +4,7 @@
 >
 > One bench per domain, each with a multilevel BOM, teardowns, and three builds.
 >
-> **Builds on:** course03 (theory per bench), course05 (terms per bench)  
+> **Builds on:** course03 (theory per bench), course05 (pile per bench)  
 > **Feeds into:** Your own notebook — measurements from every build
 
 > **Goal:** build your own sensors & actuators lab, one bench per physical domain. Each bench has its own file with a multilevel bill of materials (BOM).

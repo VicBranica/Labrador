@@ -2,7 +2,7 @@
 
 [← Course 04 index](index.md) · [← Bench 5](05-bench-thermal.md) · [Bench 7 →](07-bench-radiant.md)
 
-**Course:** [course01 Module 6](../course01/index.md#module-6--chemical-domain) · **Theory:** [course03/06-chemical](../course03/06-chemical/README.md) · **Terms:** [course05/06-chemical](../course05/06-chemical.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
+**Course:** [course01 Module 6](../course01/index.md#module-6--chemical-domain) · **Theory:** [course03/06-chemical](../course03/06-chemical/README.md) · **Pile:** [course05/06-chemical](../course05/06-chemical.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
 
 ## What's on it
 

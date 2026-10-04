@@ -1,6 +1,11 @@
-# Classification Tables
+# Pillar 3 — Bandwidth and ceiling
 
-[← Course 05 index](index.md) · [← Cross-Domain Term Patterns](08-cross-domain-term-patterns.md) · [Material Families →](10-material-families.md)
+[← Course 05 index](index.md) · [← Pillar 2 — Material + technique](p2-material-and-technique.md) · [Pile 1 →](01-electrical.md)
+
+> The slowest domain sets the bandwidth. The material family sets the ceiling.
+
+- **Bandwidth lives in the slowest domain.** A fast electrical controller behind a thermal actuator is still a thermal system.
+- **Energy density determines size.** If the device looks absurdly large or small, you probably picked the wrong domain.
 
 ## By how commonly a domain appears in sensors vs. actuators
 

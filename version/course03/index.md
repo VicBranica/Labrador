@@ -5,7 +5,7 @@
 > Each domain arranged by the six-layer stack: Vocabulary → Measurement → Discovery → Material → Technique → Features.
 >
 > **Builds on:** course01 Modules 1–7 (content), course02 (sources)  
-> **Feeds into:** course04 (each bench puts a domain on the table), course05 (term reference per domain)
+> **Feeds into:** course04 (each bench puts a domain on the table), course05 (the same domain as a hands-on pile)
 
 Each domain file is organized by the same stack, read from the bottom up:
 

@@ -2,7 +2,7 @@
 
 [← Course 04 index](index.md) · [← Starter kit](00-starter-kit.md) · [Bench 2 →](02-bench-magnetic.md)
 
-**Course:** [course01 Module 1](../course01/index.md#module-1--electrical-domain) · **Theory:** [course03/01-electrical](../course03/01-electrical/README.md) · **Terms:** [course05/01-electrical](../course05/01-electrical.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
+**Course:** [course01 Module 1](../course01/index.md#module-1--electrical-domain) · **Theory:** [course03/01-electrical](../course03/01-electrical/README.md) · **Pile:** [course05/01-electrical](../course05/01-electrical.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
 
 ## What's on it
 

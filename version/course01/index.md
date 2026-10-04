@@ -6,7 +6,7 @@
 > The theory spine: foundations, the seven domains, cross-domain transducers, integration and capstone.
 >
 > **Builds on:** —  
-> **Feeds into:** course02 (deeper reading), course03 (each module split into six layers), course04 (hands-on benches), course05 (term reference)
+> **Feeds into:** course02 (deeper reading), course03 (each module split into six layers), course04 (hands-on benches), course05 (seven piles, three pillars)
 
 > A structured path through the physical foundations, materials, techniques, and design patterns that unify all sensors and actuators as a single discipline.
 
