@@ -66,6 +66,12 @@ Signal-conditioning toolbox: amplification (op-amps, instrumentation amps) · fi
 
 ## Sources
 
-- [Course1 — Module 1: Electrical Domain](../../Course1/README.md#module-1--electrical-domain)
+- [course01 — Module 1: Electrical Domain](../../course01/index.md#module-1--electrical-domain)
 - [Horowitz & Hill, *The Art of Electronics*](../../course02/04-horowitz-hill-art-of-electronics/) — the electrical pile, done right.
 - [Fraden, *Handbook of Modern Sensors*](../../course02/06-fraden-handbook-of-modern-sensors/)
+
+## Related in other courses
+
+- **Course:** [course01 — Module 1: Electrical Domain](../../course01/index.md#module-1--electrical-domain)
+- **Terms:** [course05 — Domain 1: Electrical](../../course05/01-electrical.md)
+- **Bench:** [course04 — Bench 1: Electrical](../../course04/01-bench-electrical.md)

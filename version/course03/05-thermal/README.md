@@ -75,6 +75,12 @@ Key relations: R_θ = ΔT / Q̇ [K/W] · C_θ = m·c [J/K] · τ = R_θ · C_θ 
 
 ## Sources
 
-- [Course1 — Module 5: Thermal Domain](../../Course1/README.md#module-5--thermal-domain)
+- [course01 — Module 5: Thermal Domain](../../course01/index.md#module-5--thermal-domain)
 - [Fraden, *Handbook of Modern Sensors*](../../course02/06-fraden-handbook-of-modern-sensors/)
-- Incropera & DeWitt, *Fundamentals of Heat and Mass Transfer* — [Course1, Appendix G](../../Course1/README.md#appendix-g--further-reading)
+- Incropera & DeWitt, *Fundamentals of Heat and Mass Transfer* — [course01, Appendix G](../../course01/index.md#appendix-g--further-reading)
+
+## Related in other courses
+
+- **Course:** [course01 — Module 5: Thermal Domain](../../course01/index.md#module-5--thermal-domain)
+- **Terms:** [course05 — Domain 5: Thermal](../../course05/05-thermal.md)
+- **Bench:** [course04 — Bench 5: Thermal](../../course04/05-bench-thermal.md)

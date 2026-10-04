@@ -2,7 +2,7 @@
 
 [← Course 05 index](index.md) · [← Domain 5 — Thermal](05-thermal.md) · [Domain 7 — Radiant →](07-radiant.md)
 
-**Theory:** [course03/06-chemical](../course03/06-chemical/README.md) · **Bench:** [course04/06-bench-chemical](../course04/06-bench-chemical.md)
+**Course:** [course01 Module 6](../course01/index.md#module-6--chemical-domain) · **Theory:** [course03/06-chemical](../course03/06-chemical/README.md) · **Bench:** [course04/06-bench-chemical](../course04/06-bench-chemical.md)
 
 ## Important terms
 

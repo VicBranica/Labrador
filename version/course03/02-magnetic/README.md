@@ -70,6 +70,12 @@ Gap force: F ≈ B²A / (2μ₀) — the calculation behind every solenoid, rela
 
 ## Sources
 
-- [Course1 — Module 2: Magnetic Domain](../../Course1/README.md#module-2--magnetic-domain)
+- [course01 — Module 2: Magnetic Domain](../../course01/index.md#module-2--magnetic-domain)
 - [Fraden, *Handbook of Modern Sensors*](../../course02/06-fraden-handbook-of-modern-sensors/)
-- Jiles, *Introduction to Magnetism and Magnetic Materials* — [Course1, Appendix G](../../Course1/README.md#appendix-g--further-reading)
+- Jiles, *Introduction to Magnetism and Magnetic Materials* — [course01, Appendix G](../../course01/index.md#appendix-g--further-reading)
+
+## Related in other courses
+
+- **Course:** [course01 — Module 2: Magnetic Domain](../../course01/index.md#module-2--magnetic-domain)
+- **Terms:** [course05 — Domain 2: Magnetic](../../course05/02-magnetic.md)
+- **Bench:** [course04 — Bench 2: Magnetic](../../course04/02-bench-magnetic.md)

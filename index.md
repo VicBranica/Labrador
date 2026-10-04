@@ -1,84 +1,156 @@
-# Index
+# Labrador — Sensors & Actuators Learning Project
 
-Everything in the repository, folder by folder.
+> Five courses that teach sensors and actuators as one discipline organized around seven physical domains: theory, reading, a layer-by-layer domain stack, a hands-on lab, and a term reference.
 
-## [version/](version/)
+## Project structure
 
-### [Course1/](version/Course1/) — *Physical Domains in Sensors & Actuators*
+```
+Labrador/
+├── index.md                         ← project map (this file)
+└── version/
+    ├── course01/  index.md                          Core course
+    ├── course02/  index.md + 9 resource folders     Reading list
+    ├── course03/  index.md + 7 domain folders       Domain stack
+    ├── course04/  index.md + 8 bench files          Hands-on lab
+    └── course05/  index.md + 11 topic files         Term reference
+```
 
-A self-paced course: [README.md](version/Course1/README.md)
+**Conventions**
 
-- [Module 0 — Foundations](version/Course1/README.md#module-0--foundations)
-- [Module 1 — Electrical Domain](version/Course1/README.md#module-1--electrical-domain)
-- [Module 2 — Magnetic Domain](version/Course1/README.md#module-2--magnetic-domain)
-- [Module 3 — Mechanical Domain](version/Course1/README.md#module-3--mechanical-domain)
-- [Module 4 — Fluidic Domain](version/Course1/README.md#module-4--fluidic-domain)
-- [Module 5 — Thermal Domain](version/Course1/README.md#module-5--thermal-domain)
-- [Module 6 — Chemical Domain](version/Course1/README.md#module-6--chemical-domain)
-- [Module 7 — Radiant Domain](version/Course1/README.md#module-7--radiant-domain)
-- [Module 8 — Cross-Domain Transducers](version/Course1/README.md#module-8--cross-domain-transducers)
-- [Module 9 — Integration & System Design](version/Course1/README.md#module-9--integration--system-design)
-- Appendices A–G: [timeline](version/Course1/README.md#appendix-a--timeline-of-key-discoveries), [people](version/Course1/README.md#appendix-b--people-index), [materials](version/Course1/README.md#appendix-c--materials-index), [techniques](version/Course1/README.md#appendix-d--techniques-index), [glossary](version/Course1/README.md#appendix-e--glossary), [equipment lineage](version/Course1/README.md#appendix-f--equipment-lineage), [further reading](version/Course1/README.md#appendix-g--further-reading)
+- Every course folder opens at `index.md`, which states the course's role, what it builds on and what it feeds into, with links to the previous and next course.
+- Domain numbers are the same in every course: `01` electrical · `02` magnetic · `03` mechanical · `04` fluidic · `05` thermal · `06` chemical · `07` radiant. course04 adds `00` (starter kit); course05 adds `08`–`11` (cross-domain topics).
+- course02 is numbered by reading priority, not by domain.
+- Every domain file links to the same domain in the other courses.
 
-### [course02/](version/course02/) — Reading list
+## The five courses
 
-[README.md](version/course02/README.md) — index of all nine resources.
+| Course | Role | What it is | Builds on | Feeds into |
+|---|---|---|---|---|
+| [course01](version/course01/index.md) | Core course | *Physical Domains in Sensors & Actuators* — Modules 0–9 and Appendices A–G | — | course02, course03, course04, course05 |
+| [course02](version/course02/index.md) | Reading list | Nine books and video series, plus [design heuristics](version/course02/09-gelbart-videos/design.md) | course01 Appendix G | course03 (sources), all courses (heuristics) |
+| [course03](version/course03/index.md) | Domain stack | Each domain by six layers: Vocabulary → Measurement → Discovery → Material → Technique → Features | course01 Modules 1–7, course02 | course04, course05 |
+| [course04](version/course04/index.md) | Hands-on lab | Starter kit + seven benches, each with a multilevel BOM, teardowns and three builds | course03, course05 | Your lab notebook |
+| [course05](version/course05/index.md) | Term reference | Terms per domain, then cross-domain patterns, classifications, materials and techniques | course01 Modules 0 and 8 | course03, course04 |
 
-| # | Folder | Resource |
+## How the courses interact
+
+```mermaid
+graph LR
+  C01["course01<br/>Core course"]
+  C02["course02<br/>Reading list"]
+  C03["course03<br/>Domain stack"]
+  C04["course04<br/>Hands-on lab"]
+  C05["course05<br/>Term reference"]
+  C01 -- "Appendix G expands into" --> C02
+  C01 -- "Modules 1–7 split into six layers" --> C03
+  C01 -- "Modules 0 & 8 expand into" --> C05
+  C02 -- "cited as sources" --> C03
+  C03 -- "theory for each bench" --> C04
+  C05 -- "terms for each bench" --> C04
+  C02 -- "design heuristics" --> C04
+  C03 <-- "same domain, linked both ways" --> C05
+```
+
+- **course01 → course03:** each domain module is rearranged into the six layers; course03 links back to the module.
+- **course01 → course05:** the module-level term lists and the cross-domain analogy table grow into full term tables and the cross-domain files.
+- **course02 → course03:** each domain file cites its books.
+- **course03 + course05 → course04:** every bench links to the theory (course03) and terms (course05) for its domain.
+- **course02 design heuristics → everything:** the rules apply when choosing parts on any bench and in the course01 capstone.
+
+## Suggested study path
+
+1. **Foundations** — [course01 Module 0](version/course01/index.md#module-0--foundations), then [course05 index](version/course05/index.md) (domains at a glance) and [cross-domain term patterns](version/course05/08-cross-domain-term-patterns.md).
+2. **Domain by domain** — for each of the seven domains, in order:
+   1. Read the course01 module.
+   2. Learn the terms in course05.
+   3. Work through the six layers in course03.
+   4. Set up the course04 bench: teardowns first, then the three builds.
+   5. Go deeper with the course02 books for that domain.
+3. **Across domains** — [course01 Module 8](version/course01/index.md#module-8--cross-domain-transducers) with course05 [classification tables](version/course05/09-classification-tables.md), [material families](version/course05/10-material-families.md) and [technique families](version/course05/11-technique-families.md).
+4. **Integration & capstone** — [course01 Module 9](version/course01/index.md#module-9--integration--system-design) and the [design heuristics](version/course02/09-gelbart-videos/design.md), building on the benches you've set up.
+
+## Domain cross-reference
+
+The same domain, in every course:
+
+| # | Domain | course01 | course03 | course04 | course05 | course02 books |
+|---|---|---|---|---|---|---|
+| 1 | Electrical | [Module 1](version/course01/index.md#module-1--electrical-domain) | [Stack](version/course03/01-electrical/README.md) | [Bench 1](version/course04/01-bench-electrical.md) | [Terms](version/course05/01-electrical.md) | [Horowitz & Hill](version/course02/04-horowitz-hill-art-of-electronics/) · [Fraden](version/course02/06-fraden-handbook-of-modern-sensors/) |
+| 2 | Magnetic | [Module 2](version/course01/index.md#module-2--magnetic-domain) | [Stack](version/course03/02-magnetic/README.md) | [Bench 2](version/course04/02-bench-magnetic.md) | [Terms](version/course05/02-magnetic.md) | [Fraden](version/course02/06-fraden-handbook-of-modern-sensors/) |
+| 3 | Mechanical | [Module 3](version/course01/index.md#module-3--mechanical-domain) | [Stack](version/course03/03-mechanical/README.md) | [Bench 3](version/course04/03-bench-mechanical.md) | [Terms](version/course05/03-mechanical.md) | [Slocum](version/course02/01-slocum-precision-machine-design/) · [Hale](version/course02/02-hale-designing-precision-machines/) · [Ashby](version/course02/03-ashby-materials-selection/) · [Gelbart](version/course02/09-gelbart-videos/) |
+| 4 | Fluidic | [Module 4](version/course01/index.md#module-4--fluidic-domain) | [Stack](version/course03/04-fluidic/README.md) | [Bench 4](version/course04/04-bench-fluidic.md) | [Terms](version/course05/04-fluidic.md) | [Merritt](version/course02/05-merritt-hydraulic-control-systems/) |
+| 5 | Thermal | [Module 5](version/course01/index.md#module-5--thermal-domain) | [Stack](version/course03/05-thermal/README.md) | [Bench 5](version/course04/05-bench-thermal.md) | [Terms](version/course05/05-thermal.md) | [Fraden](version/course02/06-fraden-handbook-of-modern-sensors/) |
+| 6 | Chemical | [Module 6](version/course01/index.md#module-6--chemical-domain) | [Stack](version/course03/06-chemical/README.md) | [Bench 6](version/course04/06-bench-chemical.md) | [Terms](version/course05/06-chemical.md) | [Bard & Faulkner](version/course02/07-bard-faulkner-electrochemical-methods/) |
+| 7 | Radiant | [Module 7](version/course01/index.md#module-7--radiant-domain) | [Stack](version/course03/07-radiant/README.md) | [Bench 7](version/course04/07-bench-radiant.md) | [Terms](version/course05/07-radiant.md) | [Hecht; Saleh & Teich](version/course02/08-hecht-saleh-teich-optics-photonics/) |
+| — | All domains | [Modules 0, 8, 9](version/course01/index.md#module-0--foundations) | [Stack overview](version/course03/index.md) | [Starter kit](version/course04/00-starter-kit.md) | [Files 08–11](version/course05/08-cross-domain-term-patterns.md) | [Design heuristics](version/course02/09-gelbart-videos/design.md) |
+
+## Contents
+
+### [course01](version/course01/index.md) — Core course: *Physical Domains in Sensors & Actuators*
+
+- [Module 0 — Foundations](version/course01/index.md#module-0--foundations)
+- [Module 1 — Electrical Domain](version/course01/index.md#module-1--electrical-domain)
+- [Module 2 — Magnetic Domain](version/course01/index.md#module-2--magnetic-domain)
+- [Module 3 — Mechanical Domain](version/course01/index.md#module-3--mechanical-domain)
+- [Module 4 — Fluidic Domain](version/course01/index.md#module-4--fluidic-domain)
+- [Module 5 — Thermal Domain](version/course01/index.md#module-5--thermal-domain)
+- [Module 6 — Chemical Domain](version/course01/index.md#module-6--chemical-domain)
+- [Module 7 — Radiant Domain](version/course01/index.md#module-7--radiant-domain)
+- [Module 8 — Cross-Domain Transducers](version/course01/index.md#module-8--cross-domain-transducers)
+- [Module 9 — Integration & System Design](version/course01/index.md#module-9--integration--system-design)
+- Appendices A–G: [timeline](version/course01/index.md#appendix-a--timeline-of-key-discoveries), [people](version/course01/index.md#appendix-b--people-index), [materials](version/course01/index.md#appendix-c--materials-index), [techniques](version/course01/index.md#appendix-d--techniques-index), [glossary](version/course01/index.md#appendix-e--glossary), [equipment lineage](version/course01/index.md#appendix-f--equipment-lineage), [further reading](version/course01/index.md#appendix-g--further-reading)
+
+### [course02](version/course02/index.md) — Reading list
+
+| # | Resource | Used by |
 |---|---|---|
-| 1 | [01-slocum-precision-machine-design](version/course02/01-slocum-precision-machine-design/) | Slocum, *Precision Machine Design* |
-| 2 | [02-hale-designing-precision-machines](version/course02/02-hale-designing-precision-machines/) | Hale, *Principles and Techniques for Designing Precision Machines* |
-| 3 | [03-ashby-materials-selection](version/course02/03-ashby-materials-selection/) | Ashby, *Materials Selection in Mechanical Design* |
-| 4 | [04-horowitz-hill-art-of-electronics](version/course02/04-horowitz-hill-art-of-electronics/) | Horowitz & Hill, *The Art of Electronics* |
-| 5 | [05-merritt-hydraulic-control-systems](version/course02/05-merritt-hydraulic-control-systems/) | Merritt, *Hydraulic Control Systems* |
-| 6 | [06-fraden-handbook-of-modern-sensors](version/course02/06-fraden-handbook-of-modern-sensors/) | Fraden, *Handbook of Modern Sensors* |
-| 7 | [07-bard-faulkner-electrochemical-methods](version/course02/07-bard-faulkner-electrochemical-methods/) | Bard & Faulkner, *Electrochemical Methods* |
-| 8 | [08-hecht-saleh-teich-optics-photonics](version/course02/08-hecht-saleh-teich-optics-photonics/) | Hecht, *Optics*; Saleh & Teich, *Fundamentals of Photonics* |
-| 9 | [09-gelbart-videos](version/course02/09-gelbart-videos/) | Dan Gelbart's videos — plus [design.md](version/course02/09-gelbart-videos/design.md) (design heuristics) |
+| 1 | [Slocum, *Precision Machine Design*](version/course02/01-slocum-precision-machine-design/) | Mechanical |
+| 2 | [Hale, *Principles and Techniques for Designing Precision Machines*](version/course02/02-hale-designing-precision-machines/) | Mechanical |
+| 3 | [Ashby, *Materials Selection in Mechanical Design*](version/course02/03-ashby-materials-selection/) | Mechanical |
+| 4 | [Horowitz & Hill, *The Art of Electronics*](version/course02/04-horowitz-hill-art-of-electronics/) | Electrical |
+| 5 | [Merritt, *Hydraulic Control Systems*](version/course02/05-merritt-hydraulic-control-systems/) | Fluidic |
+| 6 | [Fraden, *Handbook of Modern Sensors*](version/course02/06-fraden-handbook-of-modern-sensors/) | Electrical, Magnetic, Thermal |
+| 7 | [Bard & Faulkner, *Electrochemical Methods*](version/course02/07-bard-faulkner-electrochemical-methods/) | Chemical |
+| 8 | [Hecht, *Optics*; Saleh & Teich, *Fundamentals of Photonics*](version/course02/08-hecht-saleh-teich-optics-photonics/) | Radiant |
+| 9 | [Dan Gelbart's videos + [design.md](version/course02/09-gelbart-videos/design.md)](version/course02/09-gelbart-videos/) | Mechanical |
 
-### [course03/](version/course03/) — The Six-Layer Stack, Domain by Domain
+### [course03](version/course03/index.md) — Domain stack
 
-[README.md](version/course03/README.md) — the stack (Vocabulary → Measurement → Discovery → Material → Technique → Features) and sources.
-
-| # | Folder | Domain |
+| # | Domain | File |
 |---|---|---|
-| 1 | [01-electrical](version/course03/01-electrical/README.md) | Electrical |
-| 2 | [02-magnetic](version/course03/02-magnetic/README.md) | Magnetic |
-| 3 | [03-mechanical](version/course03/03-mechanical/README.md) | Mechanical |
-| 4 | [04-fluidic](version/course03/04-fluidic/README.md) | Fluidic |
-| 5 | [05-thermal](version/course03/05-thermal/README.md) | Thermal |
-| 6 | [06-chemical](version/course03/06-chemical/README.md) | Chemical |
-| 7 | [07-radiant](version/course03/07-radiant/README.md) | Radiant |
+| 1 | Electrical | [01-electrical/README.md](version/course03/01-electrical/README.md) |
+| 2 | Magnetic | [02-magnetic/README.md](version/course03/02-magnetic/README.md) |
+| 3 | Mechanical | [03-mechanical/README.md](version/course03/03-mechanical/README.md) |
+| 4 | Fluidic | [04-fluidic/README.md](version/course03/04-fluidic/README.md) |
+| 5 | Thermal | [05-thermal/README.md](version/course03/05-thermal/README.md) |
+| 6 | Chemical | [06-chemical/README.md](version/course03/06-chemical/README.md) |
+| 7 | Radiant | [07-radiant/README.md](version/course03/07-radiant/README.md) |
 
-### [course04/](version/course04/) — Build Your Own Sensors & Actuators Lab
+### [course04](version/course04/index.md) — Hands-on lab
 
-[index.md](version/course04/index.md) — files, BOM numbering, grand total, where to buy, how to use the benches.
+| # | Bench | File |
+|---|---|---|
+| 0 | Universal Starter Kit | [00-starter-kit.md](version/course04/00-starter-kit.md) |
+| 1 | Electrical | [01-bench-electrical.md](version/course04/01-bench-electrical.md) |
+| 2 | Magnetic | [02-bench-magnetic.md](version/course04/02-bench-magnetic.md) |
+| 3 | Mechanical | [03-bench-mechanical.md](version/course04/03-bench-mechanical.md) |
+| 4 | Fluidic | [04-bench-fluidic.md](version/course04/04-bench-fluidic.md) |
+| 5 | Thermal | [05-bench-thermal.md](version/course04/05-bench-thermal.md) |
+| 6 | Chemical | [06-bench-chemical.md](version/course04/06-bench-chemical.md) |
+| 7 | Radiant | [07-bench-radiant.md](version/course04/07-bench-radiant.md) |
 
-| File | Bench | Domain | Theory |
-|---|---|---|---|
-| [00-starter-kit.md](version/course04/00-starter-kit.md) | Universal Starter Kit | All | — |
-| [01-bench-electrical.md](version/course04/01-bench-electrical.md) | Bench 1 | Electrical | [course03/01-electrical](version/course03/01-electrical/README.md) |
-| [02-bench-magnetic.md](version/course04/02-bench-magnetic.md) | Bench 2 | Magnetic | [course03/02-magnetic](version/course03/02-magnetic/README.md) |
-| [03-bench-mechanical.md](version/course04/03-bench-mechanical.md) | Bench 3 | Mechanical | [course03/03-mechanical](version/course03/03-mechanical/README.md) |
-| [04-bench-fluidic.md](version/course04/04-bench-fluidic.md) | Bench 4 | Fluidic | [course03/04-fluidic](version/course03/04-fluidic/README.md) |
-| [05-bench-thermal.md](version/course04/05-bench-thermal.md) | Bench 5 | Thermal | [course03/05-thermal](version/course03/05-thermal/README.md) |
-| [06-bench-chemical.md](version/course04/06-bench-chemical.md) | Bench 6 | Chemical | [course03/06-chemical](version/course03/06-chemical/README.md) |
-| [07-bench-radiant.md](version/course04/07-bench-radiant.md) | Bench 7 | Radiant | [course03/07-radiant](version/course03/07-radiant/README.md) |
+### [course05](version/course05/index.md) — Term reference
 
-### [course05/](version/course05/) — Cross-Domain Term Patterns
-
-[index.md](version/course05/index.md) — the seven primary domains at a glance, and how the files fit together.
-
-| File | Content |
-|---|---|
-| [01-electrical.md](version/course05/01-electrical.md) | Domain 1 — Electrical |
-| [02-magnetic.md](version/course05/02-magnetic.md) | Domain 2 — Magnetic |
-| [03-mechanical.md](version/course05/03-mechanical.md) | Domain 3 — Mechanical |
-| [04-fluidic.md](version/course05/04-fluidic.md) | Domain 4 — Fluidic |
-| [05-thermal.md](version/course05/05-thermal.md) | Domain 5 — Thermal |
-| [06-chemical.md](version/course05/06-chemical.md) | Domain 6 — Chemical |
-| [07-radiant.md](version/course05/07-radiant.md) | Domain 7 — Radiant |
-| [08-cross-domain-term-patterns.md](version/course05/08-cross-domain-term-patterns.md) | Cross-Domain Term Patterns |
-| [09-classification-tables.md](version/course05/09-classification-tables.md) | Classification Tables |
-| [10-material-families.md](version/course05/10-material-families.md) | Material Families Cutting Across Domains |
-| [11-technique-families.md](version/course05/11-technique-families.md) | Technique Families Cutting Across Domains |
+| # | Topic | File |
+|---|---|---|
+| 1 | Domain 1 — Electrical | [01-electrical.md](version/course05/01-electrical.md) |
+| 2 | Domain 2 — Magnetic | [02-magnetic.md](version/course05/02-magnetic.md) |
+| 3 | Domain 3 — Mechanical | [03-mechanical.md](version/course05/03-mechanical.md) |
+| 4 | Domain 4 — Fluidic | [04-fluidic.md](version/course05/04-fluidic.md) |
+| 5 | Domain 5 — Thermal | [05-thermal.md](version/course05/05-thermal.md) |
+| 6 | Domain 6 — Chemical | [06-chemical.md](version/course05/06-chemical.md) |
+| 7 | Domain 7 — Radiant | [07-radiant.md](version/course05/07-radiant.md) |
+| 8 | Cross-Domain Term Patterns | [08-cross-domain-term-patterns.md](version/course05/08-cross-domain-term-patterns.md) |
+| 9 | Classification Tables | [09-classification-tables.md](version/course05/09-classification-tables.md) |
+| 10 | Material Families | [10-material-families.md](version/course05/10-material-families.md) |
+| 11 | Technique Families | [11-technique-families.md](version/course05/11-technique-families.md) |

@@ -2,7 +2,7 @@
 
 [← Course 04 index](index.md) · [← Bench 2](02-bench-magnetic.md) · [Bench 4 →](04-bench-fluidic.md)
 
-**Theory:** [course03/03-mechanical](../course03/03-mechanical/README.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
+**Course:** [course01 Module 3](../course01/index.md#module-3--mechanical-domain) · **Theory:** [course03/03-mechanical](../course03/03-mechanical/README.md) · **Terms:** [course05/03-mechanical](../course05/03-mechanical.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
 
 ## What's on it
 

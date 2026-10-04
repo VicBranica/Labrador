@@ -1,5 +1,12 @@
 # Course 02 — Reading list
 
+> **Course 02 of 05 — Reading list** · [← course01](../course01/index.md) · [Project map](../../index.md) · [course03 →](../course03/index.md)
+>
+> The books and videos behind the courses, plus Gelbart-style design heuristics.
+>
+> **Builds on:** course01 Appendix G (further reading)  
+> **Feeds into:** course03 (each domain cites its books), all courses (design heuristics)
+
 | # | Folder | Resource | Note |
 |---|---|---|---|
 | 1 | [01-slocum-precision-machine-design](01-slocum-precision-machine-design/) | Slocum, *Precision Machine Design* | If you only read one, read this. |

@@ -65,8 +65,14 @@ Design patterns: flexures (zero backlash, no stiction, no wear; limited stroke) 
 
 ## Sources
 
-- [Course1 — Module 3: Mechanical Domain](../../Course1/README.md#module-3--mechanical-domain)
+- [course01 — Module 3: Mechanical Domain](../../course01/index.md#module-3--mechanical-domain)
 - [Slocum, *Precision Machine Design*](../../course02/01-slocum-precision-machine-design/) — if you only read one, read this.
 - [Hale, *Principles and Techniques for Designing Precision Machines*](../../course02/02-hale-designing-precision-machines/)
 - [Ashby, *Materials Selection in Mechanical Design*](../../course02/03-ashby-materials-selection/)
 - [Dan Gelbart's videos](../../course02/09-gelbart-videos/)
+
+## Related in other courses
+
+- **Course:** [course01 — Module 3: Mechanical Domain](../../course01/index.md#module-3--mechanical-domain)
+- **Terms:** [course05 — Domain 3: Mechanical](../../course05/03-mechanical.md)
+- **Bench:** [course04 — Bench 3: Mechanical](../../course04/03-bench-mechanical.md)

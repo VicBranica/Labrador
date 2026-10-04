@@ -1,5 +1,12 @@
 # Course 04 — Build Your Own Sensors & Actuators Lab
 
+> **Course 04 of 05 — Hands-on lab** · [← course03](../course03/index.md) · [Project map](../../index.md) · [course05 →](../course05/index.md)
+>
+> One bench per domain, each with a multilevel BOM, teardowns, and three builds.
+>
+> **Builds on:** course03 (theory per bench), course05 (terms per bench)  
+> **Feeds into:** Your own notebook — measurements from every build
+
 > **Goal:** build your own sensors & actuators lab, one bench per physical domain. Each bench has its own file with a multilevel bill of materials (BOM).
 
 ## Files

@@ -1,6 +1,13 @@
 # Physical Domains in Sensors & Actuators
 ## A Self-Paced Learning Course
 
+> **Course 01 of 05 — Core course** · [Project map](../../index.md) · [course02 →](../course02/index.md)
+>
+> The theory spine: foundations, the seven domains, cross-domain transducers, integration and capstone.
+>
+> **Builds on:** —  
+> **Feeds into:** course02 (deeper reading), course03 (each module split into six layers), course04 (hands-on benches), course05 (term reference)
+
 > A structured path through the physical foundations, materials, techniques, and design patterns that unify all sensors and actuators as a single discipline.
 
 ---

@@ -79,5 +79,11 @@ Two-stage flapper-nozzle servo valves give precision force/position control up t
 
 ## Sources
 
-- [Course1 — Module 4: Fluidic Domain](../../Course1/README.md#module-4--fluidic-domain)
+- [course01 — Module 4: Fluidic Domain](../../course01/index.md#module-4--fluidic-domain)
 - [Merritt, *Hydraulic Control Systems*](../../course02/05-merritt-hydraulic-control-systems/) — the fluidic classic.
+
+## Related in other courses
+
+- **Course:** [course01 — Module 4: Fluidic Domain](../../course01/index.md#module-4--fluidic-domain)
+- **Terms:** [course05 — Domain 4: Fluidic](../../course05/04-fluidic.md)
+- **Bench:** [course04 — Bench 4: Fluidic](../../course04/04-bench-fluidic.md)

@@ -1,5 +1,12 @@
 # Course 05 — Cross-Domain Term Patterns
 
+> **Course 05 of 05 — Term reference** · [← course04](../course04/index.md) · [Project map](../../index.md)
+>
+> Domain-by-domain terms, roles and discoverers, then the patterns, classifications, materials and techniques that cut across domains.
+>
+> **Builds on:** course01 (Modules 0 and 8)  
+> **Feeds into:** course03 and course04 (each domain file and bench links here for its terms)
+
 > The seven primary domains term by term, then the patterns, classifications, materials and techniques that cut across them.
 
 ## Seven Primary Domains at a Glance

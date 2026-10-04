@@ -2,7 +2,7 @@
 
 [← Course 05 index](index.md) · [← Domain 3 — Mechanical](03-mechanical.md) · [Domain 5 — Thermal →](05-thermal.md)
 
-**Theory:** [course03/04-fluidic](../course03/04-fluidic/README.md) · **Bench:** [course04/04-bench-fluidic](../course04/04-bench-fluidic.md)
+**Course:** [course01 Module 4](../course01/index.md#module-4--fluidic-domain) · **Theory:** [course03/04-fluidic](../course03/04-fluidic/README.md) · **Bench:** [course04/04-bench-fluidic](../course04/04-bench-fluidic.md)
 
 ## Important terms
 

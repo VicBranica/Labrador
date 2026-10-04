@@ -2,7 +2,7 @@
 
 [← Course 04 index](index.md) · [← Bench 3](03-bench-mechanical.md) · [Bench 5 →](05-bench-thermal.md)
 
-**Theory:** [course03/04-fluidic](../course03/04-fluidic/README.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
+**Course:** [course01 Module 4](../course01/index.md#module-4--fluidic-domain) · **Theory:** [course03/04-fluidic](../course03/04-fluidic/README.md) · **Terms:** [course05/04-fluidic](../course05/04-fluidic.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
 
 ## What's on it
 

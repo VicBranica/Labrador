@@ -1,5 +1,12 @@
 # Course 03 — The Six-Layer Stack, Domain by Domain
 
+> **Course 03 of 05 — Domain stack** · [← course02](../course02/index.md) · [Project map](../../index.md) · [course04 →](../course04/index.md)
+>
+> Each domain arranged by the six-layer stack: Vocabulary → Measurement → Discovery → Material → Technique → Features.
+>
+> **Builds on:** course01 Modules 1–7 (content), course02 (sources)  
+> **Feeds into:** course04 (each bench puts a domain on the table), course05 (term reference per domain)
+
 Each domain file is organized by the same stack, read from the bottom up:
 
 ```
@@ -28,6 +35,6 @@ Each domain file is organized by the same stack, read from the bottom up:
 
 ## Sources
 
-- [Course1 — Physical Domains in Sensors & Actuators](../Course1/README.md): Modules 1–7 and Appendices A, C, D, F, G.
-- [course02 — Reading list](../course02/README.md): the books and videos cited in each domain file.
+- [course01 — Physical Domains in Sensors & Actuators](../course01/index.md): Modules 1–7 and Appendices A, C, D, F, G.
+- [course02 — Reading list](../course02/index.md): the books and videos cited in each domain file.
 - [Design heuristics](../course02/09-gelbart-videos/design.md): applies across all seven domains.

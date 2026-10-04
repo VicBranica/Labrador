@@ -2,7 +2,7 @@
 
 [← Course 05 index](index.md) · [← Domain 6 — Chemical](06-chemical.md) · [Cross-Domain Term Patterns →](08-cross-domain-term-patterns.md)
 
-**Theory:** [course03/07-radiant](../course03/07-radiant/README.md) · **Bench:** [course04/07-bench-radiant](../course04/07-bench-radiant.md)
+**Course:** [course01 Module 7](../course01/index.md#module-7--radiant-domain) · **Theory:** [course03/07-radiant](../course03/07-radiant/README.md) · **Bench:** [course04/07-bench-radiant](../course04/07-bench-radiant.md)
 
 ## Important terms
 

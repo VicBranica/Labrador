@@ -84,5 +84,11 @@ Key relations: E_photon = hν = hc/λ · a detector responds when E ≥ E_g (ban
 
 ## Sources
 
-- [Course1 — Module 7: Radiant Domain](../../Course1/README.md#module-7--radiant-domain)
+- [course01 — Module 7: Radiant Domain](../../course01/index.md#module-7--radiant-domain)
 - [Hecht, *Optics*; Saleh & Teich, *Fundamentals of Photonics*](../../course02/08-hecht-saleh-teich-optics-photonics/) — the radiant pile.
+
+## Related in other courses
+
+- **Course:** [course01 — Module 7: Radiant Domain](../../course01/index.md#module-7--radiant-domain)
+- **Terms:** [course05 — Domain 7: Radiant](../../course05/07-radiant.md)
+- **Bench:** [course04 — Bench 7: Radiant](../../course04/07-bench-radiant.md)

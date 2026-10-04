@@ -69,6 +69,12 @@ Sensor families: potentiometric (pH, ISEs) · amperometric (Clark electrode, glu
 
 ## Sources
 
-- [Course1 — Module 6: Chemical Domain](../../Course1/README.md#module-6--chemical-domain)
+- [course01 — Module 6: Chemical Domain](../../course01/index.md#module-6--chemical-domain)
 - [Bard & Faulkner, *Electrochemical Methods*](../../course02/07-bard-faulkner-electrochemical-methods/) — the chemical pile.
-- Wang, *Electrochemical Sensors, Biosensors, and Their Biomedical Applications* — [Course1, Appendix G](../../Course1/README.md#appendix-g--further-reading)
+- Wang, *Electrochemical Sensors, Biosensors, and Their Biomedical Applications* — [course01, Appendix G](../../course01/index.md#appendix-g--further-reading)
+
+## Related in other courses
+
+- **Course:** [course01 — Module 6: Chemical Domain](../../course01/index.md#module-6--chemical-domain)
+- **Terms:** [course05 — Domain 6: Chemical](../../course05/06-chemical.md)
+- **Bench:** [course04 — Bench 6: Chemical](../../course04/06-bench-chemical.md)
