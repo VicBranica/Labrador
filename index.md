@@ -8,7 +8,7 @@
 Labrador/
 ├── index.md                         ← project map (this file)
 └── version/
-    ├── course01/  index.md                          Core course
+    ├── course01/  index.md + Lesson1.md             Core course
     ├── course02/  index.md + 9 resource folders     Reading list
     ├── course03/  index.md + 7 domain folders       Domain stack
     ├── course04/  index.md + 8 bench files          Hands-on lab
@@ -94,6 +94,7 @@ The same domain, in every course:
 
 ### [course01](version/course01/index.md) — Core course: *Physical Domains in Sensors & Actuators*
 
+- [Lesson 1 — The Seven Domains, Hands First](version/course01/Lesson1.md): each domain in nine steps — what you're looking at, the one thing to understand, what to build, key materials, key techniques, the clever trick, who to know, the example to work, what to read later
 - [Module 0 — Foundations](version/course01/index.md#module-0--foundations)
 - [Module 1 — Electrical Domain](version/course01/index.md#module-1--electrical-domain)
 - [Module 2 — Magnetic Domain](version/course01/index.md#module-2--magnetic-domain)

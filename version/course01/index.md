@@ -7,6 +7,8 @@
 >
 > **Builds on:** —  
 > **Feeds into:** course02 (deeper reading), course03 (each module split into six layers), course04 (hands-on benches), course05 (seven piles, three pillars)
+>
+> **Lessons:** [Lesson 1 — The Seven Domains, Hands First](Lesson1.md)
 
 > A structured path through the physical foundations, materials, techniques, and design patterns that unify all sensors and actuators as a single discipline.
 
