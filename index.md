@@ -64,3 +64,21 @@ A self-paced course: [README.md](version/Course1/README.md)
 | [05-bench-thermal.md](version/course04/05-bench-thermal.md) | Bench 5 | Thermal | [course03/05-thermal](version/course03/05-thermal/README.md) |
 | [06-bench-chemical.md](version/course04/06-bench-chemical.md) | Bench 6 | Chemical | [course03/06-chemical](version/course03/06-chemical/README.md) |
 | [07-bench-radiant.md](version/course04/07-bench-radiant.md) | Bench 7 | Radiant | [course03/07-radiant](version/course03/07-radiant/README.md) |
+
+### [course05/](version/course05/) — Cross-Domain Term Patterns
+
+[index.md](version/course05/index.md) — the seven primary domains at a glance, and how the files fit together.
+
+| File | Content |
+|---|---|
+| [01-electrical.md](version/course05/01-electrical.md) | Domain 1 — Electrical |
+| [02-magnetic.md](version/course05/02-magnetic.md) | Domain 2 — Magnetic |
+| [03-mechanical.md](version/course05/03-mechanical.md) | Domain 3 — Mechanical |
+| [04-fluidic.md](version/course05/04-fluidic.md) | Domain 4 — Fluidic |
+| [05-thermal.md](version/course05/05-thermal.md) | Domain 5 — Thermal |
+| [06-chemical.md](version/course05/06-chemical.md) | Domain 6 — Chemical |
+| [07-radiant.md](version/course05/07-radiant.md) | Domain 7 — Radiant |
+| [08-cross-domain-term-patterns.md](version/course05/08-cross-domain-term-patterns.md) | Cross-Domain Term Patterns |
+| [09-classification-tables.md](version/course05/09-classification-tables.md) | Classification Tables |
+| [10-material-families.md](version/course05/10-material-families.md) | Material Families Cutting Across Domains |
+| [11-technique-families.md](version/course05/11-technique-families.md) | Technique Families Cutting Across Domains |
