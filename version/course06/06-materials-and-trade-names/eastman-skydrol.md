@@ -23,6 +23,7 @@ Skydrol is the fire-resistant hydraulic fluid aircraft use because it doesn't bu
 
 | File | Section | Mention |
 |---|---|---|
+| [course01/Lesson1.md](../../course01/Lesson1.md#4-key-materials) | 4. Key materials | …ds: mineral oil for most things; phosphate ester (Skydrol) for aircraft because it doesn't burn when the hydraulic line gets hit.… |
 | [course01/index.md](../../course01/index.md#try-it-module-4-exercises) | Try it (Module 4 exercises) | 3. Explain why aviation hydraulics use phosphate-ester (Skydrol) rather than mineral oil. |
 | [course01/index.md](../../course01/index.md#appendix-c--materials-index) | Appendix C — Materials index | Fluids — Mineral oil, synthetic ester, water-glycol, phosphate ester (Skydrol), silicone oil, Bi₂Te₃ (TE elements), gallium (liquid metal). |
 | [course05/04-fluidic.md](../../course05/04-fluidic.md#key-materials) | Key materials | …ds: mineral oil for most things; phosphate ester (Skydrol) for aircraft because it doesn't burn when the hydraulic line gets hit.… |

@@ -23,6 +23,7 @@ Harry Vickers pioneered industrial hydraulics, including the pressure-balanced v
 
 | File | Section | Mention |
 |---|---|---|
+| [course01/Lesson1.md](../../course01/Lesson1.md#7-who-to-know) | 7. Who to know | …c press, 1795), Reynolds (laminar vs. turbulent), Vickers and Moog (modern servo valves — Moog valves still fly on everything from F-16s to … |
 | [course01/index.md](../../course01/index.md#appendix-b--people-index) | Appendix B — People index | …Bramah · Navier · Stokes · Reynolds · Armstrong · Vickers · Moog · Fourier · Seebeck · Peltier · Kelvin · Stefan · Boltzmann · Buehler · Wan… |
 | [course05/04-fluidic.md](../../course05/04-fluidic.md#who-to-know) | Who to know | …c press, 1795), Reynolds (laminar vs. turbulent), Vickers and Moog (modern servo valves — Moog valves still fly on everything from F-16s to … |
 

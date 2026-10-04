@@ -23,6 +23,7 @@ Metglas appears as a soft magnetic core material: transformer cores, sensors, an
 
 | File | Section | Mention |
 |---|---|---|
+| [course01/Lesson1.md](../../course01/Lesson1.md#4-key-materials) | 4. Key materials | Soft magnetic: silicon steel laminations (motors), ferrite (high frequency), Mu-metal (shielding), Metglas (sensors). |
 | [course01/index.md](../../course01/index.md#materials-techniques-features) | Materials, techniques, features | Soft cores Silicon steel, permalloy, Mu-metal, ferrite, Metglas Lamination, sintering, ribbon casting High μᵣ, low loss |
 | [course03/02-magnetic/README.md](../../course03/02-magnetic/README.md#4-material) | 4. Material | Soft cores Silicon steel, permalloy, Mu-metal, ferrite, Metglas |
 | [course05/02-magnetic.md](../../course05/02-magnetic.md#key-materials) | Key materials | Soft magnetic: silicon steel laminations (motors), ferrite (high frequency), Mu-metal (shielding), Metglas (sensors). |

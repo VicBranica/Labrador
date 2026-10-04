@@ -23,6 +23,7 @@ Zerodur is a near-zero-expansion glass-ceramic (developed from 1966) used for te
 
 | File | Section | Mention |
 |---|---|---|
+| [course01/Lesson1.md](../../course01/Lesson1.md#4-key-materials) | 4. Key materials | Granite, Zerodur, Invar, fused silica when dimensional stability matters more than anything. |
 | [course01/index.md](../../course01/index.md#materials-techniques-features) | Materials, techniques, features | Reference Granite, Zerodur, Invar, fused silica Grinding, lapping, scraping Dimensional stability |
 | [course01/index.md](../../course01/index.md#try-it-module-7-exercises) | Try it (Module 7 exercises) | 2. Explain why a telescope mirror uses Zerodur rather than aluminum. |
 | [course01/index.md](../../course01/index.md#appendix-c--materials-index) | Appendix C — Materials index | … SnO₂, ZnO, WO₃, Al₂O₃, Si₃N₄, SiC, fused silica, Zerodur, sapphire, ZnSe, Ge, CaF₂, LiTaO₃, LaF₃, lithium silicate glass.… |

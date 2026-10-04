@@ -14,7 +14,7 @@ Many "materials" in the courses are trade names. These are the companies that ow
 | [DuPont](dupont.md) | Manufacturer | Wilmington, Delaware, USA | course01 |
 | [Sorbothane, Inc.](sorbothane.md) | Manufacturer | Kent, Ohio, USA | course01 |
 | [Haynes International (Hastelloy)](haynes.md) | Manufacturer | Kokomo, Indiana, USA | course01, course02, course03, course05 |
-| [Special Metals Corporation (Inconel)](special-metals.md) | Manufacturer | New Hartford, New York, USA | course05 |
+| [Special Metals Corporation (Inconel)](special-metals.md) | Manufacturer | New Hartford, New York, USA | course01, course05 |
 | [SCHOTT AG (Zerodur)](schott.md) | Manufacturer | Mainz, Germany | course01, course02, course03, course05 |
 | [Aperam Alloys Imphy (Invar)](aperam-imphy.md) | Manufacturer | Imphy, France | course01, course02, course03, course05 |
 | [Magnetic Shield Corporation (MuMETAL)](magnetic-shield-corp.md) | Manufacturer | Illinois, USA | course01, course03, course05 |

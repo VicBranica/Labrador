@@ -188,7 +188,7 @@
 | [Silicon Labs](03-semiconductors/silicon-labs.md) | Semiconductor manufacturers | Manufacturer | course04 |
 | [Sorbothane, Inc.](06-materials-and-trade-names/sorbothane.md) | Materials & trade names | Manufacturer | course01 |
 | [SparkFun Electronics](02-boards-and-modules/sparkfun.md) | Development boards & breakouts | Manufacturer and retailer | course04 |
-| [Special Metals Corporation (Inconel)](06-materials-and-trade-names/special-metals.md) | Materials & trade names | Manufacturer | course05 |
+| [Special Metals Corporation (Inconel)](06-materials-and-trade-names/special-metals.md) | Materials & trade names | Manufacturer | course01, course05 |
 | [STMicroelectronics](03-semiconductors/stmicroelectronics.md) | Semiconductor manufacturers | Manufacturer | course04 |
 | [supermagnete (Webcraft)](07-suppliers/supermagnete.md) | Suppliers & distributors | Supplier | course04 |
 | [TDK InvenSense](03-semiconductors/tdk-invensense.md) | Semiconductor manufacturers | Manufacturer | course04 |

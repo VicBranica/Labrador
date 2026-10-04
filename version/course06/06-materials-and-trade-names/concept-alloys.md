@@ -23,6 +23,8 @@ Chromel (positive leg) and Alumel (negative leg) make the Type K thermocouple in
 
 | File | Section | Mention |
 |---|---|---|
+| [course01/Lesson1.md](../../course01/Lesson1.md#3-what-to-build) | 3. What to build | 1. Twist chromel and alumel wire together with a torch to make a Type K thermocouple. Dip the junction in boiling water, then ice water. Rea… |
+| [course01/Lesson1.md](../../course01/Lesson1.md#4-key-materials) | 4. Key materials | Thermocouples: chromel-alumel (Type K, general), iron-constantan (Type J), Pt/Rh (high temperature, laboratory accuracy). |
 | [course01/index.md](../../course01/index.md#materials-techniques-features) | Materials, techniques, features | Thermocouples Chromel/alumel, Pt/Rh Bead welding, MI sheath Wide range, rugged |
 | [course01/index.md](../../course01/index.md#core-patterns) | Core patterns | Therm → Elec Thermocouple, thermopile Chromel/alumel, Pt/Rh Bead welding |
 | [course01/index.md](../../course01/index.md#appendix-c--materials-index) | Appendix C — Materials index | …Copper, aluminum, silver, gold, platinum, nickel, chromel, alumel, constantan, Invar, stainless 316/17-4 PH, Hastelloy, 52100 steel, silicon… |

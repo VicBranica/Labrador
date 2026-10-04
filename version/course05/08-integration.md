@@ -22,13 +22,17 @@ A **smartphone** has every pile: electrical (SoC), magnetic (speaker, haptic mot
 
 ## Design heuristics (Gelbart-style)
 
-- **Stay in one domain if you can.** Each crossing adds loss, noise, nonlinearity, and failure modes.
-- **Build it yourself.** Even badly. You'll learn more in a weekend than in a month of reading.
-- **The second one is always better than the first.** Expect to throw the first version away.
-- **Simplicity over cleverness.** Fewer parts, fewer tolerances, fewer failure modes.
-- **Bandwidth lives in the slowest domain.** A fast electrical controller behind a thermal actuator is still a thermal system.
-- **Energy density determines size.** If the device looks absurdly large or small, you probably picked the wrong domain.
-- **Rugged environment = pick the material first.** Hastelloy diaphragms, sapphire windows, Viton seals, platinum electrodes.
+The full list, with the reasoning behind each rule, is in [course02 — Design Heuristics](../course02/09-gelbart-videos/design.md):
+
+1. Stay in one domain if you can.
+2. Match impedances across boundaries.
+3. Pick the domain and material naturally matched to the measurand.
+4. Bandwidth lives in the slowest domain.
+5. Energy density determines size.
+6. Rugged environment = pick the material first.
+7. Build it yourself.
+8. The second one is always better than the first.
+9. Simplicity over cleverness.
 
 ## The one-page map
 
