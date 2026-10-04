@@ -28,6 +28,111 @@
 | 07 | [Suppliers & distributors](07-suppliers/index.md) | 14 |
 | | **Total** | **64** |
 
+## Products and material codes
+
+- **Products cited** — what the courses name from each company.
+- **BOM code** — the course04 item number (the lab's material code). Click through to the bench file. Generated from the BOM tables.
+- **Material / grade code** — for trade-name materials, the common grade and its standard designation (UNS, EN, ASTM, IEC, SAE). The courses name only the brand, so these are the usual grades, not a specific purchase.
+
+### [Instruments & tools](01-instruments-and-tools/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [AstroAI](01-instruments-and-tools/astroai.md) | 6000-count digital multimeter | [`S.1.1`](../course04/00-starter-kit.md) | — |
+| [Fluke Corporation](01-instruments-and-tools/fluke.md) | Fluke 101 multimeter | [`S.1.1`](../course04/00-starter-kit.md) | — |
+| [Hakko Corporation](01-instruments-and-tools/hakko.md) | FX-888D soldering station | [`S.3.1`](../course04/00-starter-kit.md) | — |
+| [PINE64 (Pine Store Ltd.)](01-instruments-and-tools/pine64.md) | Pinecil soldering iron | [`S.3.1`](../course04/00-starter-kit.md) | — |
+| [Mitutoyo Corporation](01-instruments-and-tools/mitutoyo.md) | 150 mm digital calipers | [`S.1.2`](../course04/00-starter-kit.md) | — |
+| [Hantek (Qingdao Hantek Electronic Co., Ltd.)](01-instruments-and-tools/hantek.md) | 6022BE USB oscilloscope | [`S.5.1`](../course04/00-starter-kit.md) | — |
+| [Teledyne FLIR](01-instruments-and-tools/teledyne-flir.md) | FLIR One phone thermal camera | [`S.5.5`](../course04/00-starter-kit.md) | — |
+| [InfiRay (IRay Technology Co., Ltd.)](01-instruments-and-tools/infiray.md) | P2 phone thermal camera | [`S.5.5`](../course04/00-starter-kit.md) | — |
+| [Instron](01-instruments-and-tools/instron.md) | Universal testing machine (historical — Nitinol, 1962) | — | — |
+| [Hanna Instruments](01-instruments-and-tools/hanna-instruments.md) | Pocket pH meters | — | — |
+
+### [Development boards & breakouts](02-boards-and-modules/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [Arduino](02-boards-and-modules/arduino.md) | Arduino Uno | [`S.5.4`](../course04/00-starter-kit.md) | — |
+| [Raspberry Pi Ltd](02-boards-and-modules/raspberry-pi.md) | Raspberry Pi Pico | [`S.5.4`](../course04/00-starter-kit.md) | — |
+| [Adafruit Industries](02-boards-and-modules/adafruit.md) | Sensor breakout boards | — | — |
+| [SparkFun Electronics](02-boards-and-modules/sparkfun.md) | Sensor breakout boards | — | — |
+
+### [Semiconductor manufacturers](03-semiconductors/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [Texas Instruments](03-semiconductors/texas-instruments.md) | LM358, TL072 op-amps · DRV8833 motor driver | [`1.2.3`](../course04/01-bench-electrical.md) · [`2.4.4`](../course04/02-bench-magnetic.md) | — |
+| [Microchip Technology](03-semiconductors/microchip.md) | MCP6002 op-amp | [`1.2.3`](../course04/01-bench-electrical.md) | — |
+| [Infineon Technologies](03-semiconductors/infineon.md) | IRLZ44N MOSFET | [`1.2.5`](../course04/01-bench-electrical.md) | — |
+| [onsemi](03-semiconductors/onsemi.md) | 2N3904 / 2N3906 / BC547 transistors · 2N7000 MOSFET · 1N4148 / 1N4007 / 1N5819 diodes | [`1.2.2`](../course04/01-bench-electrical.md) · [`1.2.4`](../course04/01-bench-electrical.md) · [`1.2.5`](../course04/01-bench-electrical.md) | — |
+| [Silicon Labs](03-semiconductors/silicon-labs.md) | CP2102 USB–UART bridge | [`1.4.1`](../course04/01-bench-electrical.md) | — |
+| [WCH (Nanjing Qinheng Microelectronics)](03-semiconductors/wch.md) | CH340 USB–serial chip | [`1.4.1`](../course04/01-bench-electrical.md) | — |
+| [Allegro MicroSystems](03-semiconductors/allegro.md) | A3144 Hall switch (discontinued) · A1324 linear Hall sensor | [`2.3.1`](../course04/02-bench-magnetic.md) | — |
+| [STMicroelectronics](03-semiconductors/stmicroelectronics.md) | L298N H-bridge · VL53L0X / VL53L1X time-of-flight sensors | [`2.4.4`](../course04/02-bench-magnetic.md) · [`7.3.3`](../course04/07-bench-radiant.md) | — |
+| [Avia Semiconductor](03-semiconductors/avia-semiconductor.md) | HX711 24-bit load-cell ADC | [`3.1.3`](../course04/03-bench-mechanical.md) | — |
+| [TDK InvenSense](03-semiconductors/tdk-invensense.md) | MPU6050 6-axis IMU | [`3.5.1`](../course04/03-bench-mechanical.md) | — |
+| [Bosch Sensortec](03-semiconductors/bosch-sensortec.md) | BMP280 barometric pressure sensor | [`4.3.1`](../course04/04-bench-fluidic.md) | — |
+| [NXP Semiconductors](03-semiconductors/nxp.md) | MPX5010DP differential pressure sensor | [`4.3.2`](../course04/04-bench-fluidic.md) | — |
+| [Analog Devices](03-semiconductors/analog-devices.md) | MAX6675 / MAX31855 thermocouple readers · MAX31865 RTD reader | [`5.1.2`](../course04/05-bench-thermal.md) · [`5.2.2`](../course04/05-bench-thermal.md) | — |
+| [Vishay Intertechnology](03-semiconductors/vishay.md) | BPW34 photodiode · TEMT6000 phototransistor · VEML7700 light sensor | [`7.2.1`](../course04/07-bench-radiant.md) · [`7.2.2`](../course04/07-bench-radiant.md) · [`7.3.1`](../course04/07-bench-radiant.md) | — |
+| [ams OSRAM](03-semiconductors/ams-osram.md) | TSL2591 light sensor · TCS34725 color sensor | [`7.3.1`](../course04/07-bench-radiant.md) · [`7.3.2`](../course04/07-bench-radiant.md) | — |
+| [Sensirion](03-semiconductors/sensirion.md) | SHT31 humidity + temperature sensor | [`6.4.2`](../course04/06-bench-chemical.md) | — |
+
+### [Sensor & module makers](04-sensor-and-module-makers/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [Hanwei Electronics](04-sensor-and-module-makers/hanwei.md) | MQ-series metal-oxide gas sensors | [`6.4.1`](../course04/06-bench-chemical.md) | — |
+| [Winsen (Zhengzhou Winsen Electronics Technology)](04-sensor-and-module-makers/winsen.md) | MH-Z19 NDIR CO₂ sensor | [`6.4.1`](../course04/06-bench-chemical.md) | — |
+| [Aosong Electronics](04-sensor-and-module-makers/aosong.md) | DHT22 (AM2302) humidity + temperature sensor | [`6.4.2`](../course04/06-bench-chemical.md) | — |
+| [Hebei I.T. (Shanghai) Co., Ltd.](04-sensor-and-module-makers/hebei-it.md) | TEC1-12706 Peltier module | [`5.3.1`](../course04/05-bench-thermal.md) | — |
+
+### [Motion & fluid power](05-motion-and-fluid-power/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [Moog Inc.](05-motion-and-fluid-power/moog.md) | Two-stage electrohydraulic servo valve | — | — |
+| [Vickers (now Danfoss Power Solutions)](05-motion-and-fluid-power/vickers-danfoss.md) | Hydraulic vane pumps and servo valves | — | — |
+| [HIWIN Technologies](05-motion-and-fluid-power/hiwin.md) | MGN12H carriage on MGN12 rail | [`3.3.1.9`](../course04/03-bench-mechanical.md) | Rail and carriage: bearing steel |
+
+### [Materials & trade names](06-materials-and-trade-names/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [Henkel (Loctite)](06-materials-and-trade-names/henkel-loctite.md) | Loctite 496 cyanoacrylate | [`3.1.2`](../course04/03-bench-mechanical.md) | Methyl cyanoacrylate |
+| [Metglas, Inc.](06-materials-and-trade-names/metglas.md) | Amorphous metal ribbon | — | 2605SA1 (Fe-Si-B) |
+| [VACUUMSCHMELZE (VAC)](06-materials-and-trade-names/vacuumschmelze.md) | Vitrovac amorphous alloy | — | Vitrovac 6025 (Co-based amorphous) |
+| [Eastman Chemical (Skydrol)](06-materials-and-trade-names/eastman-skydrol.md) | Skydrol aviation hydraulic fluid | — | Phosphate ester, SAE AS1241 (e.g. Skydrol LD-4, 500B-4) |
+| [Chemours](06-materials-and-trade-names/chemours.md) | Viton seals · Nafion membrane | — | Viton = FKM (ASTM D1418) · Nafion = PFSA |
+| [DuPont](06-materials-and-trade-names/dupont.md) | Kapton polyimide film | — | Polyimide (PI), e.g. Kapton HN |
+| [Sorbothane, Inc.](06-materials-and-trade-names/sorbothane.md) | Sorbothane damping material | — | Polyether-based polyurethane |
+| [Haynes International (Hastelloy)](06-materials-and-trade-names/haynes.md) | Hastelloy alloy | — | Hastelloy C-276 = UNS N10276 |
+| [Special Metals Corporation (Inconel)](06-materials-and-trade-names/special-metals.md) | Inconel alloy | — | Inconel 600 = UNS N06600 |
+| [SCHOTT AG (Zerodur)](06-materials-and-trade-names/schott.md) | Zerodur glass-ceramic | — | Li₂O-Al₂O₃-SiO₂ glass-ceramic |
+| [Aperam Alloys Imphy (Invar)](06-materials-and-trade-names/aperam-imphy.md) | Invar alloy | — | Invar 36 = UNS K93603, EN 1.3912 (FeNi36) |
+| [Magnetic Shield Corporation (MuMETAL)](06-materials-and-trade-names/magnetic-shield-corp.md) | MuMETAL shielding alloy | — | ASTM A753 Alloy 4 (~80% Ni) |
+| [Concept Alloys (Chromel / Alumel)](06-materials-and-trade-names/concept-alloys.md) | Chromel / Alumel thermocouple wire | [`5.1.1`](../course04/05-bench-thermal.md) | Type K legs: Chromel = KP, Alumel = KN (IEC 60584) |
+
+### [Suppliers & distributors](07-suppliers/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [DigiKey](07-suppliers/digikey.md) | Electronic components | — | — |
+| [Mouser Electronics](07-suppliers/mouser.md) | Electronic components | — | — |
+| [AliExpress](07-suppliers/aliexpress.md) | Electronics, teardown-grade optics | — | — |
+| [McMaster-Carr](07-suppliers/mcmaster-carr.md) | Mechanical parts | — | — |
+| [MISUMI](07-suppliers/misumi.md) | Modular mechanical hardware | — | — |
+| [MSC Industrial Supply (MSC Direct)](07-suppliers/msc-industrial.md) | Mechanical parts | — | — |
+| [Cole-Parmer](07-suppliers/cole-parmer.md) | Chemicals, probes | — | — |
+| [Thermo Fisher Scientific](07-suppliers/thermo-fisher.md) | Chemicals, probes | — | — |
+| [Thorlabs](07-suppliers/thorlabs.md) | Optics | — | — |
+| [Edmund Optics](07-suppliers/edmund-optics.md) | Optics | — | — |
+| [K&J Magnetics](07-suppliers/kj-magnetics.md) | NdFeB magnets | — | — |
+| [supermagnete (Webcraft)](07-suppliers/supermagnete.md) | NdFeB magnets | — | — |
+| [eBay](07-suppliers/ebay.md) | Teardown stock ("untested" lots) | — | — |
+| [Amazon](07-suppliers/amazon.md) | General (avoid for magnets) | — | — |
+
 ## All companies
 
 | Company | Category | Type | Cited in |
