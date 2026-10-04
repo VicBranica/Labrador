@@ -2,11 +2,13 @@
 
 [← Course 03 index](../index.md) · [← Domain {{N-1}} — {{Previous}}](../{{NN-1}}-{{previous}}/README.md) · [Domain {{N+1}} — {{Next}} →](../{{NN+1}}-{{next}}/README.md)
 
+*[Domain 1's previous link is [← Pillar 3](../p3-bandwidth-and-ceiling.md); domain 7's next link is [Integration pile →](../08-integration.md).]*
+
 **Effort:** {{Effort variable (symbol)}} · **Flow:** {{Flow variable (symbol)}} · **Power:** {{Effort × flow}}
 
 **Lesson:** [course01 Lesson {{N}}](../../course01/Lesson{{N}}.md) · **Theory:** [course01 Module {{N}}](../../course01/index.md#module-{{n}}--{{domain}}-domain) · **Bench:** [course04 Bench {{N}}](../../course04/{{NN}}-bench-{{domain}}.md)
 
-> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E).
+> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E), then where to go next (F–G).
 
 ## A. What you're looking at
 

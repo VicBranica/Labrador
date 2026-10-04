@@ -6,7 +6,7 @@
 
 **Lesson:** [course01 Lesson 3](../../course01/Lesson3.md) · **Theory:** [course01 Module 3](../../course01/index.md#module-3--mechanical-domain) · **Bench:** [course04 Bench 3](../../course04/03-bench-mechanical.md)
 
-> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E).
+> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E), then where to go next (F–G).
 
 ## A. What you're looking at
 
