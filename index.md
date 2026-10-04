@@ -1,6 +1,6 @@
 # Labrador — Sensors & Actuators Learning Project
 
-> Five courses that teach sensors and actuators as one discipline organized around seven physical domains: theory, reading, a layer-by-layer domain stack, a hands-on lab, and the seven piles with their three pillars.
+> Six courses that teach sensors and actuators as one discipline organized around seven physical domains: theory, reading, a layer-by-layer domain stack, a hands-on lab, the seven piles with their three pillars, and the manufacturers behind every part.
 
 ## Project structure
 
@@ -12,7 +12,8 @@ Labrador/
     ├── course02/  index.md + 9 resource folders     Reading list
     ├── course03/  index.md + 7 domain folders       Domain stack
     ├── course04/  index.md + 8 bench files          Hands-on lab
-    └── course05/  index.md + 3 pillars + 8 piles    Seven piles
+    ├── course05/  index.md + 3 pillars + 8 piles    Seven piles
+    └── course06/  index.md + 7 category folders     Manufacturers & brands
 ```
 
 **Conventions**
@@ -22,7 +23,7 @@ Labrador/
 - course02 is numbered by reading priority, not by domain.
 - Every domain file links to the same domain in the other courses.
 
-## The five courses
+## The six courses
 
 | Course | Role | What it is | Builds on | Feeds into |
 |---|---|---|---|---|
@@ -31,6 +32,7 @@ Labrador/
 | [course03](version/course03/index.md) | Domain stack | Each domain by six layers: Vocabulary → Measurement → Discovery → Material → Technique → Features | course01 Modules 1–7, course02 | course04, course05 |
 | [course04](version/course04/index.md) | Hands-on lab | Starter kit + seven benches, each with a multilevel BOM, teardowns and three builds | course03, course05 | Your lab notebook |
 | [course05](version/course05/index.md) | Seven piles | Three pillars (arrows between piles · material + technique · bandwidth and ceiling), then one hands-on pile per domain with its terms and reference tables, then the integration pile | course01 Modules 0 and 8, course04 | course03, course04 |
+| [course06](version/course06/index.md) | Manufacturers & brands | 64 companies in 7 categories — instrument makers, board makers, chip makers, module makers, motion and fluid power, material trade-name owners, suppliers — each with facts, what they make, and every place they're cited | course01, course04, course05 | course04 (sourcing) |
 
 ## How the courses interact
 
@@ -41,6 +43,7 @@ graph LR
   C03["course03<br/>Domain stack"]
   C04["course04<br/>Hands-on lab"]
   C05["course05<br/>Seven piles"]
+  C06["course06<br/>Manufacturers & brands"]
   C01 -- "Appendix G expands into" --> C02
   C01 -- "Modules 1–7 split into six layers" --> C03
   C01 -- "Modules 0 & 8 expand into" --> C05
@@ -49,12 +52,15 @@ graph LR
   C05 -- "pile for each bench" --> C04
   C02 -- "design heuristics" --> C04
   C03 <-- "same domain, linked both ways" --> C05
+  C04 -- "who makes each BOM part" --> C06
+  C01 -- "trade-name materials" --> C06
 ```
 
 - **course01 → course03:** each domain module is rearranged into the six layers; course03 links back to the module.
 - **course01 → course05:** the domain modules and the cross-domain analogy table are retold bench-first as seven piles, organized by three pillars.
 - **course02 → course03:** each domain file cites its books.
 - **course03 + course05 → course04:** every bench links to the theory (course03) and the pile (course05) for its domain.
+- **course04 → course06:** every part number, brand and supplier in the BOMs has a company file; each company file links back to every mention.
 - **course02 design heuristics → everything:** the rules apply when choosing parts on any bench and in the course01 capstone.
 
 ## Suggested study path
@@ -154,3 +160,15 @@ The same domain, in every course:
 | 6 | Pile 6 — Chemical | [06-chemical.md](version/course05/06-chemical.md) |
 | 7 | Pile 7 — Radiant | [07-radiant.md](version/course05/07-radiant.md) |
 | 8 | The integration pile | [08-integration.md](version/course05/08-integration.md) |
+
+### [course06](version/course06/index.md) — Manufacturers & brands
+
+| # | Category | Folder |
+|---|---|---|
+| 01 | Instruments & tools | [01-instruments-and-tools/](version/course06/01-instruments-and-tools/index.md) |
+| 02 | Development boards & breakouts | [02-boards-and-modules/](version/course06/02-boards-and-modules/index.md) |
+| 03 | Semiconductor manufacturers | [03-semiconductors/](version/course06/03-semiconductors/index.md) |
+| 04 | Sensor & module makers | [04-sensor-and-module-makers/](version/course06/04-sensor-and-module-makers/index.md) |
+| 05 | Motion & fluid power | [05-motion-and-fluid-power/](version/course06/05-motion-and-fluid-power/index.md) |
+| 06 | Materials & trade names | [06-materials-and-trade-names/](version/course06/06-materials-and-trade-names/index.md) |
+| 07 | Suppliers & distributors | [07-suppliers/](version/course06/07-suppliers/index.md) |

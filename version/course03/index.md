@@ -1,6 +1,6 @@
 # Course 03 — The Six-Layer Stack, Domain by Domain
 
-> **Course 03 of 05 — Domain stack** · [← course02](../course02/index.md) · [Project map](../../index.md) · [course04 →](../course04/index.md)
+> **Course 03 of 06 — Domain stack** · [← course02](../course02/index.md) · [Project map](../../index.md) · [course04 →](../course04/index.md)
 >
 > Each domain arranged by the six-layer stack: Vocabulary → Measurement → Discovery → Material → Technique → Features.
 >

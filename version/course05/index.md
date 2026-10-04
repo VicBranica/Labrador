@@ -1,6 +1,6 @@
 # Course 05 — The Seven Piles
 
-> **Course 05 of 05 — Seven piles, three pillars** · [← course04](../course04/index.md) · [Project map](../../index.md)
+> **Course 05 of 06 — Seven piles, three pillars** · [← course04](../course04/index.md) · [Project map](../../index.md) · [course06 →](../course06/index.md)
 >
 > A bench-first map of the discipline: seven piles of hardware, three pillars that explain every device, and the terms and tables to go with them.
 >

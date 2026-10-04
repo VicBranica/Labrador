@@ -1,6 +1,6 @@
 # Course 02 — Reading list
 
-> **Course 02 of 05 — Reading list** · [← course01](../course01/index.md) · [Project map](../../index.md) · [course03 →](../course03/index.md)
+> **Course 02 of 06 — Reading list** · [← course01](../course01/index.md) · [Project map](../../index.md) · [course03 →](../course03/index.md)
 >
 > The books and videos behind the courses, plus Gelbart-style design heuristics.
 >

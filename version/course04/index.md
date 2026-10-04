@@ -1,6 +1,6 @@
 # Course 04 — Build Your Own Sensors & Actuators Lab
 
-> **Course 04 of 05 — Hands-on lab** · [← course03](../course03/index.md) · [Project map](../../index.md) · [course05 →](../course05/index.md)
+> **Course 04 of 06 — Hands-on lab** · [← course03](../course03/index.md) · [Project map](../../index.md) · [course05 →](../course05/index.md)
 >
 > One bench per domain, each with a multilevel BOM, teardowns, and three builds.
 >
@@ -72,6 +72,8 @@ Lab
 Most of what makes this work isn't on the shopping list — it's on the free side: broken electronics from recycling bins, defunct printers, old speakers, hard drives, kitchen scales. Every one of those is a working example of two or three domains at once, and taking them apart teaches more than any purchased kit.
 
 ## Where to buy
+
+Every supplier and manufacturer below has its own file in [course06 — Manufacturers & Brands](../course06/index.md).
 
 - **Electronics:** DigiKey, Mouser (new, authoritative), Adafruit, SparkFun (hobby-friendly), AliExpress (cheap, slow, caveat emptor).
 - **Magnets:** K&J Magnetics (US), supermagnete.de (EU) — avoid random Amazon listings for serious work.
