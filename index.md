@@ -7,6 +7,7 @@
 ```
 Labrador/
 ├── index.md                         ← project map (this file)
+├── scaffolding/                     ← app skeleton: Next.js + pnpm monorepo + Supabase
 ├── templates/                       ← start every new file here
 └── version/
     ├── course01/  index.md + Lesson1–10.md           Core course
@@ -23,6 +24,7 @@ Labrador/
 - Domain numbers are the same in every course: `01` electrical · `02` magnetic · `03` mechanical · `04` fluidic · `05` thermal · `06` chemical · `07` radiant. course03 adds `p1`–`p3` (the three pillars) and `08` (integration pile); course04 adds `00` (starter kit).
 - course02 is numbered by reading priority, not by domain.
 - Every domain file links to the same domain in the other courses.
+- [scaffolding/](scaffolding/README.md) is the empty skeleton for a Labrador web app (benches, BOMs, inventory, costing; EN / PL / RU).
 - New files start from [templates/](templates/README.md): a lesson, a reading-list entry, a domain file, a bench, a company file or a course index, plus the list of other files to update.
 
 ## The five courses

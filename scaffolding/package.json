@@ -1,0 +1,11 @@
+{
+  "name": "labrador",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Labrador lab app: benches, BOMs, inventory and costing for the Labrador sensors & actuators courses.",
+  "packageManager": "pnpm@9.12.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {}
+}
