@@ -11,7 +11,7 @@ Thermocouples, RTDs, a Peltier module, Nitinol wire, a bimetal strip. The pile w
 ## BOM structure
 
 ```
-5  Bench 5 — Thermal  ($116)
+5  Bench 5 — Thermal  ($146)
 ├── 5.1  Thermocouples  ($23)
 │   ├── 5.1.1  Thermocouple wire (Type K, chromel-alumel, 10 m each)
 │   └── 5.1.2  MAX6675 or MAX31855 breakout (Type K reader)
@@ -26,9 +26,11 @@ Thermocouples, RTDs, a Peltier module, Nitinol wire, a bimetal strip. The pile w
 ├── 5.4  Thermal actuators  ($20)
 │   ├── 5.4.1  Nitinol wire (0.5 mm, 1 m, body-temperature actuation)
 │   └── 5.4.2  Bimetal strip (or snap-disc thermostat)
-├── 5.5  Reference & heat sources  ($25)
+├── 5.5  Reference & heat sources  ($55)
 │   ├── 5.5.1  IR non-contact thermometer
-│   └── 5.5.2  Candle, matches
+│   ├── 5.5.2  Candle, matches
+│   ├── 5.5.3  Nichrome wire (Ni80Cr20, 0.3 mm, 5 m)
+│   └── 5.5.4  Propane torch (hand-held)
 └── 5.6  Teardown targets (free)  ($0)
     ├── 5.6.1  Old mercury thermostat
     ├── 5.6.2  USB mini-fridge
@@ -40,7 +42,7 @@ Thermocouples, RTDs, a Peltier module, Nitinol wire, a bimetal strip. The pile w
 
 | Level | Item | Description | Qty | Cost (USD) | Notes |
 |---|---|---|---|---|---|
-| **0** | **5** | **Bench 5 — Thermal** | 1 | **116** | |
+| **0** | **5** | **Bench 5 — Thermal** | 1 | **146** | |
 | **1** | **5.1** | **Thermocouples** | — | **23** | |
 | 2 | 5.1.1 | Thermocouple wire (Type K, chromel-alumel, 10 m each) | 1 | 15 | Make your own junctions |
 | 2 | 5.1.2 | MAX6675 or MAX31855 breakout (Type K reader) | 2 | 8 | SPI output |
@@ -55,16 +57,18 @@ Thermocouples, RTDs, a Peltier module, Nitinol wire, a bimetal strip. The pile w
 | **1** | **5.4** | **Thermal actuators** | — | **20** | |
 | 2 | 5.4.1 | Nitinol wire (0.5 mm, 1 m, body-temperature actuation) | 1 | 15 | Shape-settable |
 | 2 | 5.4.2 | Bimetal strip (or snap-disc thermostat) | 2 | 5 |  |
-| **1** | **5.5** | **Reference & heat sources** | — | **25** | |
+| **1** | **5.5** | **Reference & heat sources** | — | **55** | |
 | 2 | 5.5.1 | IR non-contact thermometer | 1 | 20 | Verify your thermocouple readings |
 | 2 | 5.5.2 | Candle, matches | — | 5 | Cheap variable heat source |
+| 2 | 5.5.3 | Nichrome wire (Ni80Cr20, 0.3 mm, 5 m) | 1 | 5 | About 15 Ω/m — cut a length to make a resistive heater of the resistance you need (Elec → Therm) |
+| 2 | 5.5.4 | Propane torch (hand-held) | 1 | 25 | Welds the B5.1 thermocouple, shape-sets the B5.3 Nitinol. Safety glasses; work over a non-flammable surface |
 | **1** | **5.6** | **Teardown targets (free)** | — | **0** | |
 | 2 | 5.6.1 | Old mercury thermostat | 1 | 0 | → bimetal coil, mercury switch (now illegal but you may still have one). |
 | 2 | 5.6.2 | USB mini-fridge | 1 | 0 | → Peltier module + heatsink stack. |
 | 2 | 5.6.3 | Hairdryer | 1 | 0 | → nichrome heater coil + bimetal cutoff. |
 | 2 | 5.6.4 | Old iron | 1 | 0 | → thermostat with bimetal + adjustment screw. |
 
-**Bench 5 — Thermal total: $116** for components (reuse the starter tools) — the course states ~$115.
+**Bench 5 — Thermal total: $146** for components (reuse the starter tools) — the course states ~$115.
 
 ## Three builds
 
@@ -74,9 +78,8 @@ Twist-weld chromel and alumel with a propane torch. Compare to IR thermometer.
 
 | Uses | |
 |---|---|
-| This bench | `5.1.1` Thermocouple wire · `5.1.2` MAX6675 or MAX31855 breakout · `5.5.1` IR non-contact thermometer |
+| This bench | `5.1.1` Thermocouple wire · `5.1.2` MAX6675 or MAX31855 breakout · `5.5.1` IR non-contact thermometer · `5.5.4` Propane torch |
 | Starter kit | `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) |
-| Not in any BOM | Propane torch |
 
 ### Build 2 — Peltier swap
 
@@ -93,9 +96,9 @@ Wrap wire around a pencil, hold with pliers in a torch flame to shape-set at ~50
 
 | Uses | |
 |---|---|
-| This bench | `5.4.1` Nitinol wire |
+| This bench | `5.4.1` Nitinol wire · `5.5.4` Propane torch |
 | Starter kit | `S.3.3` [Flush cutters, needle-nose pliers](00-starter-kit.md) |
-| Not in any BOM | Pencil · Propane torch · Hot water |
+| Not in any BOM | Pencil · Hot water |
 
 ## Measurement wins
 

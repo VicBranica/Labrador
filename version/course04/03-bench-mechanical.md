@@ -11,7 +11,7 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 ## BOM structure
 
 ```
-3  Bench 3 — Mechanical  ($124)
+3  Bench 3 — Mechanical  ($149)
 ├── 3.1  Strain & force measurement  ($46)
 │   ├── 3.1.1  Strain gauges (120 Ω foil, with leads)
 │   ├── 3.1.2  Cyanoacrylate (CA) adhesive, strain-gauge grade
@@ -27,8 +27,9 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 ├── 3.4  Structure  ($25)
 │   ├── 3.4.1  Aluminum extrusion (20×20, 500 mm)
 │   └── 3.4.2  Carbon fiber tube (10 mm OD, 300 mm)
-├── 3.5  Motion sensing  ($8)
-│   └── 3.5.1  MPU6050 breakout (accelerometer + gyro)
+├── 3.5  Motion & displacement sensing  ($33)
+│   ├── 3.5.1  MPU6050 breakout (accelerometer + gyro)
+│   └── 3.5.2  Dial indicator (0.01 mm, 10 mm travel) + magnetic base
 └── 3.6  Teardown targets (free)  ($0)
     ├── 3.6.1  Kitchen scale
     ├── 3.6.2  Dead printer
@@ -40,7 +41,7 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 
 | Level | Item | Description | Qty | Cost (USD) | Notes |
 |---|---|---|---|---|---|
-| **0** | **3** | **Bench 3 — Mechanical** | 1 | **124** | |
+| **0** | **3** | **Bench 3 — Mechanical** | 1 | **149** | |
 | **1** | **3.1** | **Strain & force measurement** | — | **46** | |
 | 2 | 3.1.1 | Strain gauges (120 Ω foil, with leads) | 10 | 15 | Standard quarter-bridge |
 | 2 | 3.1.2 | Cyanoacrylate (CA) adhesive, strain-gauge grade | 1 | 10 | Loctite 496 or equivalent |
@@ -56,15 +57,16 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 | **1** | **3.4** | **Structure** | — | **25** | |
 | 2 | 3.4.1 | Aluminum extrusion (20×20, 500 mm) | 2 | 10 | For benchtop structures |
 | 2 | 3.4.2 | Carbon fiber tube (10 mm OD, 300 mm) | 1 | 15 | Feel the stiffness-to-weight |
-| **1** | **3.5** | **Motion sensing** | — | **8** | |
+| **1** | **3.5** | **Motion & displacement sensing** | — | **33** | |
 | 2 | 3.5.1 | MPU6050 breakout (accelerometer + gyro) | 2 | 8 | Measure your own motion |
+| 2 | 3.5.2 | Dial indicator (0.01 mm, 10 mm travel) + magnetic base | 1 | 25 | A fixed, spring-loaded gauge for repeatability tests — calipers can't be held still enough |
 | **1** | **3.6** | **Teardown targets (free)** | — | **0** | |
 | 2 | 3.6.1 | Kitchen scale | 1 | 0 | → strain-gauge bridge + ADC. |
 | 2 | 3.6.2 | Dead printer | 1 | 0 | → linear rails, lead screws, flexure-mounted print heads. |
 | 2 | 3.6.3 | Old hard-drive head stack | 1 | 0 | → ultra-precision flexure assembly. |
 | 2 | 3.6.4 | Any watch | 1 | 0 | → gears, bearings, hairspring (the perfect flexure). |
 
-**Bench 3 — Mechanical total: $124** for components (reuse the starter tools) — the course states ~$115.
+**Bench 3 — Mechanical total: $149** for components (reuse the starter tools) — the course states ~$115.
 
 ## 3.3.1 Linear ball bearing types
 
@@ -112,8 +114,8 @@ Glue a gauge to an aluminum ruler, clamp one end, press the other, read the HX71
 | Uses | |
 |---|---|
 | This bench | `3.1.1` Strain gauges · `3.1.2` Cyanoacrylate · `3.1.3` HX711 load-cell amplifier breakout |
-| Starter kit | `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) · `S.2.2` [Jumper wire kit](00-starter-kit.md) |
-| Not in any BOM | Aluminum ruler · Clamp |
+| Starter kit | `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) · `S.2.2` [Jumper wire kit](00-starter-kit.md) · `S.3.7` [Small bench vise or two 100 mm C-clamps](00-starter-kit.md) |
+| Not in any BOM | Aluminum ruler |
 
 ### Build 2 — Monolithic flexure
 
@@ -122,8 +124,7 @@ Nibble or hacksaw a parallel-blade flexure from spring steel. Verify no backlash
 | Uses | |
 |---|---|
 | This bench | `3.2.1` Spring steel strip |
-| Starter kit | `S.1.2` [Digital calipers](00-starter-kit.md) |
-| Not in any BOM | Nibbler or hacksaw |
+| Starter kit | `S.1.2` [Digital calipers](00-starter-kit.md) · `S.3.8` [Mini hacksaw + metal-cutting blades](00-starter-kit.md) |
 
 ### Build 3 — Kinematic mount
 
@@ -131,9 +132,9 @@ Three divots, three balls. Lift and replace. Measure return position with a dial
 
 | Uses | |
 |---|---|
-| This bench | `3.3.2` Precision ground steel balls |
+| This bench | `3.3.2` Precision ground steel balls · `3.5.2` Dial indicator + magnetic base |
 | Other benches | `7.1.1` [Laser pointers](07-bench-radiant.md) |
-| Not in any BOM | Plate with three divots · Dial indicator (optional) |
+| Not in any BOM | Plate with three divots |
 
 ## Measurement wins
 

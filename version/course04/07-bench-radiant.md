@@ -11,10 +11,11 @@ LEDs, photodiodes, a laser pointer, lenses, a CCD out of an old camera. The pile
 ## BOM structure
 
 ```
-7  Bench 7 — Radiant  ($100)
-├── 7.1  Light sources  ($20)
+7  Bench 7 — Radiant  ($103)
+├── 7.1  Light sources  ($23)
 │   ├── 7.1.1  Laser pointers (red, green)
-│   └── 7.1.2  LEDs (red, green, blue, white, IR 940 nm, UV 395 nm)
+│   ├── 7.1.2  LEDs (red, green, blue, white, IR 940 nm, UV 395 nm)
+│   └── 7.1.3  Incandescent flashlight bulbs + holder
 ├── 7.2  Discrete detectors  ($10)
 │   ├── 7.2.1  Photodiodes (BPW34 silicon, 300–1100 nm)
 │   └── 7.2.2  Phototransistors (TEMT6000 ambient-light)
@@ -42,10 +43,11 @@ LEDs, photodiodes, a laser pointer, lenses, a CCD out of an old camera. The pile
 
 | Level | Item | Description | Qty | Cost (USD) | Notes |
 |---|---|---|---|---|---|
-| **0** | **7** | **Bench 7 — Radiant** | 1 | **100** | |
-| **1** | **7.1** | **Light sources** | — | **20** | |
+| **0** | **7** | **Bench 7 — Radiant** | 1 | **103** | |
+| **1** | **7.1** | **Light sources** | — | **23** | |
 | 2 | 7.1.1 | Laser pointers (red, green) | 1 each | 10 | <5 mW; eye-safe class II |
 | 2 | 7.1.2 | LEDs (red, green, blue, white, IR 940 nm, UV 395 nm) | 10 each | 10 | Measure threshold voltages |
+| 2 | 7.1.3 | Incandescent flashlight bulbs + holder | 2 | 3 | A hot filament's continuous spectrum for the B7.3 spectrometer; runs from the `1.3.1` battery pack |
 | **1** | **7.2** | **Discrete detectors** | — | **10** | |
 | 2 | 7.2.1 | Photodiodes (BPW34 silicon, 300–1100 nm) | 5 | 5 |  |
 | 2 | 7.2.2 | Phototransistors (TEMT6000 ambient-light) | 3 | 5 |  |
@@ -68,7 +70,7 @@ LEDs, photodiodes, a laser pointer, lenses, a CCD out of an old camera. The pile
 | 2 | 7.6.4 | Dead smartphone | 1 | 0 | → tiny lenses, image sensor, maybe a VCSEL for FaceID. |
 | 2 | 7.6.5 | Broken fluorescent tube (**handle carefully — contains mercury**) | 1 | 0 | → phosphor coating. |
 
-**Bench 7 — Radiant total: $100** for components (reuse the starter tools) — the course states ~$100.
+**Bench 7 — Radiant total: $103** for components (reuse the starter tools) — the course states ~$100.
 
 ## Three builds
 
@@ -96,8 +98,9 @@ Slit, grating, screen. Compare an incandescent bulb's spectrum to a fluorescent 
 
 | Uses | |
 |---|---|
-| This bench | `7.4.1` Diffraction grating sheet · `7.5.1` Index cards, foil, pins · `7.4.2` Lenses |
-| Not in any BOM | Screen · Incandescent bulb · Fluorescent tube |
+| This bench | `7.4.1` Diffraction grating sheet · `7.5.1` Index cards, foil, pins · `7.4.2` Lenses · `7.1.3` Incandescent flashlight bulbs + holder |
+| Other benches | `1.3.1` [9 V battery + clip, 4×AA holder](01-bench-electrical.md) |
+| Not in any BOM | Screen · Fluorescent tube |
 
 ## Measurement wins
 

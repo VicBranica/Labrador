@@ -13,15 +13,15 @@
 
 | File | Bench | Domain | Theory | BOM sum (USD) | Course states |
 |---|---|---|---|---|---|
-| [00-starter-kit.md](00-starter-kit.md) | Universal Starter Kit | All | — | 165–265 | ~160–250 |
+| [00-starter-kit.md](00-starter-kit.md) | Universal Starter Kit | All | — | 210–310 | ~160–250 |
 | [01-bench-electrical.md](01-bench-electrical.md) | Bench 1 | Electrical | [course03/01-electrical](../course03/01-electrical/README.md) | 101 | ~100 |
 | [02-bench-magnetic.md](02-bench-magnetic.md) | Bench 2 | Magnetic | [course03/02-magnetic](../course03/02-magnetic/README.md) | 95 | ~95 |
-| [03-bench-mechanical.md](03-bench-mechanical.md) | Bench 3 | Mechanical | [course03/03-mechanical](../course03/03-mechanical/README.md) | 124 | ~115 |
-| [04-bench-fluidic.md](04-bench-fluidic.md) | Bench 4 | Fluidic | [course03/04-fluidic](../course03/04-fluidic/README.md) | 113 | ~115 |
-| [05-bench-thermal.md](05-bench-thermal.md) | Bench 5 | Thermal | [course03/05-thermal](../course03/05-thermal/README.md) | 116 | ~115 |
+| [03-bench-mechanical.md](03-bench-mechanical.md) | Bench 3 | Mechanical | [course03/03-mechanical](../course03/03-mechanical/README.md) | 149 | ~115 |
+| [04-bench-fluidic.md](04-bench-fluidic.md) | Bench 4 | Fluidic | [course03/04-fluidic](../course03/04-fluidic/README.md) | 129 | ~115 |
+| [05-bench-thermal.md](05-bench-thermal.md) | Bench 5 | Thermal | [course03/05-thermal](../course03/05-thermal/README.md) | 146 | ~115 |
 | [06-bench-chemical.md](06-bench-chemical.md) | Bench 6 | Chemical | [course03/06-chemical](../course03/06-chemical/README.md) | 137 | ~135 |
-| [07-bench-radiant.md](07-bench-radiant.md) | Bench 7 | Radiant | [course03/07-radiant](../course03/07-radiant/README.md) | 100 | ~100 |
-| | **Grand total** | | | **951–1051** | **~935** |
+| [07-bench-radiant.md](07-bench-radiant.md) | Bench 7 | Radiant | [course03/07-radiant](../course03/07-radiant/README.md) | 103 | ~100 |
+| | **Grand total** | | | **1070–1170** | **~935** |
 
 The nice-to-have instruments in the starter kit (oscilloscope, power supply, function generator, microcontroller, thermal camera, USB microscope) add $395–610 and are not in the totals above.
 

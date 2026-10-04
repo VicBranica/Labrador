@@ -7,7 +7,7 @@
 ## BOM structure
 
 ```
-S  Universal Starter Kit — core  ($165–265)
+S  Universal Starter Kit — core  ($210–310)
 ├── S.1  Measurement tools  ($60–110)
 │   ├── S.1.1  Digital multimeter (6000-count)
 │   ├── S.1.2  Digital calipers (150 mm)
@@ -16,22 +16,26 @@ S  Universal Starter Kit — core  ($165–265)
 ├── S.2  Prototyping  ($20)
 │   ├── S.2.1  Breadboard, solderless (830 tie-point)
 │   └── S.2.2  Jumper wire kit (M-M, M-F, F-F)
-├── S.3  Soldering & hand tools  ($75–125)
+├── S.3  Soldering & hand tools  ($110–160)
 │   ├── S.3.1  Soldering iron (temp-controlled, 60 W)
 │   ├── S.3.2  Solder (60/40 or lead-free, 0.6 mm)
 │   ├── S.3.3  Flush cutters, needle-nose pliers
 │   ├── S.3.4  Precision screwdriver set (Phillips, flat, Torx)
-│   └── S.3.5  Hex key set (metric + imperial)
-└── S.4  Safety & records  ($10)
+│   ├── S.3.5  Hex key set (metric + imperial)
+│   ├── S.3.6  Wire strippers (10–24 AWG)
+│   ├── S.3.7  Small bench vise or two 100 mm C-clamps
+│   └── S.3.8  Mini hacksaw + metal-cutting blades
+└── S.4  Safety & records  ($20)
     ├── S.4.1  Safety glasses
-    └── S.4.2  Notebook + pen
+    ├── S.4.2  Notebook + pen
+    └── S.4.3  Nitrile gloves (box of 100)
 ```
 
 ## Multilevel BOM — core (buy first)
 
 | Level | Item | Description | Qty | Cost (USD) | Notes |
 |---|---|---|---|---|---|
-| **0** | **S** | **Universal Starter Kit — core** | 1 | **165–265** | |
+| **0** | **S** | **Universal Starter Kit — core** | 1 | **210–310** | |
 | **1** | **S.1** | **Measurement tools** | — | **60–110** | |
 | 2 | S.1.1 | Digital multimeter (6000-count) | 1 | 25–50 | AstroAI, Fluke 101 for the budget option |
 | 2 | S.1.2 | Digital calipers (150 mm) | 1 | 15–40 | Mitutoyo if you can swing it; cheap ones work |
@@ -40,17 +44,21 @@ S  Universal Starter Kit — core  ($165–265)
 | **1** | **S.2** | **Prototyping** | — | **20** | |
 | 2 | S.2.1 | Breadboard, solderless (830 tie-point) | 2 | 10 | Keep one for electronics, one for sensor prototyping |
 | 2 | S.2.2 | Jumper wire kit (M-M, M-F, F-F) | 1 | 10 | Pre-cut assortment |
-| **1** | **S.3** | **Soldering & hand tools** | — | **75–125** | |
+| **1** | **S.3** | **Soldering & hand tools** | — | **110–160** | |
 | 2 | S.3.1 | Soldering iron (temp-controlled, 60 W) | 1 | 30–80 | Pinecil or Hakko FX-888D if budget allows |
 | 2 | S.3.2 | Solder (60/40 or lead-free, 0.6 mm) | 1 roll | 10 |  |
 | 2 | S.3.3 | Flush cutters, needle-nose pliers | 1 set | 10 |  |
 | 2 | S.3.4 | Precision screwdriver set (Phillips, flat, Torx) | 1 | 15 | For disassembly — the heart of this course |
 | 2 | S.3.5 | Hex key set (metric + imperial) | 1 | 10 |  |
-| **1** | **S.4** | **Safety & records** | — | **10** | |
+| 2 | S.3.6 | Wire strippers (10–24 AWG) | 1 | 10 | Magnet wire, thermocouple wire, jumpers |
+| 2 | S.3.7 | Small bench vise or two 100 mm C-clamps | 1 | 15 | Workholding — clamps the B3.1 cantilever |
+| 2 | S.3.8 | Mini hacksaw + metal-cutting blades | 1 | 10 | Cuts the B3.2 spring-steel flexure |
+| **1** | **S.4** | **Safety & records** | — | **20** | |
 | 2 | S.4.1 | Safety glasses | 1 | 5 | Non-negotiable |
 | 2 | S.4.2 | Notebook + pen | 1 | 5 | Draw every teardown. Date everything. |
+| 2 | S.4.3 | Nitrile gloves (box of 100) | 1 | 10 | For electrolytes and CuSO₄ on Bench 6 |
 
-**Starter total (core): $165–265** — the course states ~$160–250.
+**Starter total (core): $210–310** — the course states ~$160–250.
 
 ## Multilevel BOM — nice-to-have (add when you need them)
 
@@ -79,8 +87,12 @@ S  Universal Starter Kit — core  ($165–265)
 | `S.3.3` Flush cutters, needle-nose pliers | [B5.3 Nitinol spring](05-bench-thermal.md#build-3--nitinol-spring) |
 | `S.3.4` Precision screwdriver set | General use — no specific build |
 | `S.3.5` Hex key set | General use — no specific build |
+| `S.3.6` Wire strippers | General use — no specific build |
+| `S.3.7` Small bench vise or two 100 mm C-clamps | [B3.1 Strain-gauge cantilever](03-bench-mechanical.md#build-1--strain-gauge-cantilever) |
+| `S.3.8` Mini hacksaw + metal-cutting blades | [B3.2 Monolithic flexure](03-bench-mechanical.md#build-2--monolithic-flexure) |
 | `S.4.1` Safety glasses | General use — no specific build |
 | `S.4.2` Notebook + pen | General use — no specific build |
+| `S.4.3` Nitrile gloves | [B6.2 Salt-concentration cell](06-bench-chemical.md#build-2--salt-concentration-cell) |
 | `S.5.1` USB oscilloscope | [B1.2 RC low-pass filter](01-bench-electrical.md#build-2--rc-low-pass-filter), [B1.3 Non-inverting op-amp with gain 10](01-bench-electrical.md#build-3--non-inverting-op-amp-with-gain-10) |
 | `S.5.2` Benchtop DC power supply | General use — no specific build |
 | `S.5.3` Function generator | [B1.2 RC low-pass filter](01-bench-electrical.md#build-2--rc-low-pass-filter), [B1.3 Non-inverting op-amp with gain 10](01-bench-electrical.md#build-3--non-inverting-op-amp-with-gain-10) |
