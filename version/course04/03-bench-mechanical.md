@@ -11,7 +11,7 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 ## BOM structure
 
 ```
-3  Bench 3 — Mechanical  ($114)
+3  Bench 3 — Mechanical  ($124)
 ├── 3.1  Strain & force measurement  ($46)
 │   ├── 3.1.1  Strain gauges (120 Ω foil, with leads)
 │   ├── 3.1.2  Cyanoacrylate (CA) adhesive, strain-gauge grade
@@ -20,9 +20,10 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 ├── 3.2  Flexures & springs  ($20)
 │   ├── 3.2.1  Spring steel strip (0.5 mm × 25 mm × 300 mm)
 │   └── 3.2.2  Compression springs, assorted
-├── 3.3  Bearings & kinematics  ($15)
+├── 3.3  Bearings & kinematics  ($25)
 │   ├── 3.3.1  Linear ball bearings (LM8UU)
-│   └── 3.3.2  Precision ground steel balls (6 mm)
+│   ├── 3.3.2  Precision ground steel balls (6 mm)
+│   └── 3.3.3  Hardened linear shafts (8 mm × 300 mm)
 ├── 3.4  Structure  ($25)
 │   ├── 3.4.1  Aluminum extrusion (20×20, 500 mm)
 │   └── 3.4.2  Carbon fiber tube (10 mm OD, 300 mm)
@@ -39,7 +40,7 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 
 | Level | Item | Description | Qty | Cost (USD) | Notes |
 |---|---|---|---|---|---|
-| **0** | **3** | **Bench 3 — Mechanical** | 1 | **114** | |
+| **0** | **3** | **Bench 3 — Mechanical** | 1 | **124** | |
 | **1** | **3.1** | **Strain & force measurement** | — | **46** | |
 | 2 | 3.1.1 | Strain gauges (120 Ω foil, with leads) | 10 | 15 | Standard quarter-bridge |
 | 2 | 3.1.2 | Cyanoacrylate (CA) adhesive, strain-gauge grade | 1 | 10 | Loctite 496 or equivalent |
@@ -48,9 +49,10 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 | **1** | **3.2** | **Flexures & springs** | — | **20** | |
 | 2 | 3.2.1 | Spring steel strip (0.5 mm × 25 mm × 300 mm) | 1 | 10 | For hand-cut flexures |
 | 2 | 3.2.2 | Compression springs, assorted | 20 | 10 |  |
-| **1** | **3.3** | **Bearings & kinematics** | — | **15** | |
+| **1** | **3.3** | **Bearings & kinematics** | — | **25** | |
 | 2 | 3.3.1 | Linear ball bearings (LM8UU) | 10 | 10 | 8 × 15 × 24 mm recirculating-ball bushing, double-sealed. Material: AISI 52100 bearing steel (GCr15 · 100Cr6 / 1.3505 · SUJ2). Runs on an 8 mm hardened shaft. See [3.3.1 types](#331-linear-ball-bearing-types) |
 | 2 | 3.3.2 | Precision ground steel balls (6 mm) | 10 | 5 | For kinematic mounts |
+| 2 | 3.3.3 | Hardened linear shafts (8 mm × 300 mm) | 2 | 10 | The running surface for the `3.3.1` LM8UU bearings — the balls roll directly on the shaft, so it must be harder than they are. Induction-hardened to about HRC 60 and hard-chrome plated, ground to h6 tolerance. Material: GCr15 bearing steel or AISI 1045 (C45) carbon steel. Cut to length, or buy 3D-printer rod pairs |
 | **1** | **3.4** | **Structure** | — | **25** | |
 | 2 | 3.4.1 | Aluminum extrusion (20×20, 500 mm) | 2 | 10 | For benchtop structures |
 | 2 | 3.4.2 | Carbon fiber tube (10 mm OD, 300 mm) | 1 | 15 | Feel the stiffness-to-weight |
@@ -62,7 +64,7 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 | 2 | 3.6.3 | Old hard-drive head stack | 1 | 0 | → ultra-precision flexure assembly. |
 | 2 | 3.6.4 | Any watch | 1 | 0 | → gears, bearings, hairspring (the perfect flexure). |
 
-**Bench 3 — Mechanical total: $114** for components (reuse the starter tools) — the course states ~$115.
+**Bench 3 — Mechanical total: $124** for components (reuse the starter tools) — the course states ~$115.
 
 ## 3.3.1 Linear ball bearing types
 
@@ -99,7 +101,7 @@ A linear ball bearing lets a part **slide** along a shaft or rail; balls recircu
 
 All of these are made from the same bearing steel: **AISI 52100** (US), **GCr15** (China), **100Cr6 / 1.3505** (EU), **SUJ2** (Japan). Cheap versions usually have a plastic (POM) ball retainer; better ones use steel.
 
-**For this bench:** LM8UU is the one to buy, with two 8 mm hardened shafts (not in this BOM). Pull one apart to see the ball circuits — a free lesson in recirculation.
+**For this bench:** LM8UU is the one to buy, with two 8 mm hardened shafts (`3.3.3`). Pull one apart to see the ball circuits — a free lesson in recirculation.
 
 ## Three builds
 
