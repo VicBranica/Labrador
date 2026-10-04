@@ -19,6 +19,13 @@ The single list of design heuristics for the project. [course03's integration pi
 8. **The second one is always better than the first.** Expect to throw the first version away.
 9. **Simplicity over cleverness.** Fewer parts, fewer tolerances, fewer failure modes.
 
+## System design
+
+10. **Pick material and technique together.** PZT needs poling; Nitinol needs shape-setting; Si needs lithography.
+11. **Measurement makes design.** You can only optimize what you can measure.
+12. **Specify what matters, loosen what doesn't.** Tolerances cost money; most dimensions don't need them.
+13. **Design for debug.** Log, instrument, flag, replay.
+
 ## Why Discoveries + Materials Matter Together
 
 - **A discovery without a material is a lab curiosity.** The piezoelectric effect (1880, quartz) was known for 60 years before PZT (1950s) made it an industrial technology.

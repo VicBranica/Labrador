@@ -33,6 +33,10 @@ The full list, with the reasoning behind each rule, is in [course02 — Design H
 7. Build it yourself.
 8. The second one is always better than the first.
 9. Simplicity over cleverness.
+10. Pick material and technique together.
+11. Measurement makes design.
+12. Specify what matters, loosen what doesn't.
+13. Design for debug.
 
 ## The one-page map
 

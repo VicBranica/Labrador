@@ -763,15 +763,7 @@ Photon · Wavelength / frequency · Intensity · Radiance · Spectrum · Polariz
 
 ### Core design heuristics
 
-- **Stay in one domain if you can.** Each crossing adds loss, noise, nonlinearity, failure modes.
-- **Pick material and technique together.** PZT needs poling; Nitinol needs shape-setting; Si needs lithography.
-- **Measurement makes design.** You can only optimize what you can measure.
-- **Match impedances across every boundary.**
-- **Bandwidth lives in the slowest domain.** A fast electrical controller behind a thermal actuator is a thermal system.
-- **Energy density determines size.** Material sets the ceiling; technique sets how close you get.
-- **Rugged environment = material first.** Hastelloy, sapphire, Viton, platinum.
-- **Specify what matters, loosen what doesn't.** Tolerances cost money; most dimensions don't need them.
-- **Design for debug.** Log, instrument, flag, replay.
+The design heuristics live in one list: [course02 — Design Heuristics](../course02/09-gelbart-videos/design.md). It covers physics and materials (stay in one domain, match impedances, bandwidth lives in the slowest domain, …), practice (build it yourself, simplicity over cleverness, …) and system design (measurement makes design, specify what matters, design for debug, …). Apply them to the capstone below.
 
 ### Closed-loop design checklist
 
