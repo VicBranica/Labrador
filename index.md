@@ -49,3 +49,18 @@ A self-paced course: [README.md](version/Course1/README.md)
 | 5 | [05-thermal](version/course03/05-thermal/README.md) | Thermal |
 | 6 | [06-chemical](version/course03/06-chemical/README.md) | Chemical |
 | 7 | [07-radiant](version/course03/07-radiant/README.md) | Radiant |
+
+### [course04/](version/course04/) — Build Your Own Sensors & Actuators Lab
+
+[README.md](version/course04/README.md) — one file: universal starter kit plus a bench BOM per domain, each linked to its course03 theory file.
+
+| Bench | Domain | Theory |
+|---|---|---|
+| [Universal Starter Kit](version/course04/README.md#universal-starter-kit-buy-once-use-for-every-bench) | All | — |
+| [Bench 1](version/course04/README.md#bench-1--electrical) | Electrical | [course03/01-electrical](version/course03/01-electrical/README.md) |
+| [Bench 2](version/course04/README.md#bench-2--magnetic) | Magnetic | [course03/02-magnetic](version/course03/02-magnetic/README.md) |
+| [Bench 3](version/course04/README.md#bench-3--mechanical) | Mechanical | [course03/03-mechanical](version/course03/03-mechanical/README.md) |
+| [Bench 4](version/course04/README.md#bench-4--fluidic) | Fluidic | [course03/04-fluidic](version/course03/04-fluidic/README.md) |
+| [Bench 5](version/course04/README.md#bench-5--thermal) | Thermal | [course03/05-thermal](version/course03/05-thermal/README.md) |
+| [Bench 6](version/course04/README.md#bench-6--chemical) | Chemical | [course03/06-chemical](version/course03/06-chemical/README.md) |
+| [Bench 7](version/course04/README.md#bench-7--radiant) | Radiant | [course03/07-radiant](version/course03/07-radiant/README.md) |
