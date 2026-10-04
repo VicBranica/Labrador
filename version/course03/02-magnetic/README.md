@@ -6,7 +6,7 @@
 
 **Lesson:** [course01 Lesson 2](../../course01/Lesson2.md) · **Theory:** [course01 Module 2](../../course01/index.md#module-2--magnetic-domain) · **Bench:** [course04 Bench 2](../../course04/02-bench-magnetic.md)
 
-> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E).
+> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E), then where to go next (F–G).
 
 ## A. What you're looking at
 

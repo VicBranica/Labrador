@@ -6,7 +6,7 @@
 
 **Lesson:** [course01 Lesson 4](../../course01/Lesson4.md) · **Theory:** [course01 Module 4](../../course01/index.md#module-4--fluidic-domain) · **Bench:** [course04 Bench 4](../../course04/04-bench-fluidic.md)
 
-> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E).
+> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E), then where to go next (F–G).
 
 ## A. What you're looking at
 

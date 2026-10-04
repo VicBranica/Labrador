@@ -6,7 +6,7 @@
 
 **Lesson:** [course01 Lesson 7](../../course01/Lesson7.md) · **Theory:** [course01 Module 7](../../course01/index.md#module-7--radiant-domain) · **Bench:** [course04 Bench 7](../../course04/07-bench-radiant.md)
 
-> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E).
+> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E), then where to go next (F–G).
 
 ## A. What you're looking at
 

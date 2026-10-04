@@ -6,7 +6,7 @@
 
 **Lesson:** [course01 Lesson 1](../../course01/Lesson1.md) · **Theory:** [course01 Module 1](../../course01/index.md#module-1--electrical-domain) · **Bench:** [course04 Bench 1](../../course04/01-bench-electrical.md)
 
-> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E).
+> Hands on first (A–C), then the six layers from the bottom of the stack up (1–6), then back to the bench (D–E), then where to go next (F–G).
 
 ## A. What you're looking at
 

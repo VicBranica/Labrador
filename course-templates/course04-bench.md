@@ -2,6 +2,8 @@
 
 [← Course 04 index](index.md) · [← Bench {{N-1}}](0{{N-1}}-bench-{{previous}}.md) · [Bench {{N+1}} →](0{{N+1}}-bench-{{next}}.md)
 
+*[Bench 1's previous link is [← Starter kit](00-starter-kit.md); bench 7's next link is [Course 04 index →](index.md).]*
+
 **Course:** [course01 Module {{N}}](../course01/index.md#module-{{n}}--{{domain}}-domain) · **Theory:** [course03/{{NN}}-{{domain}}](../course03/{{NN}}-{{domain}}/README.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
 
 ## What's on it
