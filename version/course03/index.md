@@ -1,0 +1,40 @@
+# Course 03 — The Six-Layer Stack, Domain by Domain
+
+> **Course 03 of 06 — Domain stack** · [← course02](../course02/index.md) · [Project map](../../index.md) · [course04 →](../course04/index.md)
+>
+> Each domain arranged by the six-layer stack: Vocabulary → Measurement → Discovery → Material → Technique → Features.
+>
+> **Builds on:** course01 Modules 1–7 (content), course02 (sources)  
+> **Feeds into:** course04 (each bench puts a domain on the table), course05 (the same domain as a hands-on pile)
+
+Each domain file is organized by the same stack, read from the bottom up:
+
+```
+         FEATURES
+            ↑
+         TECHNIQUE      ← how the material becomes a device
+            ↑
+         MATERIAL       ← what carries the effect
+            ↑
+         DISCOVERY      ← the physical effect itself
+            ↑
+         MEASUREMENT    ← the instrument that first saw the effect
+            ↑
+         VOCABULARY     ← the terms that let you reason about all of the above
+```
+
+| # | Domain | Effort × Flow | File |
+|---|---|---|---|
+| 1 | Electrical | Voltage × Current | [01-electrical](01-electrical/README.md) |
+| 2 | Magnetic | MMF × dΦ/dt | [02-magnetic](02-magnetic/README.md) |
+| 3 | Mechanical | Force × Velocity · Torque × ω | [03-mechanical](03-mechanical/README.md) |
+| 4 | Fluidic | Pressure × Volumetric flow | [04-fluidic](04-fluidic/README.md) |
+| 5 | Thermal | Temperature × Heat flow | [05-thermal](05-thermal/README.md) |
+| 6 | Chemical | Concentration (no clean effort × flow) | [06-chemical](06-chemical/README.md) |
+| 7 | Radiant | Photon flux (no clean effort × flow) | [07-radiant](07-radiant/README.md) |
+
+## Sources
+
+- [course01 — Physical Domains in Sensors & Actuators](../course01/index.md): Modules 1–7 and Appendices A, C, D, F, G.
+- [course02 — Reading list](../course02/index.md): the books and videos cited in each domain file.
+- [Design heuristics](../course02/09-gelbart-videos/design.md): applies across all seven domains.
