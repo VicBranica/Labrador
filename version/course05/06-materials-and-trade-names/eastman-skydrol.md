@@ -1,0 +1,33 @@
+# Eastman Chemical (Skydrol)
+
+[← Materials & trade names](index.md) · [Course 05 index](../index.md)
+
+| | |
+|---|---|
+| Type | Manufacturer |
+| Headquarters | Kingsport, Tennessee, USA |
+| Founded | — |
+| Owner / parent | — |
+| Website | [www.skydrol.com](https://www.skydrol.com) |
+| Cited in | course01, course03 |
+
+## What they make
+
+Skydrol phosphate-ester aviation hydraulic fluids.
+
+## Why it's in the courses
+
+Skydrol is the fire-resistant hydraulic fluid aircraft use because it doesn't burn when a line is hit. It was developed with the aircraft industry in the 1940s; Eastman acquired it with Solutia in 2012.
+
+## Cited in the courses
+
+| File | Section | Mention |
+|---|---|---|
+| [course01/Lesson4.md](../../course01/Lesson4.md#4-key-materials) | 4. Key materials | …ds: mineral oil for most things; phosphate ester (Skydrol) for aircraft because it doesn't burn when the hydraulic line gets hit.… |
+| [course01/index.md](../../course01/index.md#try-it-module-4-exercises) | Try it (Module 4 exercises) | 3. Explain why aviation hydraulics use phosphate-ester (Skydrol) rather than mineral oil. |
+| [course01/index.md](../../course01/index.md#appendix-c--materials-index) | Appendix C — Materials index | Fluids — Mineral oil, synthetic ester, water-glycol, phosphate ester (Skydrol), silicone oil, Bi₂Te₃ (TE elements), gallium (liquid metal). |
+| [course03/04-fluidic/README.md](../../course03/04-fluidic/README.md#4-material) | 4. Material | …ds: mineral oil for most things; phosphate ester (Skydrol) for aircraft because it doesn't burn when the hydraulic line gets hit.… |
+
+## Sources
+
+- <https://www.skydrol.com>

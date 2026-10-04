@@ -1,12 +1,12 @@
 # Physical Domains in Sensors & Actuators
 ## A Self-Paced Learning Course
 
-> **Course 01 of 06 — Core course** · [Project map](../../index.md) · [course02 →](../course02/index.md)
+> **Course 01 of 05 — Core course** · [Project map](../../index.md) · [course02 →](../course02/index.md)
 >
 > The theory spine: foundations, the seven domains, cross-domain transducers, integration and capstone.
 >
 > **Builds on:** —  
-> **Feeds into:** course02 (deeper reading), course03 (each module split into six layers), course04 (hands-on benches), course05 (seven piles, three pillars)
+> **Feeds into:** course02 (deeper reading), course03 (each domain as a pile and a six-layer stack), course04 (hands-on benches), course05 (manufacturers of every part)
 >
 > **Lessons:** [Lessons 1–7](#lessons) — one per domain
 
@@ -16,15 +16,15 @@
 
 One lesson per domain, each in the same nine steps: what you're looking at · the one thing to understand · what to build · key materials · key techniques · the clever trick · who to know · the example everyone should work · what to read later.
 
-| Lesson | Domain | Theory | Stack | Bench | Pile |
-|---|---|---|---|---|---|
-| [Lesson 1](Lesson1.md) | Electrical | [Module 1](#module-1--electrical-domain) | [course03](../course03/01-electrical/README.md) | [course04](../course04/01-bench-electrical.md) | [course05](../course05/01-electrical.md) |
-| [Lesson 2](Lesson2.md) | Magnetic | [Module 2](#module-2--magnetic-domain) | [course03](../course03/02-magnetic/README.md) | [course04](../course04/02-bench-magnetic.md) | [course05](../course05/02-magnetic.md) |
-| [Lesson 3](Lesson3.md) | Mechanical | [Module 3](#module-3--mechanical-domain) | [course03](../course03/03-mechanical/README.md) | [course04](../course04/03-bench-mechanical.md) | [course05](../course05/03-mechanical.md) |
-| [Lesson 4](Lesson4.md) | Fluidic | [Module 4](#module-4--fluidic-domain) | [course03](../course03/04-fluidic/README.md) | [course04](../course04/04-bench-fluidic.md) | [course05](../course05/04-fluidic.md) |
-| [Lesson 5](Lesson5.md) | Thermal | [Module 5](#module-5--thermal-domain) | [course03](../course03/05-thermal/README.md) | [course04](../course04/05-bench-thermal.md) | [course05](../course05/05-thermal.md) |
-| [Lesson 6](Lesson6.md) | Chemical | [Module 6](#module-6--chemical-domain) | [course03](../course03/06-chemical/README.md) | [course04](../course04/06-bench-chemical.md) | [course05](../course05/06-chemical.md) |
-| [Lesson 7](Lesson7.md) | Radiant | [Module 7](#module-7--radiant-domain) | [course03](../course03/07-radiant/README.md) | [course04](../course04/07-bench-radiant.md) | [course05](../course05/07-radiant.md) |
+| Lesson | Domain | Theory | Domain stack | Bench |
+|---|---|---|---|---|
+| [Lesson 1](Lesson1.md) | Electrical | [Module 1](#module-1--electrical-domain) | [course03](../course03/01-electrical/README.md) | [course04](../course04/01-bench-electrical.md) |
+| [Lesson 2](Lesson2.md) | Magnetic | [Module 2](#module-2--magnetic-domain) | [course03](../course03/02-magnetic/README.md) | [course04](../course04/02-bench-magnetic.md) |
+| [Lesson 3](Lesson3.md) | Mechanical | [Module 3](#module-3--mechanical-domain) | [course03](../course03/03-mechanical/README.md) | [course04](../course04/03-bench-mechanical.md) |
+| [Lesson 4](Lesson4.md) | Fluidic | [Module 4](#module-4--fluidic-domain) | [course03](../course03/04-fluidic/README.md) | [course04](../course04/04-bench-fluidic.md) |
+| [Lesson 5](Lesson5.md) | Thermal | [Module 5](#module-5--thermal-domain) | [course03](../course03/05-thermal/README.md) | [course04](../course04/05-bench-thermal.md) |
+| [Lesson 6](Lesson6.md) | Chemical | [Module 6](#module-6--chemical-domain) | [course03](../course03/06-chemical/README.md) | [course04](../course04/06-bench-chemical.md) |
+| [Lesson 7](Lesson7.md) | Radiant | [Module 7](#module-7--radiant-domain) | [course03](../course03/07-radiant/README.md) | [course04](../course04/07-bench-radiant.md) |
 
 ---
 

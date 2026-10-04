@@ -30,7 +30,7 @@
 | 8 | [The example everyone should work](#8-the-example-everyone-should-work) | Optional — work it with pencil and paper. |
 | 9 | [What to read later](#9-what-to-read-later) | Optional — where to go deeper. |
 
-**Theory:** [Module 1](index.md#module-1--electrical-domain) · **Stack:** [course03/01-electrical](../course03/01-electrical/README.md) · **Bench:** [course04/01-bench-electrical](../course04/01-bench-electrical.md) · **Pile:** [course05/01-electrical](../course05/01-electrical.md)
+**Theory:** [Module 1](index.md#module-1--electrical-domain) · **Stack:** [course03/01-electrical](../course03/01-electrical/README.md) · **Bench:** [course04/01-bench-electrical](../course04/01-bench-electrical.md)
 
 ## 1. What you're looking at
 
@@ -78,7 +78,7 @@ Drawing wire, electroplating, sputtering thin films, photolithography on silicon
 
 Volta (made steady current possible), Faraday (induction), Ohm (the law), Kirchhoff (the circuit), Bardeen/Brattain/Shockley (the transistor), Kilby/Noyce (the integrated circuit). Each one measured something new with the galvanometer of their day.
 
-Year-by-year table of what each one measured and with which equipment: [course05 Pile 1](../course05/01-electrical.md#discoverers--measurement-and-equipment).
+Year-by-year table of what each one measured and with which equipment: [course03 Domain 1](../course03/01-electrical/README.md#2-measurement).
 
 ## 8. The example everyone should work
 

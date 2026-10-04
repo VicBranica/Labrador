@@ -1,101 +1,203 @@
-# Course 05 — The Seven Piles
+# Course 05 — Manufacturers & Brands
 
-> **Course 05 of 06 — Seven piles, three pillars** · [← course04](../course04/index.md) · [Project map](../../index.md) · [course06 →](../course06/index.md)
+> **Course 05 of 05 — Manufacturers & brands** · [← course04](../course04/index.md) · [Project map](../../index.md)
 >
-> A bench-first map of the discipline: seven piles of hardware, three pillars that explain every device, and the terms and tables to go with them.
+> Every manufacturer, brand, trade name and supplier cited in courses 01–04, researched: who they are, what they make, why they appear in the courses, and every place they're cited.
 >
-> **Builds on:** course01 (Modules 0 and 8), course04 (the bench itself)  
-> **Feeds into:** course03 and course04 (each pile links its theory and bench)
+> **Builds on:** course01 (materials and equipment), course03 (domain stack and piles), course04 (BOMs and where to buy)  
+> **Feeds into:** course04 (where to source each BOM item)
 
-## The three pillars
+## How to read this course
 
-```
-   Any sensor or actuator
-   is one or more arrows
-   between two piles.
+- One folder per category, one file per company.
+- Each company file has a fact table (type, headquarters, founded, owner, website), what they make, why they're in the courses, a **Cited in the courses** table linking to every mention, and sources.
+- Part numbers in the BOMs (LM358, HX711, BMP280, …) are filed under the chip maker. Many are multi-sourced or cloned — the file says so where it matters.
+- Trade-name materials (Viton, Hastelloy, Invar, …) are filed under the company that owns the name today, with the history of who first made it.
+- Facts marked "—" weren't confirmed during research and are left blank rather than guessed.
 
-   The material + technique
-   on each arrow is what
-   makes the device possible.
+## Categories
 
-   The slowest domain
-   sets the bandwidth.
-   The material family
-   sets the ceiling.
-```
-
-| Pillar | Statement | File |
+| # | Category | Companies |
 |---|---|---|
-| 1 | Any sensor or actuator is one or more arrows between two piles. | [p1-arrows-between-piles.md](p1-arrows-between-piles.md) |
-| 2 | The material + technique on each arrow is what makes the device possible. | [p2-material-and-technique.md](p2-material-and-technique.md) |
-| 3 | The slowest domain sets the bandwidth. The material family sets the ceiling. | [p3-bandwidth-and-ceiling.md](p3-bandwidth-and-ceiling.md) |
+| 01 | [Instruments & tools](01-instruments-and-tools/index.md) | 10 |
+| 02 | [Development boards & breakouts](02-boards-and-modules/index.md) | 4 |
+| 03 | [Semiconductor manufacturers](03-semiconductors/index.md) | 16 |
+| 04 | [Sensor & module makers](04-sensor-and-module-makers/index.md) | 4 |
+| 05 | [Motion & fluid power](05-motion-and-fluid-power/index.md) | 3 |
+| 06 | [Materials & trade names](06-materials-and-trade-names/index.md) | 13 |
+| 07 | [Suppliers & distributors](07-suppliers/index.md) | 14 |
+| | **Total** | **64** |
 
-## The seven piles on the bench
+## Products and material codes
 
-Every sensor and every actuator is one of seven things, or a combination. Lay them out on a bench:
+- **Products cited** — what the courses name from each company.
+- **BOM code** — the course04 item number (the lab's material code). Click through to the bench file. Generated from the BOM tables.
+- **Material / grade code** — for trade-name materials, the common grade and its standard designation (UNS, EN, ASTM, IEC, SAE). The courses name only the brand, so these are the usual grades, not a specific purchase.
 
-1. Something [electrical](01-electrical.md) — a resistor, a capacitor, an op-amp.
-2. Something [magnetic](02-magnetic.md) — a motor, a Hall sensor, a chunk of NdFeB that pulls your screwdriver off the table.
-3. Something [mechanical](03-mechanical.md) — a spring, a bearing, a strain gauge glued to a ruler.
-4. Something [fluidic](04-fluidic.md) — a hydraulic cylinder, a pressure gauge, a syringe.
-5. Something [thermal](05-thermal.md) — a thermocouple, a Peltier module, a bimetal strip from an old thermostat.
-6. Something [chemical](06-chemical.md) — a pH probe, a smoke detector cell, a glucose test strip.
-7. Something [radiant](07-radiant.md) — a photodiode, a laser pointer, an LED, a CCD out of an old camera.
+### [Instruments & tools](01-instruments-and-tools/index.md)
 
-Spend a weekend buying or scrounging these. Total cost: under $100. This is the real curriculum. Everything that follows is just a map through what's on the bench.
-
-→ The full bench, with a BOM for each pile: [course04](../course04/index.md).
-
-## How to work through the piles
-
-For each pile:
-
-1. Pick one device from the bench.
-2. Take it apart, or look at a cutaway. Draw what's inside on a piece of paper.
-3. Name the materials. Just name them. Copper. Ferrite. Steel. Rubber. If you don't know, cut it, scratch it, weigh it — the material tells you about itself.
-4. Figure out what the material is doing. Carrying current. Carrying flux. Stretching. Sealing. Insulating. Converting light to electrons.
-5. Build a kitchen-table version. It doesn't have to work well. It has to work.
-6. Measure it. Multimeter, scale, ruler, phone camera. Compare to the real thing.
-7. Then look up the equation. Now it means something.
-
-If you can do steps 1 through 6 for every pile, you know this discipline better than most people with a degree in it.
-
-## Course map
-
-| Order | File | What it covers |
-|---|---|---|
-| 1 | [p1-arrows-between-piles.md](p1-arrows-between-piles.md) | The one idea: devices as crossings; the same roles on every arrow |
-| 2 | [p2-material-and-technique.md](p2-material-and-technique.md) | Material and technique families that cut across piles; the clever trick on each pile |
-| 3 | [p3-bandwidth-and-ceiling.md](p3-bandwidth-and-ceiling.md) | Sensor vs. actuator use, energy density, bandwidth |
-| 4 | [01-electrical.md](01-electrical.md) | Pile 1 — Electrical |
-| 5 | [02-magnetic.md](02-magnetic.md) | Pile 2 — Magnetic |
-| 6 | [03-mechanical.md](03-mechanical.md) | Pile 3 — Mechanical |
-| 7 | [04-fluidic.md](04-fluidic.md) | Pile 4 — Fluidic |
-| 8 | [05-thermal.md](05-thermal.md) | Pile 5 — Thermal |
-| 9 | [06-chemical.md](06-chemical.md) | Pile 6 — Chemical |
-| 10 | [07-radiant.md](07-radiant.md) | Pile 7 — Radiant |
-| 11 | [08-integration.md](08-integration.md) | The integration pile: real devices, how to design one, heuristics, one-page map |
-
-Every pile file follows the same order:
-
-1. What you're looking at
-2. The one thing to understand
-3. This pile on the three pillars
-4. What to build
-5. The example everyone should work
-6. Material + technique — key materials, key techniques, the clever trick, materials/techniques/features table, signature techniques
-7. Who to know — with the discoverers table
-8. Important terms
-9. What to read later (where a book is named)
-
-## Seven Primary Domains at a Glance
-
-| Domain | State variables | "Effort" × "Flow" | Energy form |
+| Company | Products cited | BOM code (course04) | Material / grade code |
 |---|---|---|---|
-| Electrical | Voltage, current, charge | V × I | Electric field, current flow |
-| Magnetic | Flux, MMF | MMF × dΦ/dt | Magnetic field |
-| Mechanical (translational) | Force, velocity, position | F × v | Kinetic + elastic |
-| Mechanical (rotational) | Torque, angular velocity, angle | τ × ω | Kinetic + elastic |
-| Fluidic | Pressure, volumetric flow | P × Q | Pressure–volume |
-| Thermal | Temperature, heat flow | T × dQ/dt | Internal energy |
-| Chemical / Radiant | Concentration, photon flux | — | Chemical bonds, EM radiation |
+| [AstroAI](01-instruments-and-tools/astroai.md) | 6000-count digital multimeter | [`S.1.1`](../course04/00-starter-kit.md) | — |
+| [Fluke Corporation](01-instruments-and-tools/fluke.md) | Fluke 101 multimeter | [`S.1.1`](../course04/00-starter-kit.md) | — |
+| [Hakko Corporation](01-instruments-and-tools/hakko.md) | FX-888D soldering station | [`S.3.1`](../course04/00-starter-kit.md) | — |
+| [PINE64 (Pine Store Ltd.)](01-instruments-and-tools/pine64.md) | Pinecil soldering iron | [`S.3.1`](../course04/00-starter-kit.md) | — |
+| [Mitutoyo Corporation](01-instruments-and-tools/mitutoyo.md) | 150 mm digital calipers | [`S.1.2`](../course04/00-starter-kit.md) | — |
+| [Hantek (Qingdao Hantek Electronic Co., Ltd.)](01-instruments-and-tools/hantek.md) | 6022BE USB oscilloscope | [`S.5.1`](../course04/00-starter-kit.md) | — |
+| [Teledyne FLIR](01-instruments-and-tools/teledyne-flir.md) | FLIR One phone thermal camera | [`S.5.5`](../course04/00-starter-kit.md) | — |
+| [InfiRay (IRay Technology Co., Ltd.)](01-instruments-and-tools/infiray.md) | P2 phone thermal camera | [`S.5.5`](../course04/00-starter-kit.md) | — |
+| [Instron](01-instruments-and-tools/instron.md) | Universal testing machine (historical — Nitinol, 1962) | — | — |
+| [Hanna Instruments](01-instruments-and-tools/hanna-instruments.md) | Pocket pH meters | — | — |
+
+### [Development boards & breakouts](02-boards-and-modules/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [Arduino](02-boards-and-modules/arduino.md) | Arduino Uno | [`S.5.4`](../course04/00-starter-kit.md) | — |
+| [Raspberry Pi Ltd](02-boards-and-modules/raspberry-pi.md) | Raspberry Pi Pico | [`S.5.4`](../course04/00-starter-kit.md) | — |
+| [Adafruit Industries](02-boards-and-modules/adafruit.md) | Sensor breakout boards | — | — |
+| [SparkFun Electronics](02-boards-and-modules/sparkfun.md) | Sensor breakout boards | — | — |
+
+### [Semiconductor manufacturers](03-semiconductors/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [Texas Instruments](03-semiconductors/texas-instruments.md) | LM358, TL072 op-amps · DRV8833 motor driver | [`1.2.3`](../course04/01-bench-electrical.md) · [`2.4.4`](../course04/02-bench-magnetic.md) | — |
+| [Microchip Technology](03-semiconductors/microchip.md) | MCP6002 op-amp | [`1.2.3`](../course04/01-bench-electrical.md) | — |
+| [Infineon Technologies](03-semiconductors/infineon.md) | IRLZ44N MOSFET | [`1.2.5`](../course04/01-bench-electrical.md) | — |
+| [onsemi](03-semiconductors/onsemi.md) | 2N3904 / 2N3906 / BC547 transistors · 2N7000 MOSFET · 1N4148 / 1N4007 / 1N5819 diodes | [`1.2.2`](../course04/01-bench-electrical.md) · [`1.2.4`](../course04/01-bench-electrical.md) · [`1.2.5`](../course04/01-bench-electrical.md) | — |
+| [Silicon Labs](03-semiconductors/silicon-labs.md) | CP2102 USB–UART bridge | [`1.4.1`](../course04/01-bench-electrical.md) | — |
+| [WCH (Nanjing Qinheng Microelectronics)](03-semiconductors/wch.md) | CH340 USB–serial chip | [`1.4.1`](../course04/01-bench-electrical.md) | — |
+| [Allegro MicroSystems](03-semiconductors/allegro.md) | A3144 Hall switch (discontinued) · A1324 linear Hall sensor | [`2.3.1`](../course04/02-bench-magnetic.md) | — |
+| [STMicroelectronics](03-semiconductors/stmicroelectronics.md) | L298N H-bridge · VL53L0X / VL53L1X time-of-flight sensors | [`2.4.4`](../course04/02-bench-magnetic.md) · [`7.3.3`](../course04/07-bench-radiant.md) | — |
+| [Avia Semiconductor](03-semiconductors/avia-semiconductor.md) | HX711 24-bit load-cell ADC | [`3.1.3`](../course04/03-bench-mechanical.md) | — |
+| [TDK InvenSense](03-semiconductors/tdk-invensense.md) | MPU6050 6-axis IMU | [`3.5.1`](../course04/03-bench-mechanical.md) | — |
+| [Bosch Sensortec](03-semiconductors/bosch-sensortec.md) | BMP280 barometric pressure sensor | [`4.3.1`](../course04/04-bench-fluidic.md) | — |
+| [NXP Semiconductors](03-semiconductors/nxp.md) | MPX5010DP differential pressure sensor | [`4.3.2`](../course04/04-bench-fluidic.md) | — |
+| [Analog Devices](03-semiconductors/analog-devices.md) | MAX6675 / MAX31855 thermocouple readers · MAX31865 RTD reader | [`5.1.2`](../course04/05-bench-thermal.md) · [`5.2.2`](../course04/05-bench-thermal.md) | — |
+| [Vishay Intertechnology](03-semiconductors/vishay.md) | BPW34 photodiode · TEMT6000 phototransistor · VEML7700 light sensor | [`7.2.1`](../course04/07-bench-radiant.md) · [`7.2.2`](../course04/07-bench-radiant.md) · [`7.3.1`](../course04/07-bench-radiant.md) | — |
+| [ams OSRAM](03-semiconductors/ams-osram.md) | TSL2591 light sensor · TCS34725 color sensor | [`7.3.1`](../course04/07-bench-radiant.md) · [`7.3.2`](../course04/07-bench-radiant.md) | — |
+| [Sensirion](03-semiconductors/sensirion.md) | SHT31 humidity + temperature sensor | [`6.4.2`](../course04/06-bench-chemical.md) | — |
+
+### [Sensor & module makers](04-sensor-and-module-makers/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [Hanwei Electronics](04-sensor-and-module-makers/hanwei.md) | MQ-series metal-oxide gas sensors | [`6.4.1`](../course04/06-bench-chemical.md) | — |
+| [Winsen (Zhengzhou Winsen Electronics Technology)](04-sensor-and-module-makers/winsen.md) | MH-Z19 NDIR CO₂ sensor | [`6.4.1`](../course04/06-bench-chemical.md) | — |
+| [Aosong Electronics](04-sensor-and-module-makers/aosong.md) | DHT22 (AM2302) humidity + temperature sensor | [`6.4.2`](../course04/06-bench-chemical.md) | — |
+| [Hebei I.T. (Shanghai) Co., Ltd.](04-sensor-and-module-makers/hebei-it.md) | TEC1-12706 Peltier module | [`5.3.1`](../course04/05-bench-thermal.md) | — |
+
+### [Motion & fluid power](05-motion-and-fluid-power/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [Moog Inc.](05-motion-and-fluid-power/moog.md) | Two-stage electrohydraulic servo valve | — | — |
+| [Vickers (now Danfoss Power Solutions)](05-motion-and-fluid-power/vickers-danfoss.md) | Hydraulic vane pumps and servo valves | — | — |
+| [HIWIN Technologies](05-motion-and-fluid-power/hiwin.md) | MGN12H carriage on MGN12 rail | [`3.3.1.9`](../course04/03-bench-mechanical.md) | Rail and carriage: bearing steel |
+
+### [Materials & trade names](06-materials-and-trade-names/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [Henkel (Loctite)](06-materials-and-trade-names/henkel-loctite.md) | Loctite 496 cyanoacrylate | [`3.1.2`](../course04/03-bench-mechanical.md) | Methyl cyanoacrylate |
+| [Metglas, Inc.](06-materials-and-trade-names/metglas.md) | Amorphous metal ribbon | — | 2605SA1 (Fe-Si-B) |
+| [VACUUMSCHMELZE (VAC)](06-materials-and-trade-names/vacuumschmelze.md) | Vitrovac amorphous alloy | — | Vitrovac 6025 (Co-based amorphous) |
+| [Eastman Chemical (Skydrol)](06-materials-and-trade-names/eastman-skydrol.md) | Skydrol aviation hydraulic fluid | — | Phosphate ester, SAE AS1241 (e.g. Skydrol LD-4, 500B-4) |
+| [Chemours](06-materials-and-trade-names/chemours.md) | Viton seals · Nafion membrane | — | Viton = FKM (ASTM D1418) · Nafion = PFSA |
+| [DuPont](06-materials-and-trade-names/dupont.md) | Kapton polyimide film | — | Polyimide (PI), e.g. Kapton HN |
+| [Sorbothane, Inc.](06-materials-and-trade-names/sorbothane.md) | Sorbothane damping material | — | Polyether-based polyurethane |
+| [Haynes International (Hastelloy)](06-materials-and-trade-names/haynes.md) | Hastelloy alloy | — | Hastelloy C-276 = UNS N10276 |
+| [Special Metals Corporation (Inconel)](06-materials-and-trade-names/special-metals.md) | Inconel alloy | — | Inconel 600 = UNS N06600 |
+| [SCHOTT AG (Zerodur)](06-materials-and-trade-names/schott.md) | Zerodur glass-ceramic | — | Li₂O-Al₂O₃-SiO₂ glass-ceramic |
+| [Aperam Alloys Imphy (Invar)](06-materials-and-trade-names/aperam-imphy.md) | Invar alloy | — | Invar 36 = UNS K93603, EN 1.3912 (FeNi36) |
+| [Magnetic Shield Corporation (MuMETAL)](06-materials-and-trade-names/magnetic-shield-corp.md) | MuMETAL shielding alloy | — | ASTM A753 Alloy 4 (~80% Ni) |
+| [Concept Alloys (Chromel / Alumel)](06-materials-and-trade-names/concept-alloys.md) | Chromel / Alumel thermocouple wire | [`5.1.1`](../course04/05-bench-thermal.md) | Type K legs: Chromel = KP, Alumel = KN (IEC 60584) |
+
+### [Suppliers & distributors](07-suppliers/index.md)
+
+| Company | Products cited | BOM code (course04) | Material / grade code |
+|---|---|---|---|
+| [DigiKey](07-suppliers/digikey.md) | Electronic components | — | — |
+| [Mouser Electronics](07-suppliers/mouser.md) | Electronic components | — | — |
+| [AliExpress](07-suppliers/aliexpress.md) | Electronics, teardown-grade optics | — | — |
+| [McMaster-Carr](07-suppliers/mcmaster-carr.md) | Mechanical parts | — | — |
+| [MISUMI](07-suppliers/misumi.md) | Modular mechanical hardware | — | — |
+| [MSC Industrial Supply (MSC Direct)](07-suppliers/msc-industrial.md) | Mechanical parts | — | — |
+| [Cole-Parmer](07-suppliers/cole-parmer.md) | Chemicals, probes | — | — |
+| [Thermo Fisher Scientific](07-suppliers/thermo-fisher.md) | Chemicals, probes | — | — |
+| [Thorlabs](07-suppliers/thorlabs.md) | Optics | — | — |
+| [Edmund Optics](07-suppliers/edmund-optics.md) | Optics | — | — |
+| [K&J Magnetics](07-suppliers/kj-magnetics.md) | NdFeB magnets | — | — |
+| [supermagnete (Webcraft)](07-suppliers/supermagnete.md) | NdFeB magnets | — | — |
+| [eBay](07-suppliers/ebay.md) | Teardown stock ("untested" lots) | — | — |
+| [Amazon](07-suppliers/amazon.md) | General (avoid for magnets) | — | — |
+
+## All companies
+
+| Company | Category | Type | Cited in |
+|---|---|---|---|
+| [Adafruit Industries](02-boards-and-modules/adafruit.md) | Development boards & breakouts | Manufacturer and retailer | course04 |
+| [AliExpress](07-suppliers/aliexpress.md) | Suppliers & distributors | Marketplace | course04 |
+| [Allegro MicroSystems](03-semiconductors/allegro.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Amazon](07-suppliers/amazon.md) | Suppliers & distributors | Marketplace | course04 |
+| [ams OSRAM](03-semiconductors/ams-osram.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Analog Devices](03-semiconductors/analog-devices.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Aosong Electronics](04-sensor-and-module-makers/aosong.md) | Sensor & module makers | Manufacturer | course04 |
+| [Aperam Alloys Imphy (Invar)](06-materials-and-trade-names/aperam-imphy.md) | Materials & trade names | Manufacturer | course01, course02, course03 |
+| [Arduino](02-boards-and-modules/arduino.md) | Development boards & breakouts | Manufacturer / open-hardware platform | course04 |
+| [AstroAI](01-instruments-and-tools/astroai.md) | Instruments & tools | Manufacturer (consumer brand) | course04 |
+| [Avia Semiconductor](03-semiconductors/avia-semiconductor.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Bosch Sensortec](03-semiconductors/bosch-sensortec.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Chemours](06-materials-and-trade-names/chemours.md) | Materials & trade names | Manufacturer | course01, course02, course03 |
+| [Cole-Parmer](07-suppliers/cole-parmer.md) | Suppliers & distributors | Distributor and manufacturer | course04 |
+| [Concept Alloys (Chromel / Alumel)](06-materials-and-trade-names/concept-alloys.md) | Materials & trade names | Manufacturer | course01, course03, course04 |
+| [DigiKey](07-suppliers/digikey.md) | Suppliers & distributors | Distributor | course04 |
+| [DuPont](06-materials-and-trade-names/dupont.md) | Materials & trade names | Manufacturer | course01 |
+| [Eastman Chemical (Skydrol)](06-materials-and-trade-names/eastman-skydrol.md) | Materials & trade names | Manufacturer | course01, course03 |
+| [eBay](07-suppliers/ebay.md) | Suppliers & distributors | Marketplace | course04 |
+| [Edmund Optics](07-suppliers/edmund-optics.md) | Suppliers & distributors | Manufacturer | course04 |
+| [Fluke Corporation](01-instruments-and-tools/fluke.md) | Instruments & tools | Manufacturer | course04 |
+| [Hakko Corporation](01-instruments-and-tools/hakko.md) | Instruments & tools | Manufacturer | course04 |
+| [Hanna Instruments](01-instruments-and-tools/hanna-instruments.md) | Instruments & tools | Manufacturer | course04 |
+| [Hantek (Qingdao Hantek Electronic Co., Ltd.)](01-instruments-and-tools/hantek.md) | Instruments & tools | Manufacturer | course04 |
+| [Hanwei Electronics](04-sensor-and-module-makers/hanwei.md) | Sensor & module makers | Manufacturer | course04 |
+| [Haynes International (Hastelloy)](06-materials-and-trade-names/haynes.md) | Materials & trade names | Manufacturer | course01, course02, course03 |
+| [Hebei I.T. (Shanghai) Co., Ltd.](04-sensor-and-module-makers/hebei-it.md) | Sensor & module makers | Manufacturer | course04 |
+| [Henkel (Loctite)](06-materials-and-trade-names/henkel-loctite.md) | Materials & trade names | Manufacturer | course04 |
+| [HIWIN Technologies](05-motion-and-fluid-power/hiwin.md) | Motion & fluid power | Manufacturer | course04 |
+| [Infineon Technologies](03-semiconductors/infineon.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [InfiRay (IRay Technology Co., Ltd.)](01-instruments-and-tools/infiray.md) | Instruments & tools | Manufacturer | course04 |
+| [Instron](01-instruments-and-tools/instron.md) | Instruments & tools | Manufacturer | course01, course03 |
+| [K&J Magnetics](07-suppliers/kj-magnetics.md) | Suppliers & distributors | Supplier | course04 |
+| [Magnetic Shield Corporation (MuMETAL)](06-materials-and-trade-names/magnetic-shield-corp.md) | Materials & trade names | Manufacturer | course01, course03 |
+| [McMaster-Carr](07-suppliers/mcmaster-carr.md) | Suppliers & distributors | Distributor | course04 |
+| [Metglas, Inc.](06-materials-and-trade-names/metglas.md) | Materials & trade names | Manufacturer | course01, course03 |
+| [Microchip Technology](03-semiconductors/microchip.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [MISUMI](07-suppliers/misumi.md) | Suppliers & distributors | Distributor and manufacturer | course04 |
+| [Mitutoyo Corporation](01-instruments-and-tools/mitutoyo.md) | Instruments & tools | Manufacturer | course04 |
+| [Moog Inc.](05-motion-and-fluid-power/moog.md) | Motion & fluid power | Manufacturer | course01, course03 |
+| [Mouser Electronics](07-suppliers/mouser.md) | Suppliers & distributors | Distributor | course04 |
+| [MSC Industrial Supply (MSC Direct)](07-suppliers/msc-industrial.md) | Suppliers & distributors | Distributor | course04 |
+| [NXP Semiconductors](03-semiconductors/nxp.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [onsemi](03-semiconductors/onsemi.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [PINE64 (Pine Store Ltd.)](01-instruments-and-tools/pine64.md) | Instruments & tools | Manufacturer | course04 |
+| [Raspberry Pi Ltd](02-boards-and-modules/raspberry-pi.md) | Development boards & breakouts | Manufacturer | course04 |
+| [SCHOTT AG (Zerodur)](06-materials-and-trade-names/schott.md) | Materials & trade names | Manufacturer | course01, course02, course03 |
+| [Sensirion](03-semiconductors/sensirion.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Silicon Labs](03-semiconductors/silicon-labs.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Sorbothane, Inc.](06-materials-and-trade-names/sorbothane.md) | Materials & trade names | Manufacturer | course01 |
+| [SparkFun Electronics](02-boards-and-modules/sparkfun.md) | Development boards & breakouts | Manufacturer and retailer | course04 |
+| [Special Metals Corporation (Inconel)](06-materials-and-trade-names/special-metals.md) | Materials & trade names | Manufacturer | course01, course03 |
+| [STMicroelectronics](03-semiconductors/stmicroelectronics.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [supermagnete (Webcraft)](07-suppliers/supermagnete.md) | Suppliers & distributors | Supplier | course04 |
+| [TDK InvenSense](03-semiconductors/tdk-invensense.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Teledyne FLIR](01-instruments-and-tools/teledyne-flir.md) | Instruments & tools | Manufacturer | course04 |
+| [Texas Instruments](03-semiconductors/texas-instruments.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Thermo Fisher Scientific](07-suppliers/thermo-fisher.md) | Suppliers & distributors | Manufacturer and distributor | course04 |
+| [Thorlabs](07-suppliers/thorlabs.md) | Suppliers & distributors | Manufacturer | course04 |
+| [VACUUMSCHMELZE (VAC)](06-materials-and-trade-names/vacuumschmelze.md) | Materials & trade names | Manufacturer | course03 |
+| [Vickers (now Danfoss Power Solutions)](05-motion-and-fluid-power/vickers-danfoss.md) | Motion & fluid power | Brand | course01, course03 |
+| [Vishay Intertechnology](03-semiconductors/vishay.md) | Semiconductor manufacturers | Manufacturer | course01, course03, course04 |
+| [WCH (Nanjing Qinheng Microelectronics)](03-semiconductors/wch.md) | Semiconductor manufacturers | Manufacturer | course04 |
+| [Winsen (Zhengzhou Winsen Electronics Technology)](04-sensor-and-module-makers/winsen.md) | Sensor & module makers | Manufacturer | course04 |

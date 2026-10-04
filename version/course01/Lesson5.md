@@ -30,7 +30,7 @@
 | 8 | [The example everyone should work](#8-the-example-everyone-should-work) | Optional — work it with pencil and paper. |
 | 9 | [What to read later](#9-what-to-read-later) | Optional — where to go deeper. |
 
-**Theory:** [Module 5](index.md#module-5--thermal-domain) · **Stack:** [course03/05-thermal](../course03/05-thermal/README.md) · **Bench:** [course04/05-bench-thermal](../course04/05-bench-thermal.md) · **Pile:** [course05/05-thermal](../course05/05-thermal.md)
+**Theory:** [Module 5](index.md#module-5--thermal-domain) · **Stack:** [course03/05-thermal](../course03/05-thermal/README.md) · **Bench:** [course04/05-bench-thermal](../course04/05-bench-thermal.md)
 
 ## 1. What you're looking at
 
@@ -87,7 +87,7 @@ Full BOM and build steps: [course04 Bench 5](../course04/05-bench-thermal.md).
 
 Fourier (heat equation), Seebeck (thermocouple effect), Peltier (thermoelectric cooling), Buehler and Wang (Nitinol, 1962, at the Naval Ordnance Lab).
 
-Year-by-year table of what each one measured and with which equipment: [course05 Pile 5](../course05/05-thermal.md#discoverers--measurement-and-equipment).
+Year-by-year table of what each one measured and with which equipment: [course03 Domain 5](../course03/05-thermal/README.md#2-measurement).
 
 ## 8. The example everyone should work
 
