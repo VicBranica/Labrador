@@ -7,8 +7,8 @@
 ```
 Labrador/
 ├── index.md                         ← project map (this file)
+├── course-templates/                ← start every new course file here
 ├── scaffolding/                     ← app skeleton: Next.js + pnpm monorepo + Supabase
-├── templates/                       ← start every new file here
 └── version/
     ├── course01/  index.md + Lesson1–10.md           Core course
     ├── course02/  index.md + 12 resource folders     Reading list
@@ -25,7 +25,7 @@ Labrador/
 - course02 is numbered by reading priority, not by domain.
 - Every domain file links to the same domain in the other courses.
 - [scaffolding/](scaffolding/README.md) is the empty skeleton for a Labrador web app (benches, BOMs, inventory, costing; EN / PL / RU).
-- New files start from [templates/](templates/README.md): a lesson, a reading-list entry, a domain file, a bench, a company file or a course index, plus the list of other files to update.
+- New course files start from [course-templates/](course-templates/README.md): a lesson, a reading-list entry, a domain file, a bench, a company file or a course index, plus the list of other files to update.
 
 ## The five courses
 

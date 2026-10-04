@@ -1,8 +1,8 @@
-# Templates
+# Course templates
 
 [← Project map](../index.md)
 
-> Start every new file from one of these, so it matches the files already in the courses: same header, same sections, same anchors.
+> Start every new course file from one of these, so it matches the files already in the courses: same header, same sections, same anchors.
 
 ## How to use a template
 

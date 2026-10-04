@@ -22,11 +22,11 @@ scaffolding/
 │   ├── migrations/             # SQL migrations, applied in order
 │   └── seed/                   # seed data (starter kit and bench BOMs)
 │
-├── templates/
-│   ├── feature/                # a new feature module in apps/web
-│   ├── domain-entity/          # a new entity in packages/domain
-│   ├── migration/              # a new SQL migration
-│   └── test/                   # a new test file
+├── templates/                  # code templates — see templates/README.md
+│   ├── feature/                # page.tsx, index.ts, components/__Name__View.tsx, messages.json
+│   ├── domain-entity/          # __Name__.ts — type, validation, factory
+│   ├── migration/              # template.sql — table + row-level security
+│   └── test/                   # __Name__.test.ts — Vitest
 │
 ├── docs/
 │   ├── architecture/           # how the packages fit together

@@ -26,6 +26,6 @@ Dependencies point inward: `web → server → domain → shared`, and `server �
 
 ## Working here
 
-- Start new code from `templates/` (feature, domain-entity, migration, test).
+- Start new code from `templates/` (feature, domain-entity, migration, test). Replace `__Name__`, `__name__` and `__table__` as described in `templates/README.md`.
 - Add a key to all three message files whenever you add one to any of them.
 - Put rules for Claude in `.claude/rules/`, subagents in `.claude/agents/`, skills in `.claude/skills/`.
