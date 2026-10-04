@@ -1,0 +1,9 @@
+{
+  "app": {
+    "title": "Labrador"
+  },
+  "nav": {
+    "benches": "Benches",
+    "inventory": "Inventory"
+  }
+}
