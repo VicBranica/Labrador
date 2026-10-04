@@ -54,7 +54,7 @@ Syringes, tubes, pressure gauges, a hand pump. Hydraulic and pneumatic principle
 | **1** | **4.4** | **Actuators, pumps & valves** | — | **33** | |
 | 2 | 4.4.1 | Pneumatic cylinder (small, 10 mm bore, 25 mm stroke) | 1 | 10 | 1/8" NPT fittings |
 | 2 | 4.4.2 | Micro peristaltic pump (12 V DC) | 1 | 15 | Dose-pumping, no cross-contamination |
-| 2 | 4.4.3 | Solenoid valve (12 V DC, normally closed) | 1 | 8 | Elec → Fluid on/off control; switch it with a `1.2.5` MOSFET and a flyback diode |
+| 2 | 4.4.3 | Solenoid valve (12 V DC, normally closed) | 1 | 8 | Elec → Fluid on/off control; switch it with a `1.2.5` MOSFET and a flyback diode. Buy a direct-acting (zero-pressure) type: pilot-operated valves need line pressure to open |
 | **1** | **4.5** | **Consumables** | — | **2** | |
 | 2 | 4.5.1 | Food coloring | 1 bottle | 2 | For Reynolds-number visualization |
 | **1** | **4.6** | **Teardown targets (free)** | — | **0** | |
