@@ -2,7 +2,7 @@
 
 [← Project map](../index.md) · [Project structure](PROJECT_STRUCTURE.md) · [Claude guide](CLAUDE.md)
 
-> The folder skeleton for a Labrador web app: a pnpm monorepo with a Next.js frontend, domain and server packages, and a Supabase database. Nothing is implemented yet — every folder is empty except for a `.gitkeep`.
+> The folder skeleton for a Labrador web app: a pnpm monorepo with a Next.js frontend, domain and server packages, and a Supabase database. Nothing is implemented yet: apart from the [code templates](templates/README.md), every folder is empty except for a `.gitkeep`.
 
 ## What the app is for
 
@@ -23,7 +23,7 @@ Managing the [course04 lab](../version/course04/index.md) as data instead of Mar
 | `packages/db/` | Database adapters |
 | `packages/shared/` | Schemas and types shared by every package |
 | `supabase/` | SQL migrations and seed data |
-| `templates/` | Starting points for a feature, a domain entity, a migration and a test |
+| `templates/` | [Starting points](templates/README.md) for a feature, a domain entity, a migration and a test |
 | `docs/` | Architecture, domain notes and reference screenshots |
 | `.claude/` | Rules, agents and skills for working on this code with Claude |
 
