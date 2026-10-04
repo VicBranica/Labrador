@@ -156,7 +156,7 @@ Measure it and you'll find it cools faster — evaporation from the open top is 
 ## F. What to read later
 
 - [Fraden, *Handbook of Modern Sensors*](../../course02/06-fraden-handbook-of-modern-sensors/)
-- Incropera & DeWitt, *Fundamentals of Heat and Mass Transfer* — [course01, Appendix G](../../course01/index.md#appendix-g--further-reading)
+- [Incropera & DeWitt, *Fundamentals of Heat and Mass Transfer*](../../course02/11-incropera-dewitt-heat-and-mass-transfer/) — the thermal pile.
 
 ## G. Related in other courses
 

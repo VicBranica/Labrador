@@ -108,4 +108,4 @@ More practice: the "Try it" exercises in [Module 6](index.md#module-6--chemical-
 
 *← optional — where to go deeper*
 
-[Bard & Faulkner, *Electrochemical Methods*](../course02/07-bard-faulkner-electrochemical-methods/)
+[Bard & Faulkner, *Electrochemical Methods*](../course02/07-bard-faulkner-electrochemical-methods/) · [Wang, *Electrochemical Sensors, Biosensors, and Their Biomedical Applications*](../course02/12-wang-electrochemical-sensors-biosensors/)

@@ -9,7 +9,7 @@ Labrador/
 ├── index.md                         ← project map (this file)
 └── version/
     ├── course01/  index.md + Lesson1–10.md           Core course
-    ├── course02/  index.md + 9 resource folders      Reading list
+    ├── course02/  index.md + 12 resource folders     Reading list
     ├── course03/  index.md + 3 pillars + 7 domains   Domain stack
     │              + integration pile
     ├── course04/  index.md + 8 bench files           Hands-on lab
@@ -28,7 +28,7 @@ Labrador/
 | Course | Role | What it is | Builds on | Feeds into |
 |---|---|---|---|---|
 | [course01](version/course01/index.md) | Core course | *Physical Domains in Sensors & Actuators* — Modules 0–9, Appendices A–G, and Lessons 1–10 (one per domain, plus three across domains; nine steps each) | — | course02, course03, course04, course05 |
-| [course02](version/course02/index.md) | Reading list | Nine books and video series, plus the single list of [design heuristics](version/course02/09-gelbart-videos/design.md) | course01 Appendix G | course03 (sources), all courses (heuristics) |
+| [course02](version/course02/index.md) | Reading list | Twelve books and video series, plus the single list of [design heuristics](version/course02/09-gelbart-videos/design.md) | course01 Appendix G | course03 (sources), all courses (heuristics) |
 | [course03](version/course03/index.md) | Domain stack | Three pillars, then one file per domain — hands-on pile (look, understand, build, worked example) and six-layer stack (vocabulary → measurement → discovery → material → technique → features) — then the integration pile | course01, course02 | course04, course05 |
 | [course04](version/course04/index.md) | Hands-on lab | Starter kit + seven benches, each with a multilevel BOM, teardowns and three builds | course03 | Your lab notebook, course05 |
 | [course05](version/course05/index.md) | Manufacturers & brands | 64 companies in 7 categories — instruments, boards, chips, modules, motion and fluid power, material trade-name owners, suppliers — with products, BOM codes, material codes and every place they're cited | course01, course03, course04 | course04 (sourcing) |
@@ -75,11 +75,11 @@ The same domain, in every course:
 | # | Domain | Lesson | Module | Domain stack (course03) | Bench (course04) | course02 books |
 |---|---|---|---|---|---|---|
 | 1 | Electrical | [Lesson 1](version/course01/Lesson1.md) | [Module 1](version/course01/index.md#module-1--electrical-domain) | [01-electrical](version/course03/01-electrical/README.md) | [Bench 1](version/course04/01-bench-electrical.md) | [Horowitz & Hill](version/course02/04-horowitz-hill-art-of-electronics/) · [Fraden](version/course02/06-fraden-handbook-of-modern-sensors/) |
-| 2 | Magnetic | [Lesson 2](version/course01/Lesson2.md) | [Module 2](version/course01/index.md#module-2--magnetic-domain) | [02-magnetic](version/course03/02-magnetic/README.md) | [Bench 2](version/course04/02-bench-magnetic.md) | [Fraden](version/course02/06-fraden-handbook-of-modern-sensors/) |
+| 2 | Magnetic | [Lesson 2](version/course01/Lesson2.md) | [Module 2](version/course01/index.md#module-2--magnetic-domain) | [02-magnetic](version/course03/02-magnetic/README.md) | [Bench 2](version/course04/02-bench-magnetic.md) | [Fraden](version/course02/06-fraden-handbook-of-modern-sensors/) · [Jiles](version/course02/10-jiles-magnetism-and-magnetic-materials/) |
 | 3 | Mechanical | [Lesson 3](version/course01/Lesson3.md) | [Module 3](version/course01/index.md#module-3--mechanical-domain) | [03-mechanical](version/course03/03-mechanical/README.md) | [Bench 3](version/course04/03-bench-mechanical.md) | [Slocum](version/course02/01-slocum-precision-machine-design/) · [Hale](version/course02/02-hale-designing-precision-machines/) · [Ashby](version/course02/03-ashby-materials-selection/) · [Gelbart](version/course02/09-gelbart-videos/) |
 | 4 | Fluidic | [Lesson 4](version/course01/Lesson4.md) | [Module 4](version/course01/index.md#module-4--fluidic-domain) | [04-fluidic](version/course03/04-fluidic/README.md) | [Bench 4](version/course04/04-bench-fluidic.md) | [Merritt](version/course02/05-merritt-hydraulic-control-systems/) |
-| 5 | Thermal | [Lesson 5](version/course01/Lesson5.md) | [Module 5](version/course01/index.md#module-5--thermal-domain) | [05-thermal](version/course03/05-thermal/README.md) | [Bench 5](version/course04/05-bench-thermal.md) | [Fraden](version/course02/06-fraden-handbook-of-modern-sensors/) |
-| 6 | Chemical | [Lesson 6](version/course01/Lesson6.md) | [Module 6](version/course01/index.md#module-6--chemical-domain) | [06-chemical](version/course03/06-chemical/README.md) | [Bench 6](version/course04/06-bench-chemical.md) | [Bard & Faulkner](version/course02/07-bard-faulkner-electrochemical-methods/) |
+| 5 | Thermal | [Lesson 5](version/course01/Lesson5.md) | [Module 5](version/course01/index.md#module-5--thermal-domain) | [05-thermal](version/course03/05-thermal/README.md) | [Bench 5](version/course04/05-bench-thermal.md) | [Fraden](version/course02/06-fraden-handbook-of-modern-sensors/) · [Incropera & DeWitt](version/course02/11-incropera-dewitt-heat-and-mass-transfer/) |
+| 6 | Chemical | [Lesson 6](version/course01/Lesson6.md) | [Module 6](version/course01/index.md#module-6--chemical-domain) | [06-chemical](version/course03/06-chemical/README.md) | [Bench 6](version/course04/06-bench-chemical.md) | [Bard & Faulkner](version/course02/07-bard-faulkner-electrochemical-methods/) · [Wang](version/course02/12-wang-electrochemical-sensors-biosensors/) |
 | 7 | Radiant | [Lesson 7](version/course01/Lesson7.md) | [Module 7](version/course01/index.md#module-7--radiant-domain) | [07-radiant](version/course03/07-radiant/README.md) | [Bench 7](version/course04/07-bench-radiant.md) | [Hecht; Saleh & Teich](version/course02/08-hecht-saleh-teich-optics-photonics/) |
 | — | All domains | [Lessons 8](version/course01/Lesson8.md), [9](version/course01/Lesson9.md), [10](version/course01/Lesson10.md) | [Modules 0, 8, 9](version/course01/index.md#module-0--foundations) | [Pillars 1–3](version/course03/p1-arrows-between-piles.md) · [Integration](version/course03/08-integration.md) | [Starter kit](version/course04/00-starter-kit.md) | [Design heuristics](version/course02/09-gelbart-videos/design.md) |
 
@@ -116,6 +116,9 @@ Who makes each part: [course05 — Manufacturers & Brands](version/course05/inde
 | 7 | [Bard & Faulkner, *Electrochemical Methods*](version/course02/07-bard-faulkner-electrochemical-methods/) | Chemical |
 | 8 | [Hecht, *Optics*; Saleh & Teich, *Fundamentals of Photonics*](version/course02/08-hecht-saleh-teich-optics-photonics/) | Radiant |
 | 9 | [Dan Gelbart's videos + [design.md](version/course02/09-gelbart-videos/design.md)](version/course02/09-gelbart-videos/) | Mechanical |
+| 10 | [Jiles, *Introduction to Magnetism and Magnetic Materials*](version/course02/10-jiles-magnetism-and-magnetic-materials/) | Magnetic |
+| 11 | [Incropera & DeWitt, *Fundamentals of Heat and Mass Transfer*](version/course02/11-incropera-dewitt-heat-and-mass-transfer/) | Thermal |
+| 12 | [Wang, *Electrochemical Sensors, Biosensors, and Their Biomedical Applications*](version/course02/12-wang-electrochemical-sensors-biosensors/) | Chemical |
 
 ### [course03](version/course03/index.md) — Domain stack: seven piles, six layers
 
