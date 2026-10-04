@@ -25,6 +25,7 @@ MPU6050 six-axis accelerometer + gyro (Bench 3). An older part; TDK now offers n
 |---|---|---|
 | [course04/03-bench-mechanical.md](../../course04/03-bench-mechanical.md#bom-structure) | BOM structure | 3.5.1 MPU6050 breakout (accelerometer + gyro) |
 | [course04/03-bench-mechanical.md](../../course04/03-bench-mechanical.md#multilevel-bom) | Multilevel BOM | 2 3.5.1 MPU6050 breakout (accelerometer + gyro) 2 8 Measure your own motion |
+| [course04/03-bench-mechanical.md](../../course04/03-bench-mechanical.md#build-4--linear-bearing-slide) | Build 4 — Linear-bearing slide | … `3.5.2` Dial indicator + magnetic base · `3.5.1` MPU6050 breakout |
 
 ## Sources
 

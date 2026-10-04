@@ -27,7 +27,7 @@ MAX6675 / MAX31855 thermocouple readers and MAX31865 RTD reader (Bench 5). These
 | [course04/05-bench-thermal.md](../../course04/05-bench-thermal.md#bom-structure) | BOM structure | 5.2.2 MAX31865 breakout (RTD reader) |
 | [course04/05-bench-thermal.md](../../course04/05-bench-thermal.md#multilevel-bom) | Multilevel BOM | 2 5.1.2 MAX6675 or MAX31855 breakout (Type K reader) 2 8 SPI output |
 | [course04/05-bench-thermal.md](../../course04/05-bench-thermal.md#multilevel-bom) | Multilevel BOM | 2 5.2.2 MAX31865 breakout (RTD reader) 1 10 |
-| [course04/05-bench-thermal.md](../../course04/05-bench-thermal.md) | | …and 1 more mentions |
+| [course04/05-bench-thermal.md](../../course04/05-bench-thermal.md) | | …and 2 more mentions |
 
 ## Sources
 

@@ -70,7 +70,7 @@ Thermocouples, RTDs, a Peltier module, Nitinol wire, a bimetal strip. The pile w
 
 **Bench 5 — Thermal total: $146** for components (reuse the starter tools) — the course states ~$115.
 
-## Three builds
+## Four builds
 
 ### Build 1 — DIY Type K thermocouple
 
@@ -99,6 +99,17 @@ Wrap wire around a pencil, hold with pliers in a torch flame to shape-set at ~50
 | This bench | `5.4.1` Nitinol wire · `5.5.4` Propane torch |
 | Starter kit | `S.3.3` [Flush cutters, needle-nose pliers](00-starter-kit.md) |
 | Not in any BOM | Pencil · Hot water |
+
+### Build 4 — Nichrome heater and bimetal thermostat
+
+Wind 0.5 m of nichrome (about 7.5 Ω) around a small aluminum block, over a layer of heat-resistant tape so it can't short to the block, and run it from the bench supply at 5 V — about 3 W. Bond the RTD, a thermistor and a thermocouple junction to the same block and log all three as it heats. Then wire the snap-disc thermostat in series with the heater: it switches the power off and on by itself — a closed loop with no electronics.
+
+| Uses | |
+|---|---|
+| This bench | `5.5.3` Nichrome wire · `5.2.1` RTD · `5.2.2` MAX31865 breakout · `5.2.3` NTC thermistor assortment · `5.1.1` Thermocouple wire · `5.1.2` MAX6675 or MAX31855 breakout · `5.4.2` Bimetal strip |
+| Other benches | `1.1.1` [Resistor assortment](01-bench-electrical.md) |
+| Starter kit | `S.5.2` [Benchtop DC power supply](00-starter-kit.md) · `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) · `S.2.1` [Breadboard, solderless](00-starter-kit.md) · `S.2.2` [Jumper wire kit](00-starter-kit.md) |
+| Not in any BOM | Small aluminum block · Heat-resistant tape |
 
 ## Measurement wins
 

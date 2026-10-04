@@ -66,7 +66,7 @@ Motors to disassemble, magnets to feel, coils to wind, Hall sensors to probe. Th
 
 **Bench 2 — Magnetic total: $95** for components (reuse the starter tools) — the course states ~$95.
 
-## Three builds
+## Four builds
 
 ### Build 1 — Electromagnet
 
@@ -97,6 +97,17 @@ Same geometry, compare force on a steel washer.
 | This bench | `2.1.1` Neodymium · `2.1.2` Ferrite ring + bar magnets |
 | Starter kit | `S.1.3` [Kitchen scale](00-starter-kit.md) · `S.1.2` [Digital calipers](00-starter-kit.md) |
 | Not in any BOM | Steel washer |
+
+### Build 4 — Hall-effect tachometer
+
+Glue a small magnet to a motor's hub and drive the motor through the motor driver. Fix a Hall sensor beside the magnet and count its pulses on the Arduino: one pulse per revolution gives RPM. Swap in a reed switch and raise the speed until the count goes wrong — the reed's contacts bounce and have a mechanical speed limit; the Hall sensor has neither.
+
+| Uses | |
+|---|---|
+| This bench | `2.1.1` Neodymium · `2.3.1` Hall effect sensor breakout · `2.3.2` Reed switch · `2.4.1` Small DC brushed motor · `2.4.4` Motor driver |
+| Other benches | `1.3.1` [9 V battery + clip, 4×AA holder](01-bench-electrical.md) |
+| Starter kit | `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) · `S.2.1` [Breadboard, solderless](00-starter-kit.md) · `S.2.2` [Jumper wire kit](00-starter-kit.md) |
+| Not in any BOM | Glue |
 
 ## Measurement wins
 

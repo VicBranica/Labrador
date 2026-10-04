@@ -72,7 +72,7 @@ LEDs, photodiodes, a laser pointer, lenses, a CCD out of an old camera. The pile
 
 **Bench 7 — Radiant total: $103** for components (reuse the starter tools) — the course states ~$100.
 
-## Three builds
+## Four builds
 
 ### Build 1 — Young's double-slit
 
@@ -101,6 +101,17 @@ Slit, grating, screen. Compare an incandescent bulb's spectrum to a fluorescent 
 | This bench | `7.4.1` Diffraction grating sheet · `7.5.1` Index cards, foil, pins · `7.4.2` Lenses · `7.1.3` Incandescent flashlight bulbs + holder |
 | Other benches | `1.3.1` [9 V battery + clip, 4×AA holder](01-bench-electrical.md) |
 | Not in any BOM | Screen · Fluorescent tube |
+
+### Build 4 — Inverse-square law
+
+In a dark room, light a white LED from the battery pack through a resistor. Aim the light sensor at it, and mount the ToF sensor beside it, pointed at a card behind the LED, to measure the distance. Log illuminance against distance from 5 cm to 1 m and plot it on log–log axes: once you're far away compared to the LED's size, the slope settles at −2.
+
+| Uses | |
+|---|---|
+| This bench | `7.1.2` LEDs · `7.3.1` TSL2591 or VEML7700 breakout · `7.3.3` ToF distance sensor |
+| Other benches | `1.1.1` [Resistor assortment](01-bench-electrical.md) · `1.3.1` [9 V battery + clip, 4×AA holder](01-bench-electrical.md) |
+| Starter kit | `S.5.4` [Arduino Uno or Raspberry Pi Pico](00-starter-kit.md) · `S.2.1` [Breadboard, solderless](00-starter-kit.md) · `S.2.2` [Jumper wire kit](00-starter-kit.md) |
+| Not in any BOM | White card |
 
 ## Measurement wins
 
