@@ -1,11 +1,11 @@
 # Course 04 — Build Your Own Sensors & Actuators Lab
 
-> **Course 04 of 06 — Hands-on lab** · [← course03](../course03/index.md) · [Project map](../../index.md) · [course05 →](../course05/index.md)
+> **Course 04 of 05 — Hands-on lab** · [← course03](../course03/index.md) · [Project map](../../index.md) · [course05 →](../course05/index.md)
 >
 > One bench per domain, each with a multilevel BOM, teardowns, and three builds.
 >
-> **Builds on:** course03 (theory per bench), course05 (pile per bench)  
-> **Feeds into:** Your own notebook — measurements from every build
+> **Builds on:** course03 (the domain — pile and six layers — behind each bench)  
+> **Feeds into:** Your own notebook — measurements from every build; course05 (who makes each part)
 
 > **Goal:** build your own sensors & actuators lab, one bench per physical domain. Each bench has its own file with a multilevel bill of materials (BOM).
 
@@ -73,7 +73,7 @@ Most of what makes this work isn't on the shopping list — it's on the free sid
 
 ## Where to buy
 
-Every supplier and manufacturer below has its own file in [course06 — Manufacturers & Brands](../course06/index.md).
+Every supplier and manufacturer below has its own file in [course05 — Manufacturers & Brands](../course05/index.md).
 
 - **Electronics:** DigiKey, Mouser (new, authoritative), Adafruit, SparkFun (hobby-friendly), AliExpress (cheap, slow, caveat emptor).
 - **Magnets:** K&J Magnetics (US), supermagnete.de (EU) — avoid random Amazon listings for serious work.

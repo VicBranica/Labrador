@@ -30,7 +30,7 @@
 | 8 | [The example everyone should work](#8-the-example-everyone-should-work) | Optional — work it with pencil and paper. |
 | 9 | [What to read later](#9-what-to-read-later) | Optional — where to go deeper. |
 
-**Theory:** [Module 3](index.md#module-3--mechanical-domain) · **Stack:** [course03/03-mechanical](../course03/03-mechanical/README.md) · **Bench:** [course04/03-bench-mechanical](../course04/03-bench-mechanical.md) · **Pile:** [course05/03-mechanical](../course05/03-mechanical.md)
+**Theory:** [Module 3](index.md#module-3--mechanical-domain) · **Stack:** [course03/03-mechanical](../course03/03-mechanical/README.md) · **Bench:** [course04/03-bench-mechanical](../course04/03-bench-mechanical.md)
 
 ## 1. What you're looking at
 
@@ -88,7 +88,7 @@ Full BOM and build steps: [course04 Bench 3](../course04/03-bench-mechanical.md)
 
 Hooke (elasticity), Newton (motion), Coulomb (friction), Guillaume (Invar — made metrology possible), Slocum and Hale (modern precision machine design — read Hale's MIT thesis for free).
 
-Year-by-year table of what each one measured and with which equipment: [course05 Pile 3](../course05/03-mechanical.md#discoverers--measurement-and-equipment).
+Year-by-year table of what each one measured and with which equipment: [course03 Domain 3](../course03/03-mechanical/README.md#2-measurement).
 
 ## 8. The example everyone should work
 

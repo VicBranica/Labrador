@@ -2,7 +2,7 @@
 
 [← Dan Gelbart's videos](README.md) · [course02 index](../index.md)
 
-The single list of design heuristics for the project. [course05's integration pile](../../course05/08-integration.md#design-heuristics-gelbart-style) and the [course01 capstone](../../course01/index.md#module-9--integration--system-design) point here.
+The single list of design heuristics for the project. [course03's integration pile](../../course03/08-integration.md#design-heuristics-gelbart-style) and the [course01 capstone](../../course01/index.md#module-9--integration--system-design) point here.
 
 ## Physics and materials
 

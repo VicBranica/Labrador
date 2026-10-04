@@ -2,7 +2,7 @@
 
 [← Course 04 index](index.md) · [← Bench 1](01-bench-electrical.md) · [Bench 3 →](03-bench-mechanical.md)
 
-**Course:** [course01 Module 2](../course01/index.md#module-2--magnetic-domain) · **Theory:** [course03/02-magnetic](../course03/02-magnetic/README.md) · **Pile:** [course05/02-magnetic](../course05/02-magnetic.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
+**Course:** [course01 Module 2](../course01/index.md#module-2--magnetic-domain) · **Theory:** [course03/02-magnetic](../course03/02-magnetic/README.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
 
 ## What's on it
 

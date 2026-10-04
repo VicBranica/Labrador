@@ -30,7 +30,7 @@
 | 8 | [The example everyone should work](#8-the-example-everyone-should-work) | Optional — work it with pencil and paper. |
 | 9 | [What to read later](#9-what-to-read-later) | Optional — where to go deeper. |
 
-**Theory:** [Module 4](index.md#module-4--fluidic-domain) · **Stack:** [course03/04-fluidic](../course03/04-fluidic/README.md) · **Bench:** [course04/04-bench-fluidic](../course04/04-bench-fluidic.md) · **Pile:** [course05/04-fluidic](../course05/04-fluidic.md)
+**Theory:** [Module 4](index.md#module-4--fluidic-domain) · **Stack:** [course03/04-fluidic](../course03/04-fluidic/README.md) · **Bench:** [course04/04-bench-fluidic](../course04/04-bench-fluidic.md)
 
 ## 1. What you're looking at
 
@@ -82,7 +82,7 @@ Steel (cylinders), hardened steel ground to <1 µm (servo valve spools), aluminu
 
 Pascal (pressure transmission), Bernoulli (flow and pressure), Bramah (the hydraulic press, 1795), Reynolds (laminar vs. turbulent), Vickers and Moog (modern servo valves — Moog valves still fly on everything from F-16s to the Shuttle).
 
-Year-by-year table of what each one measured and with which equipment: [course05 Pile 4](../course05/04-fluidic.md#discoverers--measurement-and-equipment).
+Year-by-year table of what each one measured and with which equipment: [course03 Domain 4](../course03/04-fluidic/README.md#2-measurement).
 
 ## 8. The example everyone should work
 

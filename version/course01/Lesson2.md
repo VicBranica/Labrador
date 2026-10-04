@@ -30,7 +30,7 @@
 | 8 | [The example everyone should work](#8-the-example-everyone-should-work) | Optional — work it with pencil and paper. |
 | 9 | [What to read later](#9-what-to-read-later) | Optional — where to go deeper. |
 
-**Theory:** [Module 2](index.md#module-2--magnetic-domain) · **Stack:** [course03/02-magnetic](../course03/02-magnetic/README.md) · **Bench:** [course04/02-bench-magnetic](../course04/02-bench-magnetic.md) · **Pile:** [course05/02-magnetic](../course05/02-magnetic.md)
+**Theory:** [Module 2](index.md#module-2--magnetic-domain) · **Stack:** [course03/02-magnetic](../course03/02-magnetic/README.md) · **Bench:** [course04/02-bench-magnetic](../course04/02-bench-magnetic.md)
 
 ## 1. What you're looking at
 
@@ -90,7 +90,7 @@ Laminating the steel so eddy currents can't flow (that's the whole reason motor 
 
 Ørsted (current makes magnetism), Faraday (motor principle), Hall (transverse voltage), Tesla (AC motor), Sagawa and Croat (NdFeB), Fert and Grünberg (GMR — basis of modern hard-drive read heads).
 
-Year-by-year table of what each one measured and with which equipment: [course05 Pile 2](../course05/02-magnetic.md#discoverers--measurement-and-equipment).
+Year-by-year table of what each one measured and with which equipment: [course03 Domain 2](../course03/02-magnetic/README.md#2-measurement).
 
 ## 8. The example everyone should work
 

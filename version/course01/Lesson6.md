@@ -30,7 +30,7 @@
 | 8 | [The example everyone should work](#8-the-example-everyone-should-work) | Optional — work it with pencil and paper. |
 | 9 | [What to read later](#9-what-to-read-later) | Optional — where to go deeper. |
 
-**Theory:** [Module 6](index.md#module-6--chemical-domain) · **Stack:** [course03/06-chemical](../course03/06-chemical/README.md) · **Bench:** [course04/06-bench-chemical](../course04/06-bench-chemical.md) · **Pile:** [course05/06-chemical](../course05/06-chemical.md)
+**Theory:** [Module 6](index.md#module-6--chemical-domain) · **Stack:** [course03/06-chemical](../course03/06-chemical/README.md) · **Bench:** [course04/06-bench-chemical](../course04/06-bench-chemical.md)
 
 ## 1. What you're looking at
 
@@ -85,7 +85,7 @@ Full BOM and build steps: [course04 Bench 6](../course04/06-bench-chemical.md).
 
 Volta (pile), Faraday (electrolysis), Grove (fuel cell, 1839), Nernst (the equation), Sørensen (pH), Clark (oxygen electrode, 1956; enzyme electrode, 1962).
 
-Year-by-year table of what each one measured and with which equipment: [course05 Pile 6](../course05/06-chemical.md#discoverers--measurement-and-equipment).
+Year-by-year table of what each one measured and with which equipment: [course03 Domain 6](../course03/06-chemical/README.md#2-measurement).
 
 ## 8. The example everyone should work
 
