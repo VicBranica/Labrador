@@ -21,7 +21,7 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 │   ├── 3.2.1  Spring steel strip (0.5 mm × 25 mm × 300 mm)
 │   └── 3.2.2  Compression springs, assorted
 ├── 3.3  Bearings & kinematics  ($15)
-│   ├── 3.3.1  Linear ball bearings (608ZZ skate bearings)
+│   ├── 3.3.1  Linear ball bearings (LM8UU)
 │   └── 3.3.2  Precision ground steel balls (6 mm)
 ├── 3.4  Structure  ($25)
 │   ├── 3.4.1  Aluminum extrusion (20×20, 500 mm)
@@ -49,7 +49,7 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 | 2 | 3.2.1 | Spring steel strip (0.5 mm × 25 mm × 300 mm) | 1 | 10 | For hand-cut flexures |
 | 2 | 3.2.2 | Compression springs, assorted | 20 | 10 |  |
 | **1** | **3.3** | **Bearings & kinematics** | — | **15** | |
-| 2 | 3.3.1 | Linear ball bearings (608ZZ skate bearings) | 10 | 10 | Universal precision bearing |
+| 2 | 3.3.1 | Linear ball bearings (LM8UU) | 10 | 10 | 8 × 15 × 24 mm recirculating-ball bushing, double-sealed. Material: AISI 52100 bearing steel (GCr15 · 100Cr6 / 1.3505 · SUJ2). Runs on an 8 mm hardened shaft. See [3.3.1 types](#331-linear-ball-bearing-types) |
 | 2 | 3.3.2 | Precision ground steel balls (6 mm) | 10 | 5 | For kinematic mounts |
 | **1** | **3.4** | **Structure** | — | **25** | |
 | 2 | 3.4.1 | Aluminum extrusion (20×20, 500 mm) | 2 | 10 | For benchtop structures |
@@ -63,6 +63,43 @@ Springs, bearings, strain gauges, a flexure cut from spring steel. The pile wher
 | 2 | 3.6.4 | Any watch | 1 | 0 | → gears, bearings, hairspring (the perfect flexure). |
 
 **Bench 3 — Mechanical total: $114** for components (reuse the starter tools) — the course states ~$115.
+
+## 3.3.1 Linear ball bearing types
+
+A linear ball bearing lets a part **slide** along a shaft or rail; balls recirculate in tracks inside the housing. It is not the same thing as a radial ball bearing (such as a 608ZZ skate bearing), which lets a shaft **spin**.
+
+### Code key
+
+`LM` + type letter + shaft diameter in mm + options. Example: **LM8UU** = linear motion, 8 mm shaft, sealed both ends.
+
+| Code part | Meaning |
+|---|---|
+| `LM` | Linear motion ball bushing (metric) |
+| `F` / `K` / `H` after `LM` | Round flange / square flange / cut (oval) flange |
+| Number | Shaft diameter in mm (8 → 8 mm) |
+| `L` before `UU` | Long body — about double length, two ball circuits |
+| `UU` | Rubber seals at both ends |
+| `-OP` | Open type — a slot along the body clears the supports of a supported shaft |
+| `-AJ` | Adjustable type — a slit body lets you set clearance or preload |
+| `SC…UU` | Bearing already mounted in an aluminium housing block |
+
+### Types
+
+| Level | Item | Type | Code (8 mm shaft) | Size d × D × L (mm) | Use |
+|---|---|---|---|---|---|
+| 3 | 3.3.1.1 | Standard closed bushing | **LM8UU** ← BOM choice | 8 × 15 × 24 | General purpose; the common 3D-printer bearing |
+| 3 | 3.3.1.2 | Long closed bushing | LM8LUU | 8 × 15 × 45 | Higher moment load, less tilt; replaces two LM8UU |
+| 3 | 3.3.1.3 | Round flange | LMF8UU | 8 × 15 × 24 body | Bolts flat to a plate |
+| 3 | 3.3.1.4 | Square flange | LMK8UU | 8 × 15 × 24 body | Bolts flat to a plate; square bolt pattern |
+| 3 | 3.3.1.5 | Cut (oval) flange | LMH8UU | 8 × 15 × 24 body | Flange mounting where space is tight |
+| 3 | 3.3.1.6 | Housed unit | SC8UU (SCS8UU) | LM8UU in an aluminium block | Screw straight onto a carriage plate |
+| 3 | 3.3.1.7 | Open type | LM◻UU-OP | Larger shaft sizes | Long travel on a supported (continuously mounted) shaft |
+| 3 | 3.3.1.8 | Adjustable type | LM◻UU-AJ | Same as closed | Remove play by squeezing the housing bore |
+| 3 | 3.3.1.9 | Profile-rail carriage | MGN12H on MGN12 rail | 12 mm miniature rail | Stiffer and more accurate than round shafts; needs a flat mounting surface |
+
+All of these are made from the same bearing steel: **AISI 52100** (US), **GCr15** (China), **100Cr6 / 1.3505** (EU), **SUJ2** (Japan). Cheap versions usually have a plastic (POM) ball retainer; better ones use steel.
+
+**For this bench:** LM8UU is the one to buy, with two 8 mm hardened shafts (not in this BOM). Pull one apart to see the ball circuits — a free lesson in recirculation.
 
 ## Three builds
 
