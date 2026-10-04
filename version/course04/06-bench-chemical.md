@@ -82,7 +82,7 @@ Two copper strips in CuSO₄ solutions of different concentrations. Measure the 
 | Uses | |
 |---|---|
 | This bench | `6.1.1` Zinc and copper strips · `6.3.1` Electrolyte salts |
-| Starter kit | `S.1.1` [Digital multimeter](00-starter-kit.md) |
+| Starter kit | `S.1.1` [Digital multimeter](00-starter-kit.md) · `S.4.3` [Nitrile gloves](00-starter-kit.md) |
 | Not in any BOM | Two containers |
 
 ### Build 3 — Lemon battery array
