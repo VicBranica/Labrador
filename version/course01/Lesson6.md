@@ -4,7 +4,7 @@
 
 > Domain 6 of 7, in nine steps: start with something you can hold, get one mental model, build it, then learn what it's made of, how it's made, what trick unlocked it, and who got there first.
 
-<details><summary>Lesson structure</summary>
+## Lesson structure
 
 ```
 1.  What you're looking at         ← start concrete
@@ -18,19 +18,35 @@
 9.  What to read later             (optional)
 ```
 
-</details>
+| Step | Section | Purpose |
+|---|---|---|
+| 1 | [What you're looking at](#1-what-youre-looking-at) | Start concrete. |
+| 2 | [The one thing to understand](#2-the-one-thing-to-understand) | Give the mental model. |
+| 3 | [What to build](#3-what-to-build) | Hands on the bench. |
+| 4 | [Key materials](#4-key-materials) | What it's made of. |
+| 5 | [Key techniques](#5-key-techniques) | How it's made. |
+| 6 | [The clever trick](#6-the-clever-trick) | What unlocked the industry. |
+| 7 | [Who to know](#7-who-to-know) | Short lineage of names. |
+| 8 | [The example everyone should work](#8-the-example-everyone-should-work) | Optional — work it with pencil and paper. |
+| 9 | [What to read later](#9-what-to-read-later) | Optional — where to go deeper. |
 
 **Theory:** [Module 6](index.md#module-6--chemical-domain) · **Stack:** [course03/06-chemical](../course03/06-chemical/README.md) · **Bench:** [course04/06-bench-chemical](../course04/06-bench-chemical.md) · **Pile:** [course05/06-chemical](../course05/06-chemical.md)
 
 ## 1. What you're looking at
 
+*← start concrete*
+
 A pH probe. A glucose test strip. A smoke detector. A CO sensor. A fuel cell.
 
 ## 2. The one thing to understand
 
+*← give the mental model*
+
 Put two different metals in a conductive solution and you get a voltage. The voltage depends on what's dissolved. If you can arrange for a specific chemical to change that voltage reliably, you have a sensor for it. The Nernst equation turns concentration into millivolts: about 59 mV per decade of concentration change at room temperature.
 
 ## 3. What to build
+
+*← hands on the bench*
 
 1. Volta's pile: alternate zinc and copper coins separated by brine-soaked cardboard. Measure a few volts on a stack of ten.
 2. Dip two bits of different metals in salty water. Measure the voltage. Change the salinity. Watch it shift.
@@ -39,6 +55,8 @@ Put two different metals in a conductive solution and you get a voltage. The vol
 Full BOM and build steps: [course04 Bench 6](../course04/06-bench-chemical.md).
 
 ## 4. Key materials
+
+*← what it's made of*
 
 - **Electrodes:** platinum (universal), gold (biosensors), silver/silver chloride (reference), glassy carbon (electrochemistry).
 - **pH-sensitive membrane:** specially formulated lithium silicate glass.
@@ -49,21 +67,29 @@ Full BOM and build steps: [course04 Bench 6](../course04/06-bench-chemical.md).
 
 ## 5. Key techniques
 
+*← how it's made*
+
 - **Enzyme immobilization** — crosslinking with glutaraldehyde, entrapment in a gel, self-assembled monolayers. Hundreds of millions of glucose test strips a year.
 - **Screen-printing of electrodes** — carbon and silver inks on plastic. Disposable biosensors cost pennies to make.
 - **Nafion membrane casting** — the proton-conducting plastic that makes PEM fuel cells work.
 
 ## 6. The clever trick
 
+*← what unlocked the industry*
+
 **Clark and Lyons, 1962.** Spread glucose oxidase on a membrane over a Clark oxygen electrode. Glucose consumes oxygen as the enzyme oxidizes it. Less O₂ = less current. You've just turned "measure glucose" into "measure current." That one trick is the entire glucose-meter industry.
 
 ## 7. Who to know
+
+*← short lineage of names*
 
 Volta (pile), Faraday (electrolysis), Grove (fuel cell, 1839), Nernst (the equation), Sørensen (pH), Clark (oxygen electrode, 1956; enzyme electrode, 1962).
 
 Year-by-year table of what each one measured and with which equipment: [course05 Pile 6](../course05/06-chemical.md#discoverers--measurement-and-equipment).
 
-## 8. The example everyone should work *(optional)*
+## 8. The example everyone should work
+
+*← optional — work it with pencil and paper*
 
 Two copper strips in copper sulfate at different concentrations — a concentration cell (Bench 6, build 2):
 
@@ -78,6 +104,8 @@ Millivolts per decade: one equation turns concentration into voltage for pH prob
 
 More practice: the "Try it" exercises in [Module 6](index.md#module-6--chemical-domain).
 
-## 9. What to read later *(optional)*
+## 9. What to read later
+
+*← optional — where to go deeper*
 
 [Bard & Faulkner, *Electrochemical Methods*](../course02/07-bard-faulkner-electrochemical-methods/)

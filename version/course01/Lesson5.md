@@ -4,7 +4,7 @@
 
 > Domain 5 of 7, in nine steps: start with something you can hold, get one mental model, build it, then learn what it's made of, how it's made, what trick unlocked it, and who got there first.
 
-<details><summary>Lesson structure</summary>
+## Lesson structure
 
 ```
 1.  What you're looking at         ← start concrete
@@ -18,19 +18,35 @@
 9.  What to read later             (optional)
 ```
 
-</details>
+| Step | Section | Purpose |
+|---|---|---|
+| 1 | [What you're looking at](#1-what-youre-looking-at) | Start concrete. |
+| 2 | [The one thing to understand](#2-the-one-thing-to-understand) | Give the mental model. |
+| 3 | [What to build](#3-what-to-build) | Hands on the bench. |
+| 4 | [Key materials](#4-key-materials) | What it's made of. |
+| 5 | [Key techniques](#5-key-techniques) | How it's made. |
+| 6 | [The clever trick](#6-the-clever-trick) | What unlocked the industry. |
+| 7 | [Who to know](#7-who-to-know) | Short lineage of names. |
+| 8 | [The example everyone should work](#8-the-example-everyone-should-work) | Optional — work it with pencil and paper. |
+| 9 | [What to read later](#9-what-to-read-later) | Optional — where to go deeper. |
 
 **Theory:** [Module 5](index.md#module-5--thermal-domain) · **Stack:** [course03/05-thermal](../course03/05-thermal/README.md) · **Bench:** [course04/05-bench-thermal](../course04/05-bench-thermal.md) · **Pile:** [course05/05-thermal](../course05/05-thermal.md)
 
 ## 1. What you're looking at
 
+*← start concrete*
+
 A thermocouple from a multimeter probe. A Peltier module from a USB mini-fridge. A bimetal strip from an old oven thermostat. A pot of water heating on the stove.
 
 ## 2. The one thing to understand
 
+*← give the mental model*
+
 Heat is slow. Everything thermal has a time constant equal to thermal mass × thermal resistance (just like electrical RC). Nothing changes temperature fast unless it's tiny or you dump huge power into it. The slowest domain in a chain sets the system's bandwidth.
 
 ## 3. What to build
+
+*← hands on the bench*
 
 1. Twist chromel and alumel wire together with a torch to make a Type K thermocouple. Dip the junction in boiling water, then ice water. Read millivolts on a meter.
 2. Hook a Peltier to a battery. One side gets cold, one side gets hot. Flip the polarity. The sides swap.
@@ -41,6 +57,8 @@ Full BOM and build steps: [course04 Bench 5](../course04/05-bench-thermal.md).
 
 ## 4. Key materials
 
+*← what it's made of*
+
 - **Thermocouples:** chromel-alumel (Type K, general), iron-constantan (Type J), Pt/Rh (high temperature, laboratory accuracy).
 - **RTDs:** pure platinum. Pt100 and Pt1000 are everywhere stability matters.
 - **Thermistors:** metal-oxide ceramics. High sensitivity, nonlinear.
@@ -50,6 +68,8 @@ Full BOM and build steps: [course04 Bench 5](../course04/05-bench-thermal.md).
 
 ## 5. Key techniques
 
+*← how it's made*
+
 - Bead welding of thermocouple wires.
 - Mineral-insulated sheath construction — wires inside MgO powder inside Inconel. Survives furnaces, reactors, exhausts.
 - Shape-setting of Nitinol — constrain the wire in a jig, anneal at 500 °C. It now "remembers" that shape and returns to it on heating. One technique, enormous consequences.
@@ -57,15 +77,21 @@ Full BOM and build steps: [course04 Bench 5](../course04/05-bench-thermal.md).
 
 ## 6. The clever trick
 
+*← what unlocked the industry*
+
 **Nitinol's phase transformation.** Two phases, austenite (hot) and martensite (cold). Deform it cold, heat it, it springs back to the "remembered" shape. ~5% reversible strain. Used in heart stents that are threaded in cold, then warm to body temperature and open. One alloy, one anneal, and you get a thermal actuator with no motor, no gears, no bearings.
 
 ## 7. Who to know
+
+*← short lineage of names*
 
 Fourier (heat equation), Seebeck (thermocouple effect), Peltier (thermoelectric cooling), Buehler and Wang (Nitinol, 1962, at the Naval Ordnance Lab).
 
 Year-by-year table of what each one measured and with which equipment: [course05 Pile 5](../course05/05-thermal.md#discoverers--measurement-and-equipment).
 
-## 8. The example everyone should work *(optional)*
+## 8. The example everyone should work
+
+*← optional — work it with pencil and paper*
 
 A mug of coffee cooling on a desk, as a lumped RC model (Bench 5, build 4 measures this):
 
@@ -80,7 +106,9 @@ Measure it and you'll find it cools faster — evaporation from the open top is 
 
 More practice: the "Try it" exercises in [Module 5](index.md#module-5--thermal-domain).
 
-## 9. What to read later *(optional)*
+## 9. What to read later
+
+*← optional — where to go deeper*
 
 - [Fraden, *Handbook of Modern Sensors*](../course02/06-fraden-handbook-of-modern-sensors/)
 - Incropera & DeWitt, *Fundamentals of Heat and Mass Transfer* — [Appendix G](index.md#appendix-g--further-reading)
