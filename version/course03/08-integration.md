@@ -1,6 +1,6 @@
 # The Integration Pile — Putting It Together
 
-[← Course 03 index](index.md) · [← Pile 7](07-radiant/README.md)
+[← Course 03 index](index.md) · [← Domain 7 — Radiant](07-radiant/README.md)
 
 **Course:** [course01 Module 8](../course01/index.md#module-8--cross-domain-transducers) and [Module 9](../course01/index.md#module-9--integration--system-design) · **Heuristics:** [course02 design.md](../course02/09-gelbart-videos/design.md)
 

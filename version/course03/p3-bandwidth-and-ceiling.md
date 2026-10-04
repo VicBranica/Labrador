@@ -1,6 +1,6 @@
 # Pillar 3 — Bandwidth and ceiling
 
-[← Course 03 index](index.md) · [← Pillar 2 — Material + technique](p2-material-and-technique.md) · [Pile 1 →](01-electrical/README.md)
+[← Course 03 index](index.md) · [← Pillar 2 — Material + technique](p2-material-and-technique.md) · [Domain 1 — Electrical →](01-electrical/README.md)
 
 > The slowest domain sets the bandwidth. The material family sets the ceiling.
 
