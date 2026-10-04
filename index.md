@@ -8,7 +8,7 @@
 Labrador/
 ├── index.md                         ← project map (this file)
 └── version/
-    ├── course01/  index.md + Lesson1–7.md            Core course
+    ├── course01/  index.md + Lesson1–10.md           Core course
     ├── course02/  index.md + 9 resource folders      Reading list
     ├── course03/  index.md + 3 pillars + 7 domains   Domain stack
     │              + integration pile
@@ -27,7 +27,7 @@ Labrador/
 
 | Course | Role | What it is | Builds on | Feeds into |
 |---|---|---|---|---|
-| [course01](version/course01/index.md) | Core course | *Physical Domains in Sensors & Actuators* — Modules 0–9, Appendices A–G, and Lessons 1–7 (one per domain, nine steps each) | — | course02, course03, course04, course05 |
+| [course01](version/course01/index.md) | Core course | *Physical Domains in Sensors & Actuators* — Modules 0–9, Appendices A–G, and Lessons 1–10 (one per domain, plus three across domains; nine steps each) | — | course02, course03, course04, course05 |
 | [course02](version/course02/index.md) | Reading list | Nine books and video series, plus the single list of [design heuristics](version/course02/09-gelbart-videos/design.md) | course01 Appendix G | course03 (sources), all courses (heuristics) |
 | [course03](version/course03/index.md) | Domain stack | Three pillars, then one file per domain — hands-on pile (look, understand, build, worked example) and six-layer stack (vocabulary → measurement → discovery → material → technique → features) — then the integration pile | course01, course02 | course04, course05 |
 | [course04](version/course04/index.md) | Hands-on lab | Starter kit + seven benches, each with a multilevel BOM, teardowns and three builds | course03 | Your lab notebook, course05 |
@@ -59,14 +59,14 @@ graph LR
 
 ## Suggested study path
 
-1. **Foundations** — [course01 Module 0](version/course01/index.md#module-0--foundations), then the [course03 index](version/course03/index.md) (six layers, three pillars, the bench) and [Pillar 1 — Arrows between piles](version/course03/p1-arrows-between-piles.md).
+1. **Foundations** — [course01 Lesson 8](version/course01/Lesson8.md) with [Module 0](version/course01/index.md#module-0--foundations), then the [course03 index](version/course03/index.md) (six layers, three pillars, the bench) and [Pillar 1 — Arrows between piles](version/course03/p1-arrows-between-piles.md).
 2. **Domain by domain** — for each of the seven domains, in order:
    1. Work the course01 lesson (and the module for theory).
    2. Work the course03 domain file: hands-on pile, then the six layers.
    3. Set up the course04 bench: teardowns first, then the three builds.
    4. Go deeper with the course02 books for that domain; source parts with course05.
-3. **Across domains** — [course01 Module 8](version/course01/index.md#module-8--cross-domain-transducers) with [Pillar 2 — Material + technique](version/course03/p2-material-and-technique.md) and [Pillar 3 — Bandwidth and ceiling](version/course03/p3-bandwidth-and-ceiling.md).
-4. **Integration & capstone** — [course01 Module 9](version/course01/index.md#module-9--integration--system-design), the [integration pile](version/course03/08-integration.md) and the [design heuristics](version/course02/09-gelbart-videos/design.md), building on the benches you've set up.
+3. **Across domains** — [course01 Lesson 9](version/course01/Lesson9.md) with [Module 8](version/course01/index.md#module-8--cross-domain-transducers) with [Pillar 2 — Material + technique](version/course03/p2-material-and-technique.md) and [Pillar 3 — Bandwidth and ceiling](version/course03/p3-bandwidth-and-ceiling.md).
+4. **Integration & capstone** — [course01 Lesson 10](version/course01/Lesson10.md) with [Module 9](version/course01/index.md#module-9--integration--system-design), the [integration pile](version/course03/08-integration.md) and the [design heuristics](version/course02/09-gelbart-videos/design.md), building on the benches you've set up.
 
 ## Domain cross-reference
 
@@ -81,7 +81,7 @@ The same domain, in every course:
 | 5 | Thermal | [Lesson 5](version/course01/Lesson5.md) | [Module 5](version/course01/index.md#module-5--thermal-domain) | [05-thermal](version/course03/05-thermal/README.md) | [Bench 5](version/course04/05-bench-thermal.md) | [Fraden](version/course02/06-fraden-handbook-of-modern-sensors/) |
 | 6 | Chemical | [Lesson 6](version/course01/Lesson6.md) | [Module 6](version/course01/index.md#module-6--chemical-domain) | [06-chemical](version/course03/06-chemical/README.md) | [Bench 6](version/course04/06-bench-chemical.md) | [Bard & Faulkner](version/course02/07-bard-faulkner-electrochemical-methods/) |
 | 7 | Radiant | [Lesson 7](version/course01/Lesson7.md) | [Module 7](version/course01/index.md#module-7--radiant-domain) | [07-radiant](version/course03/07-radiant/README.md) | [Bench 7](version/course04/07-bench-radiant.md) | [Hecht; Saleh & Teich](version/course02/08-hecht-saleh-teich-optics-photonics/) |
-| — | All domains | — | [Modules 0, 8, 9](version/course01/index.md#module-0--foundations) | [Pillars 1–3](version/course03/p1-arrows-between-piles.md) · [Integration](version/course03/08-integration.md) | [Starter kit](version/course04/00-starter-kit.md) | [Design heuristics](version/course02/09-gelbart-videos/design.md) |
+| — | All domains | [Lessons 8](version/course01/Lesson8.md), [9](version/course01/Lesson9.md), [10](version/course01/Lesson10.md) | [Modules 0, 8, 9](version/course01/index.md#module-0--foundations) | [Pillars 1–3](version/course03/p1-arrows-between-piles.md) · [Integration](version/course03/08-integration.md) | [Starter kit](version/course04/00-starter-kit.md) | [Design heuristics](version/course02/09-gelbart-videos/design.md) |
 
 Who makes each part: [course05 — Manufacturers & Brands](version/course05/index.md).
 
@@ -90,6 +90,7 @@ Who makes each part: [course05 — Manufacturers & Brands](version/course05/inde
 ### [course01](version/course01/index.md) — Core course: *Physical Domains in Sensors & Actuators*
 
 - Lessons, one per domain, each in nine steps: [1 Electrical](version/course01/Lesson1.md) · [2 Magnetic](version/course01/Lesson2.md) · [3 Mechanical](version/course01/Lesson3.md) · [4 Fluidic](version/course01/Lesson4.md) · [5 Thermal](version/course01/Lesson5.md) · [6 Chemical](version/course01/Lesson6.md) · [7 Radiant](version/course01/Lesson7.md)
+- Lessons across domains, same nine steps: [8 Foundations](version/course01/Lesson8.md) (work first) · [9 Cross-domain transducers](version/course01/Lesson9.md) · [10 Integration & system design](version/course01/Lesson10.md)
 - [Module 0 — Foundations](version/course01/index.md#module-0--foundations)
 - [Module 1 — Electrical Domain](version/course01/index.md#module-1--electrical-domain)
 - [Module 2 — Magnetic Domain](version/course01/index.md#module-2--magnetic-domain)

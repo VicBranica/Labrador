@@ -26,6 +26,7 @@ Invar (Fe–Ni, ~36% Ni) was discovered by Charles-Édouard Guillaume in 1896 an
 | [course01/Lesson3.md](../../course01/Lesson3.md#4-key-materials) | 4. Key materials | Granite, Zerodur, Invar, fused silica when dimensional stability matters more than anything. |
 | [course01/Lesson3.md](../../course01/Lesson3.md#7-who-to-know) | 7. Who to know | …, Newton (motion), Coulomb (friction), Guillaume (Invar — made metrology possible), Slocum and Hale (modern precision machine design — read … |
 | [course01/Lesson5.md](../../course01/Lesson5.md#4-key-materials) | 4. Key materials | Bimetals: Invar bonded to brass or steel. |
+| [course01/Lesson9.md](../../course01/Lesson9.md#4-key-materials) | 4. Key materials | Therm → Mech: Nitinol (shape memory), Invar bonded to brass (bimetal). |
 | [course01/index.md](../../course01/index.md#discoverers--measurement) | Discoverers & measurement | 1896 Guillaume Thermal expansion of Fe–Ni (Invar) Fizeau dilatometer, Pt thermometer |
 | [course01/index.md](../../course01/index.md#materials-techniques-features) | Materials, techniques, features | Reference Granite, Zerodur, Invar, fused silica Grinding, lapping, scraping Dimensional stability |
 | [course01/index.md](../../course01/index.md#materials-techniques-features) | Materials, techniques, features | Bimetal Invar + brass/steel Rolling + bonding Passive switching |

@@ -2,6 +2,8 @@
 
 [← Course 03 index](index.md) · [Pillar 2 — Material + technique →](p2-material-and-technique.md)
 
+**Lessons:** [course01 Lesson 8](../course01/Lesson8.md) and [Lesson 9](../course01/Lesson9.md) · **Theory:** [course01 Module 0](../course01/index.md#module-0--foundations) and [Module 8](../course01/index.md#module-8--cross-domain-transducers)
+
 > Any sensor or actuator is one or more arrows between two piles.
 
 ## The one idea you need first

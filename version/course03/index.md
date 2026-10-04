@@ -4,7 +4,7 @@
 >
 > Every domain as a hands-on pile and as a six-layer stack, in one file per domain — plus the three pillars that explain every device and the integration pile where domains meet.
 >
-> **Builds on:** course01 (Modules 0–8 and Lessons 1–7), course02 (sources)  
+> **Builds on:** course01 (Modules 0–9 and Lessons 1–10), course02 (sources)  
 > **Feeds into:** course04 (each bench puts a domain on the table), course05 (who makes the parts)
 
 ## The six-layer stack

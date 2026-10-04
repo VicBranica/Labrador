@@ -145,7 +145,7 @@
 | [Analog Devices](03-semiconductors/analog-devices.md) | Semiconductor manufacturers | Manufacturer | course04 |
 | [Aosong Electronics](04-sensor-and-module-makers/aosong.md) | Sensor & module makers | Manufacturer | course04 |
 | [Aperam Alloys Imphy (Invar)](06-materials-and-trade-names/aperam-imphy.md) | Materials & trade names | Manufacturer | course01, course02, course03 |
-| [Arduino](02-boards-and-modules/arduino.md) | Development boards & breakouts | Manufacturer / open-hardware platform | course04 |
+| [Arduino](02-boards-and-modules/arduino.md) | Development boards & breakouts | Manufacturer / open-hardware platform | course01, course04 |
 | [AstroAI](01-instruments-and-tools/astroai.md) | Instruments & tools | Manufacturer (consumer brand) | course04 |
 | [Avia Semiconductor](03-semiconductors/avia-semiconductor.md) | Semiconductor manufacturers | Manufacturer | course04 |
 | [Bosch Sensortec](03-semiconductors/bosch-sensortec.md) | Semiconductor manufacturers | Manufacturer | course04 |

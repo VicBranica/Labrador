@@ -2,6 +2,8 @@
 
 [← Course 03 index](index.md) · [← Pillar 1 — Arrows between piles](p1-arrows-between-piles.md) · [Pillar 3 — Bandwidth and ceiling →](p3-bandwidth-and-ceiling.md)
 
+**Lesson:** [course01 Lesson 9](../course01/Lesson9.md) · **Theory:** [course01 Module 8](../course01/index.md#module-8--cross-domain-transducers)
+
 > The material + technique on each arrow is what makes the device possible.
 
 Each pile file has its own *Key materials*, *Key techniques* and *The clever trick*. The families below are the ones that cut across piles.
