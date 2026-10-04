@@ -181,7 +181,7 @@ This single loop is the design calculation behind every relay, solenoid, speaker
 ## F. What to read later
 
 - [Fraden, *Handbook of Modern Sensors*](../../course02/06-fraden-handbook-of-modern-sensors/)
-- Jiles, *Introduction to Magnetism and Magnetic Materials* — [course01, Appendix G](../../course01/index.md#appendix-g--further-reading)
+- [Jiles, *Introduction to Magnetism and Magnetic Materials*](../../course02/10-jiles-magnetism-and-magnetic-materials/) — the magnetic pile.
 
 ## G. Related in other courses
 

@@ -18,3 +18,6 @@
 | 7 | [07-bard-faulkner-electrochemical-methods](07-bard-faulkner-electrochemical-methods/) | Bard & Faulkner, *Electrochemical Methods* | The chemical pile. |
 | 8 | [08-hecht-saleh-teich-optics-photonics](08-hecht-saleh-teich-optics-photonics/) | Hecht, *Optics*; Saleh & Teich, *Fundamentals of Photonics* | The radiant pile. |
 | 9 | [09-gelbart-videos](09-gelbart-videos/) | Dan Gelbart's videos | *Building Prototypes* (18 parts), *MECH 520* (25 lectures). Both free. |
+| 10 | [10-jiles-magnetism-and-magnetic-materials](10-jiles-magnetism-and-magnetic-materials/) | Jiles, *Introduction to Magnetism and Magnetic Materials* | The magnetic pile. |
+| 11 | [11-incropera-dewitt-heat-and-mass-transfer](11-incropera-dewitt-heat-and-mass-transfer/) | Incropera & DeWitt, *Fundamentals of Heat and Mass Transfer* | The thermal pile. |
+| 12 | [12-wang-electrochemical-sensors-biosensors](12-wang-electrochemical-sensors-biosensors/) | Wang, *Electrochemical Sensors, Biosensors, and Their Biomedical Applications* | Biosensors, for the chemical pile. |

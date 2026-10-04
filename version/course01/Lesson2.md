@@ -127,4 +127,4 @@ This single loop is the design calculation behind every relay, solenoid, speaker
 *← optional — where to go deeper*
 
 - [Fraden, *Handbook of Modern Sensors*](../course02/06-fraden-handbook-of-modern-sensors/)
-- Jiles, *Introduction to Magnetism and Magnetic Materials* — [Appendix G](index.md#appendix-g--further-reading)
+- [Jiles, *Introduction to Magnetism and Magnetic Materials*](../course02/10-jiles-magnetism-and-magnetic-materials/)

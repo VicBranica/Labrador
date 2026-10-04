@@ -111,4 +111,4 @@ More practice: the "Try it" exercises in [Module 5](index.md#module-5--thermal-d
 *← optional — where to go deeper*
 
 - [Fraden, *Handbook of Modern Sensors*](../course02/06-fraden-handbook-of-modern-sensors/)
-- Incropera & DeWitt, *Fundamentals of Heat and Mass Transfer* — [Appendix G](index.md#appendix-g--further-reading)
+- [Incropera & DeWitt, *Fundamentals of Heat and Mass Transfer*](../course02/11-incropera-dewitt-heat-and-mass-transfer/)

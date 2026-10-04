@@ -148,7 +148,7 @@ Millivolts per decade: one equation turns concentration into voltage for pH prob
 ## F. What to read later
 
 - [Bard & Faulkner, *Electrochemical Methods*](../../course02/07-bard-faulkner-electrochemical-methods/) — the chemical pile.
-- Wang, *Electrochemical Sensors, Biosensors, and Their Biomedical Applications* — [course01, Appendix G](../../course01/index.md#appendix-g--further-reading)
+- [Wang, *Electrochemical Sensors, Biosensors, and Their Biomedical Applications*](../../course02/12-wang-electrochemical-sensors-biosensors/) — biosensors.
 
 ## G. Related in other courses
 
