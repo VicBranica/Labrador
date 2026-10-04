@@ -2,7 +2,7 @@
 
 [← Course 05 index](index.md) · [← Pile 5](05-thermal.md) · [Pile 7 →](07-radiant.md)
 
-**Course:** [course01 Module 6](../course01/index.md#module-6--chemical-domain) · **Theory:** [course03/06-chemical](../course03/06-chemical/README.md) · **Bench:** [course04/06-bench-chemical](../course04/06-bench-chemical.md)
+**Lesson:** [course01 Lesson 6](../course01/Lesson6.md) · **Course:** [course01 Module 6](../course01/index.md#module-6--chemical-domain) · **Theory:** [course03/06-chemical](../course03/06-chemical/README.md) · **Bench:** [course04/06-bench-chemical](../course04/06-bench-chemical.md)
 
 ## What you're looking at
 

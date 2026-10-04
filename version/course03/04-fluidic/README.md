@@ -84,6 +84,7 @@ Two-stage flapper-nozzle servo valves give precision force/position control up t
 
 ## Related in other courses
 
+- **Lesson:** [course01 — Lesson 4: Fluidic](../../course01/Lesson4.md)
 - **Course:** [course01 — Module 4: Fluidic Domain](../../course01/index.md#module-4--fluidic-domain)
 - **Pile:** [course05 — Pile 4: Fluidic](../../course05/04-fluidic.md)
 - **Bench:** [course04 — Bench 4: Fluidic](../../course04/04-bench-fluidic.md)

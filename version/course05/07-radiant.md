@@ -2,7 +2,7 @@
 
 [← Course 05 index](index.md) · [← Pile 6](06-chemical.md) · [Integration pile →](08-integration.md)
 
-**Course:** [course01 Module 7](../course01/index.md#module-7--radiant-domain) · **Theory:** [course03/07-radiant](../course03/07-radiant/README.md) · **Bench:** [course04/07-bench-radiant](../course04/07-bench-radiant.md)
+**Lesson:** [course01 Lesson 7](../course01/Lesson7.md) · **Course:** [course01 Module 7](../course01/index.md#module-7--radiant-domain) · **Theory:** [course03/07-radiant](../course03/07-radiant/README.md) · **Bench:** [course04/07-bench-radiant](../course04/07-bench-radiant.md)
 
 ## What you're looking at
 

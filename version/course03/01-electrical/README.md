@@ -72,6 +72,7 @@ Signal-conditioning toolbox: amplification (op-amps, instrumentation amps) · fi
 
 ## Related in other courses
 
+- **Lesson:** [course01 — Lesson 1: Electrical](../../course01/Lesson1.md)
 - **Course:** [course01 — Module 1: Electrical Domain](../../course01/index.md#module-1--electrical-domain)
 - **Pile:** [course05 — Pile 1: Electrical](../../course05/01-electrical.md)
 - **Bench:** [course04 — Bench 1: Electrical](../../course04/01-bench-electrical.md)

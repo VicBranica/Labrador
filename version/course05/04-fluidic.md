@@ -2,7 +2,7 @@
 
 [← Course 05 index](index.md) · [← Pile 3](03-mechanical.md) · [Pile 5 →](05-thermal.md)
 
-**Course:** [course01 Module 4](../course01/index.md#module-4--fluidic-domain) · **Theory:** [course03/04-fluidic](../course03/04-fluidic/README.md) · **Bench:** [course04/04-bench-fluidic](../course04/04-bench-fluidic.md)
+**Lesson:** [course01 Lesson 4](../course01/Lesson4.md) · **Course:** [course01 Module 4](../course01/index.md#module-4--fluidic-domain) · **Theory:** [course03/04-fluidic](../course03/04-fluidic/README.md) · **Bench:** [course04/04-bench-fluidic](../course04/04-bench-fluidic.md)
 
 ## What you're looking at
 

@@ -81,6 +81,7 @@ Key relations: R_θ = ΔT / Q̇ [K/W] · C_θ = m·c [J/K] · τ = R_θ · C_θ 
 
 ## Related in other courses
 
+- **Lesson:** [course01 — Lesson 5: Thermal](../../course01/Lesson5.md)
 - **Course:** [course01 — Module 5: Thermal Domain](../../course01/index.md#module-5--thermal-domain)
 - **Pile:** [course05 — Pile 5: Thermal](../../course05/05-thermal.md)
 - **Bench:** [course04 — Bench 5: Thermal](../../course04/05-bench-thermal.md)

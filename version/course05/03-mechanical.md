@@ -2,7 +2,7 @@
 
 [← Course 05 index](index.md) · [← Pile 2](02-magnetic.md) · [Pile 4 →](04-fluidic.md)
 
-**Course:** [course01 Module 3](../course01/index.md#module-3--mechanical-domain) · **Theory:** [course03/03-mechanical](../course03/03-mechanical/README.md) · **Bench:** [course04/03-bench-mechanical](../course04/03-bench-mechanical.md)
+**Lesson:** [course01 Lesson 3](../course01/Lesson3.md) · **Course:** [course01 Module 3](../course01/index.md#module-3--mechanical-domain) · **Theory:** [course03/03-mechanical](../course03/03-mechanical/README.md) · **Bench:** [course04/03-bench-mechanical](../course04/03-bench-mechanical.md)
 
 ## What you're looking at
 

@@ -73,6 +73,7 @@ Design patterns: flexures (zero backlash, no stiction, no wear; limited stroke) 
 
 ## Related in other courses
 
+- **Lesson:** [course01 — Lesson 3: Mechanical](../../course01/Lesson3.md)
 - **Course:** [course01 — Module 3: Mechanical Domain](../../course01/index.md#module-3--mechanical-domain)
 - **Pile:** [course05 — Pile 3: Mechanical](../../course05/03-mechanical.md)
 - **Bench:** [course04 — Bench 3: Mechanical](../../course04/03-bench-mechanical.md)

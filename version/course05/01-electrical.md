@@ -2,7 +2,7 @@
 
 [← Course 05 index](index.md) · [← Pillar 3 — Bandwidth and ceiling](p3-bandwidth-and-ceiling.md) · [Pile 2 →](02-magnetic.md)
 
-**Course:** [course01 Module 1](../course01/index.md#module-1--electrical-domain) · **Theory:** [course03/01-electrical](../course03/01-electrical/README.md) · **Bench:** [course04/01-bench-electrical](../course04/01-bench-electrical.md)
+**Lesson:** [course01 Lesson 1](../course01/Lesson1.md) · **Course:** [course01 Module 1](../course01/index.md#module-1--electrical-domain) · **Theory:** [course03/01-electrical](../course03/01-electrical/README.md) · **Bench:** [course04/01-bench-electrical](../course04/01-bench-electrical.md)
 
 ## What you're looking at
 

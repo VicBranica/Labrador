@@ -23,7 +23,7 @@ Bill Moog's electrohydraulic servo valve (patent filed 1950) is the two-stage se
 
 | File | Section | Mention |
 |---|---|---|
-| [course01/Lesson1.md](../../course01/Lesson1.md#7-who-to-know) | 7. Who to know | …5), Reynolds (laminar vs. turbulent), Vickers and Moog (modern servo valves — Moog valves still fly on everything from F-16s to the Shuttle)… |
+| [course01/Lesson4.md](../../course01/Lesson4.md#7-who-to-know) | 7. Who to know | …5), Reynolds (laminar vs. turbulent), Vickers and Moog (modern servo valves — Moog valves still fly on everything from F-16s to the Shuttle)… |
 | [course01/index.md](../../course01/index.md#discoverers--measurement) | Discoverers & measurement | 1951 Tinsley/Moog Spool position, flow response Flow bench, LVDTs |
 | [course01/index.md](../../course01/index.md#appendix-a--timeline-of-key-discoveries) | Appendix A — Timeline of key discoveries | 1951 Two-stage servo valve Tinsley/Moog |
 | [course01/index.md](../../course01/index.md#appendix-b--people-index) | Appendix B — People index | …avier · Stokes · Reynolds · Armstrong · Vickers · Moog · Fourier · Seebeck · Peltier · Kelvin · Stefan · Boltzmann · Buehler · Wang · Grove … |
