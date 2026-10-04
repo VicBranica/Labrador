@@ -1,6 +1,6 @@
 # Lesson 7 — Radiant
 
-[← Lesson 6 — Chemical](Lesson6.md) · [All lessons](index.md#lessons) · [course01 index →](index.md)
+[← Lesson 6 — Chemical](Lesson6.md) · [All lessons](index.md#lessons) · [Lesson 9 — Cross-domain transducers →](Lesson9.md)
 
 > Domain 7 of 7, in nine steps: start with something you can hold, get one mental model, build it, then learn what it's made of, how it's made, what trick unlocked it, and who got there first.
 

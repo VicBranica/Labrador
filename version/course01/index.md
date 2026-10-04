@@ -8,13 +8,13 @@
 > **Builds on:** —  
 > **Feeds into:** course02 (deeper reading), course03 (each domain as a pile and a six-layer stack), course04 (hands-on benches), course05 (manufacturers of every part)
 >
-> **Lessons:** [Lessons 1–7](#lessons) — one per domain
+> **Lessons:** [Lessons 1–10](#lessons) — one per domain (1–7), plus three across domains (8–10); start with [Lesson 8](Lesson8.md)
 
 > A structured path through the physical foundations, materials, techniques, and design patterns that unify all sensors and actuators as a single discipline.
 
 ## Lessons
 
-One lesson per domain, each in the same nine steps: what you're looking at · the one thing to understand · what to build · key materials · key techniques · the clever trick · who to know · the example everyone should work · what to read later.
+One lesson per domain, plus three that work across all domains, each in the same nine steps: what you're looking at · the one thing to understand · what to build · key materials · key techniques · the clever trick · who to know · the example everyone should work · what to read later.
 
 | Lesson | Domain | Theory | Domain stack | Bench |
 |---|---|---|---|---|
@@ -25,6 +25,14 @@ One lesson per domain, each in the same nine steps: what you're looking at · th
 | [Lesson 5](Lesson5.md) | Thermal | [Module 5](#module-5--thermal-domain) | [course03](../course03/05-thermal/README.md) | [course04](../course04/05-bench-thermal.md) |
 | [Lesson 6](Lesson6.md) | Chemical | [Module 6](#module-6--chemical-domain) | [course03](../course03/06-chemical/README.md) | [course04](../course04/06-bench-chemical.md) |
 | [Lesson 7](Lesson7.md) | Radiant | [Module 7](#module-7--radiant-domain) | [course03](../course03/07-radiant/README.md) | [course04](../course04/07-bench-radiant.md) |
+
+**Across domains.** Lesson 8 covers Module 0, so work it first, before Lesson 1. Lessons 9 and 10 come after Lesson 7.
+
+| Lesson | Topic | Theory | Domain stack | Bench |
+|---|---|---|---|---|
+| [Lesson 8](Lesson8.md) | Foundations — work first | [Module 0](#module-0--foundations) | [course03 index](../course03/index.md) · [Pillar 1](../course03/p1-arrows-between-piles.md) | [Starter kit](../course04/00-starter-kit.md) |
+| [Lesson 9](Lesson9.md) | Cross-domain transducers | [Module 8](#module-8--cross-domain-transducers) | [Pillar 1](../course03/p1-arrows-between-piles.md) · [Pillar 2](../course03/p2-material-and-technique.md) | Benches [2](../course04/02-bench-magnetic.md), [3](../course04/03-bench-mechanical.md), [5](../course04/05-bench-thermal.md), [7](../course04/07-bench-radiant.md) |
+| [Lesson 10](Lesson10.md) | Integration & system design | [Module 9](#module-9--integration--system-design) | [Integration pile](../course03/08-integration.md) · [Pillar 3](../course03/p3-bandwidth-and-ceiling.md) | Benches [1](../course04/01-bench-electrical.md), [5](../course04/05-bench-thermal.md) + [Starter kit](../course04/00-starter-kit.md) |
 
 ---
 

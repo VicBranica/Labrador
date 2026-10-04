@@ -1,8 +1,10 @@
 # Lesson 1 — Electrical
 
-[← course01 index](index.md) · [All lessons](index.md#lessons) · [Lesson 2 — Magnetic →](Lesson2.md)
+[← Lesson 8 — Foundations](Lesson8.md) · [All lessons](index.md#lessons) · [Lesson 2 — Magnetic →](Lesson2.md)
 
 > Domain 1 of 7, in nine steps: start with something you can hold, get one mental model, build it, then learn what it's made of, how it's made, what trick unlocked it, and who got there first.
+>
+> New to the course? Work [Lesson 8 — Foundations](Lesson8.md) first.
 
 ## Lesson structure
 

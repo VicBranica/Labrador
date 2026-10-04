@@ -23,6 +23,7 @@ Hastelloy is the corrosion-resistant diaphragm alloy in the fluidic pile and the
 
 | File | Section | Mention |
 |---|---|---|
+| [course01/Lesson10.md](../../course01/Lesson10.md#4-key-materials) | 4. Key materials | Rugged environments: pick the material first — Hastelloy, sapphire, Viton, platinum. |
 | [course01/index.md](../../course01/index.md#materials-techniques-features) | Materials, techniques, features | Diaphragms 316 SS, Hastelloy, Si (MEMS) DRIE, EB welding Chemical resistance |
 | [course01/index.md](../../course01/index.md#core-design-heuristics) | Core design heuristics | Rugged environment = material first. Hastelloy, sapphire, Viton, platinum. |
 | [course01/index.md](../../course01/index.md#appendix-c--materials-index) | Appendix C — Materials index | …alumel, constantan, Invar, stainless 316/17-4 PH, Hastelloy, 52100 steel, silicon steel, permalloy, Mu-metal, NdFeB, SmCo, AlNiCo, beryllium… |

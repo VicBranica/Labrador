@@ -9,7 +9,7 @@
 | Founded | 2005 |
 | Owner / parent | Qualcomm (acquisition announced October 2025) |
 | Website | [www.arduino.cc](https://www.arduino.cc) |
-| Cited in | course04 |
+| Cited in | course01, course04 |
 
 ## What they make
 
@@ -23,6 +23,8 @@ The Arduino Uno reads the HX711, BMP280, thermocouple and light-sensor breakouts
 
 | File | Section | Mention |
 |---|---|---|
+| [course01/Lesson10.md](../../course01/Lesson10.md#3-what-to-build) | 3. What to build | …d read it through the `5.2.2` RTD breakout on the Arduino (`S.5.4`). |
+| [course01/Lesson10.md](../../course01/Lesson10.md#3-what-to-build) | 3. What to build | …through a `1.2.5` logic-level MOSFET driven by an Arduino pin. Check the supply's current limit first. |
 | [course04/00-starter-kit.md](../../course04/00-starter-kit.md#multilevel-bom--nice-to-have-add-when-you-need-them) | Multilevel BOM — nice-to-have (add when you need them) | 2 S.5.4 Arduino Uno or Raspberry Pi Pico 1 10–25 For all benches |
 | [course04/00-starter-kit.md](../../course04/00-starter-kit.md#where-used) | Where used | `S.5.4` Arduino Uno or Raspberry Pi Pico B3.1 Strain-gauge cantilever, B4.3 Pressure-logger, B5.1 DIY Type K thermocouple, B6.3 Lemon batter… |
 | [course04/03-bench-mechanical.md](../../course04/03-bench-mechanical.md#multilevel-bom) | Multilevel BOM | 2 3.1.3 HX711 load-cell amplifier breakout 2 6 24-bit ADC, Arduino-friendly |

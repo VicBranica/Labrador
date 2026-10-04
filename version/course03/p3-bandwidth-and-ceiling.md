@@ -2,6 +2,8 @@
 
 [← Course 03 index](index.md) · [← Pillar 2 — Material + technique](p2-material-and-technique.md) · [Domain 1 — Electrical →](01-electrical/README.md)
 
+**Lesson:** [course01 Lesson 10](../course01/Lesson10.md) · **Theory:** [course01 Module 9](../course01/index.md#module-9--integration--system-design)
+
 > The slowest domain sets the bandwidth. The material family sets the ceiling.
 
 - **Bandwidth lives in the slowest domain.** A fast electrical controller behind a thermal actuator is still a thermal system.

@@ -23,9 +23,11 @@ Fluoropolymers and fluoroelastomers — including Viton and Nafion.
 
 | File | Section | Mention |
 |---|---|---|
+| [course01/Lesson10.md](../../course01/Lesson10.md#4-key-materials) | 4. Key materials | Rugged environments: pick the material first — Hastelloy, sapphire, Viton, platinum. |
 | [course01/Lesson4.md](../../course01/Lesson4.md#4-key-materials) | 4. Key materials | …), bronze (bushings). Seals: NBR for general use, Viton for heat, PTFE for chemicals, polyurethane for dynamic rod seals. Fluids: mineral oi… |
 | [course01/Lesson6.md](../../course01/Lesson6.md#4-key-materials) | 4. Key materials | Fuel cells: Nafion membrane, platinum catalyst. |
 | [course01/Lesson6.md](../../course01/Lesson6.md#5-key-techniques) | 5. Key techniques | Nafion membrane casting — the proton-conducting plastic that makes PEM fuel cells work. |
+| [course01/Lesson9.md](../../course01/Lesson9.md#4-key-materials) | 4. Key materials | Chem → Elec: platinum electrodes, enzymes, Nafion membranes. |
 | [course01/index.md](../../course01/index.md#materials-techniques-features) | Materials, techniques, features | Static seals NBR, Viton, EPDM, PTFE Molding, O-ring design Pressure containment |
 | [course01/index.md](../../course01/index.md#materials-techniques-features) | Materials, techniques, features | Fuel-cell catalyst Pt, Pt/Ru Impregnation on Nafion High activity |
 | [course01/index.md](../../course01/index.md#core-patterns) | Core patterns | Fluid → Mech Hydraulic cylinder Steel + Viton Honing, chrome plating |
