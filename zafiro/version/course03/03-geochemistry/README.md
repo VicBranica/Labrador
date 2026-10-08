@@ -147,11 +147,9 @@ A ratio and a decay constant give an absolute age. The same equation dates the E
 
 ## F. What to read later
 
-- Albarède, *Geochemistry: An Introduction* — the geochemistry pile.
-- White, *Geochemistry* — isotopes and trace elements in depth.
-- Krauskopf & Bird, *Introduction to Geochemistry* — the classic for water–rock chemistry.
-
-*Not yet in course02, which has no resources chosen.*
+- [Albarède, *Geochemistry: An Introduction*](../../course02/05-albarede-geochemistry/) — the geochemistry pile.
+- [White, *Geochemistry*](../../course02/16-white-geochemistry/) — isotopes and trace elements in depth.
+- [Krauskopf & Bird, *Introduction to Geochemistry*](../../course02/17-krauskopf-bird-introduction-to-geochemistry/) — the classic for water–rock chemistry.
 
 ## G. Related in other courses
 

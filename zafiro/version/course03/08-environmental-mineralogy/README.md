@@ -149,11 +149,9 @@ One assay for sulfur and one for carbonate predict whether a waste dump will pol
 
 ## F. What to read later
 
-- Langmuir, *Aqueous Environmental Geochemistry* — the environmental mineralogy pile.
-- Appelo & Postma, *Geochemistry, Groundwater and Pollution* — water–mineral reactions in aquifers.
-- Stumm & Morgan, *Aquatic Chemistry* — the reference for the chemistry.
-
-*Not yet in course02, which has no resources chosen.*
+- [Langmuir, *Aqueous Environmental Geochemistry*](../../course02/10-langmuir-aqueous-environmental-geochemistry/) — the environmental mineralogy pile.
+- [Appelo & Postma, *Geochemistry, Groundwater and Pollution*](../../course02/26-appelo-postma-geochemistry-groundwater-pollution/) — water–mineral reactions in aquifers.
+- [Stumm & Morgan, *Aquatic Chemistry*](../../course02/27-stumm-morgan-aquatic-chemistry/) — the reference for the chemistry.
 
 ## G. Related in other courses
 

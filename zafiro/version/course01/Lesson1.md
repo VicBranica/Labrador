@@ -108,6 +108,4 @@ More practice: the "Try it" exercises in [Module 1](index.md#module-1--mineralog
 
 *← optional — where to go deeper*
 
-Klein & Dutrow, *Manual of Mineral Science* · Nesse, *Introduction to Mineralogy* · Deer, Howie & Zussman, *An Introduction to the Rock-Forming Minerals*
-
-*Not yet in course02, which has no resources chosen.*
+[Klein & Dutrow, *Manual of Mineral Science*](../course02/01-klein-dutrow-manual-of-mineral-science/) · [Nesse, *Introduction to Mineralogy*](../course02/03-nesse-introduction-to-mineralogy/) · [Deer, Howie & Zussman, *An Introduction to the Rock-Forming Minerals*](../course02/12-deer-howie-zussman-rock-forming-minerals/)

@@ -105,6 +105,4 @@ More practice: the "Try it" exercises in [Module 4](index.md#module-4--petrology
 
 *← optional — where to go deeper*
 
-Winter, *Principles of Igneous and Metamorphic Petrology* · Philpotts & Ague, *Principles of Igneous and Metamorphic Petrology* · Boggs, *Principles of Sedimentology and Stratigraphy*
-
-*Not yet in course02, which has no resources chosen.*
+[Winter, *Principles of Igneous and Metamorphic Petrology*](../course02/06-winter-igneous-metamorphic-petrology/) · [Philpotts & Ague, *Principles of Igneous and Metamorphic Petrology*](../course02/18-philpotts-ague-igneous-metamorphic-petrology/) · [Boggs, *Principles of Sedimentology and Stratigraphy*](../course02/19-boggs-sedimentology-stratigraphy/)

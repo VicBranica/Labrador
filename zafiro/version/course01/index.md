@@ -1181,52 +1181,52 @@ Life cycle · Mass balance · Provenance · Disclosure · Responsible sourcing �
 # Appendix G — Further reading
 
 **Across domains**
-- Klein & Dutrow, *Manual of Mineral Science* — the one book that touches every pile.
-- Grotzinger & Jordan, *Understanding Earth* — the rock cycle and plate tectonics as background.
-- Nassau, *The Physics and Chemistry of Color* — why minerals and gems are coloured.
-- Putnis, *Introduction to Mineral Sciences* — structure, defects and transformations.
-- Lottermoser, *Mine Wastes* — what the economic pile leaves to the environmental pile.
+- [Klein & Dutrow, *Manual of Mineral Science*](../course02/01-klein-dutrow-manual-of-mineral-science/) — the one book that touches every pile.
+- [Grotzinger & Jordan, *Understanding Earth*](../course02/02-grotzinger-jordan-understanding-earth/) — the rock cycle and plate tectonics as background.
+- [Nassau, *The Physics and Chemistry of Color*](../course02/11-nassau-physics-chemistry-of-color/) — why minerals and gems are coloured.
+- [Putnis, *Introduction to Mineral Sciences*](../course02/13-putnis-mineral-sciences/) — structure, defects and transformations.
+- [Lottermoser, *Mine Wastes*](../course02/14-lottermoser-mine-wastes/) — what the economic pile leaves to the environmental pile.
 
 **Mineralogy**
-- Klein & Dutrow, *Manual of Mineral Science* — the mineralogy pile.
-- Nesse, *Introduction to Mineralogy* — the systematic mineral descriptions.
-- Deer, Howie & Zussman, *An Introduction to the Rock-Forming Minerals* — the reference for silicates.
+- [Klein & Dutrow, *Manual of Mineral Science*](../course02/01-klein-dutrow-manual-of-mineral-science/) — the mineralogy pile.
+- [Nesse, *Introduction to Mineralogy*](../course02/03-nesse-introduction-to-mineralogy/) — the systematic mineral descriptions.
+- [Deer, Howie & Zussman, *An Introduction to the Rock-Forming Minerals*](../course02/12-deer-howie-zussman-rock-forming-minerals/) — the reference for silicates.
 
 **Crystallography**
-- Hammond, *The Basics of Crystallography and Diffraction* — the crystallography pile.
-- Sands, *Introduction to Crystallography* — a short, cheap start on symmetry.
+- [Hammond, *The Basics of Crystallography and Diffraction*](../course02/04-hammond-basics-of-crystallography/) — the crystallography pile.
+- [Sands, *Introduction to Crystallography*](../course02/15-sands-introduction-to-crystallography/) — a short, cheap start on symmetry.
 
 **Geochemistry**
-- Albarède, *Geochemistry: An Introduction* — the geochemistry pile.
-- White, *Geochemistry* — isotopes and trace elements in depth.
-- Krauskopf & Bird, *Introduction to Geochemistry* — the classic for water–rock chemistry.
+- [Albarède, *Geochemistry: An Introduction*](../course02/05-albarede-geochemistry/) — the geochemistry pile.
+- [White, *Geochemistry*](../course02/16-white-geochemistry/) — isotopes and trace elements in depth.
+- [Krauskopf & Bird, *Introduction to Geochemistry*](../course02/17-krauskopf-bird-introduction-to-geochemistry/) — the classic for water–rock chemistry.
 
 **Petrology**
-- Winter, *Principles of Igneous and Metamorphic Petrology* — the petrology pile.
-- Philpotts & Ague, *Principles of Igneous and Metamorphic Petrology* — strong on processes and textures.
-- Boggs, *Principles of Sedimentology and Stratigraphy* — the sedimentary side.
+- [Winter, *Principles of Igneous and Metamorphic Petrology*](../course02/06-winter-igneous-metamorphic-petrology/) — the petrology pile.
+- [Philpotts & Ague, *Principles of Igneous and Metamorphic Petrology*](../course02/18-philpotts-ague-igneous-metamorphic-petrology/) — strong on processes and textures.
+- [Boggs, *Principles of Sedimentology and Stratigraphy*](../course02/19-boggs-sedimentology-stratigraphy/) — the sedimentary side.
 
 **Economic geology**
-- Robb, *Introduction to Ore-Forming Processes* — the economic geology pile.
-- Evans, *An Introduction to Ore Geology* — deposit types, compactly.
-- Wills, *Mineral Processing Technology* — from ore to concentrate.
+- [Robb, *Introduction to Ore-Forming Processes*](../course02/07-robb-ore-forming-processes/) — the economic geology pile.
+- [Evans, *An Introduction to Ore Geology*](../course02/20-evans-ore-geology/) — deposit types, compactly.
+- [Wills, *Mineral Processing Technology*](../course02/21-wills-mineral-processing-technology/) — from ore to concentrate.
 
 **Gemology**
-- Read, *Gemmology* — the gemology pile.
-- O'Donoghue (ed.), *Gems* — the reference by species.
-- Hurlbut & Kammerling, *Gemology* — mineralogy for gemologists.
+- [Read, *Gemmology*](../course02/08-read-gemmology/) — the gemology pile.
+- [O'Donoghue (ed.), *Gems*](../course02/22-odonoghue-gems/) — the reference by species.
+- [Hurlbut & Kammerling, *Gemology*](../course02/23-hurlbut-kammerling-gemology/) — mineralogy for gemologists.
 
 **Materials science**
-- Callister & Rethwisch, *Materials Science and Engineering: An Introduction* — the materials science pile.
-- Newnham, *Properties of Materials* — how crystal symmetry sets properties.
-- Ashby, *Materials Selection in Mechanical Design* — choosing materials (also in Labrador course02).
+- [Callister & Rethwisch, *Materials Science and Engineering: An Introduction*](../course02/09-callister-rethwisch-materials-science/) — the materials science pile.
+- [Newnham, *Properties of Materials*](../course02/24-newnham-properties-of-materials/) — how crystal symmetry sets properties.
+- [Ashby, *Materials Selection in Mechanical Design*](../course02/25-ashby-materials-selection/) — choosing materials (also in Labrador course02).
 
 **Environmental mineralogy**
-- Langmuir, *Aqueous Environmental Geochemistry* — the environmental mineralogy pile.
-- Appelo & Postma, *Geochemistry, Groundwater and Pollution* — water–mineral reactions in aquifers.
-- Stumm & Morgan, *Aquatic Chemistry* — the reference for the chemistry.
+- [Langmuir, *Aqueous Environmental Geochemistry*](../course02/10-langmuir-aqueous-environmental-geochemistry/) — the environmental mineralogy pile.
+- [Appelo & Postma, *Geochemistry, Groundwater and Pollution*](../course02/26-appelo-postma-geochemistry-groundwater-pollution/) — water–mineral reactions in aquifers.
+- [Stumm & Morgan, *Aquatic Chemistry*](../course02/27-stumm-morgan-aquatic-chemistry/) — the reference for the chemistry.
 
-None of these are in course02 yet; course02 has no resources chosen.
+Every book above has a folder in [course02](../course02/index.md).
 
 ---
 

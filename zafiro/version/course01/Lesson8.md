@@ -111,6 +111,4 @@ More practice: the "Try it" exercises in [Module 8](index.md#module-8--environme
 
 *← optional — where to go deeper*
 
-Langmuir, *Aqueous Environmental Geochemistry* · Appelo & Postma, *Geochemistry, Groundwater and Pollution* · Stumm & Morgan, *Aquatic Chemistry*
-
-*Not yet in course02, which has no resources chosen.*
+[Langmuir, *Aqueous Environmental Geochemistry*](../course02/10-langmuir-aqueous-environmental-geochemistry/) · [Appelo & Postma, *Geochemistry, Groundwater and Pollution*](../course02/26-appelo-postma-geochemistry-groundwater-pollution/) · [Stumm & Morgan, *Aquatic Chemistry*](../course02/27-stumm-morgan-aquatic-chemistry/)

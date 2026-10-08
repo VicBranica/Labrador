@@ -109,6 +109,4 @@ More practice: the "Try it" exercises in [Module 2](index.md#module-2--crystallo
 
 *← optional — where to go deeper*
 
-Hammond, *The Basics of Crystallography and Diffraction* · Sands, *Introduction to Crystallography*
-
-*Not yet in course02, which has no resources chosen.*
+[Hammond, *The Basics of Crystallography and Diffraction*](../course02/04-hammond-basics-of-crystallography/) · [Sands, *Introduction to Crystallography*](../course02/15-sands-introduction-to-crystallography/)

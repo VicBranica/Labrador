@@ -151,10 +151,8 @@ Measure angles, get spacings; get spacings, get the structure. A powder pattern 
 
 ## F. What to read later
 
-- Hammond, *The Basics of Crystallography and Diffraction* — the crystallography pile.
-- Sands, *Introduction to Crystallography* — a short, cheap start on symmetry.
-
-*Not yet in course02, which has no resources chosen.*
+- [Hammond, *The Basics of Crystallography and Diffraction*](../../course02/04-hammond-basics-of-crystallography/) — the crystallography pile.
+- [Sands, *Introduction to Crystallography*](../../course02/15-sands-introduction-to-crystallography/) — a short, cheap start on symmetry.
 
 ## G. Related in other courses
 

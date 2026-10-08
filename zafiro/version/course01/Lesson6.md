@@ -111,6 +111,4 @@ More practice: the "Try it" exercises in [Module 6](index.md#module-6--gemology-
 
 *← optional — where to go deeper*
 
-Read, *Gemmology* · O'Donoghue (ed.), *Gems* · Hurlbut & Kammerling, *Gemology*
-
-*Not yet in course02, which has no resources chosen.*
+[Read, *Gemmology*](../course02/08-read-gemmology/) · [O'Donoghue (ed.), *Gems*](../course02/22-odonoghue-gems/) · [Hurlbut & Kammerling, *Gemology*](../course02/23-hurlbut-kammerling-gemology/)
