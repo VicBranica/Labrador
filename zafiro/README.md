@@ -32,9 +32,9 @@ zafiro/
     │   ├── Lesson10.md                      Composition + structure across domains
     │   └── Lesson11.md                      Integration: deposit to product to waste
     ├── course02/                          Reading list — written
-    │   ├── index.md                         27 books by reading priority, by domain, used by
+    │   ├── index.md                         27 books: priority, edition, publisher, year; by domain; used by
     │   ├── 01-klein-dutrow-manual-of-mineral-science/README.md
-    │   ├── …                                one folder per book (02–26)
+    │   ├── …                                one folder per book (02–26): edition, publisher, ISBN, topics, sources
     │   └── 27-stumm-morgan-aquatic-chemistry/README.md
     ├── course03/                          Domain stack — written
     │   ├── index.md
@@ -211,4 +211,4 @@ Domain descriptions are from [opal/README.md](../opal/README.md). Companies: [co
 
 - **Benches and BOMs** — what a mineral & gem bench holds (tools, reagents, reference specimens?) and whether it is costed as a BOM; what replaces the free "teardown targets" category.
 - **course05 categories** — e.g. mining companies, gem labs, instrument makers, dealers and suppliers? Not decided.
-- **course02 details** — editions, publishers and years are not recorded yet ("—").
+- **course02 details** — full chapter lists were found for 6 of the 27 books; the others give topics or "—" (see each folder).
