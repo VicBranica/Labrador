@@ -27,7 +27,7 @@ Labrador/
 - Every domain file links to the same domain in the other courses.
 - [scaffolding/](scaffolding/README.md) is the empty skeleton for a Labrador web app (benches, BOMs, inventory, costing; EN / PL / RU).
 - New course files start from [course-templates/](course-templates/README.md): a lesson, a reading-list entry, a domain file, a bench, a company file or a course index, plus the list of other files to update.
-- [zafiro/](zafiro/README.md) is a second project — mineral & gem courses in eight domains — laid out the same way, with its own project map and course templates; its course01 (theory and lessons) and course03 (domain stack) are written.
+- [zafiro/](zafiro/README.md) is a second project — mineral & gem courses in eight domains — laid out the same way, with its own project map and course templates; its course01 (theory and lessons), course02 (reading list) and course03 (domain stack) are written.
 
 ## The five courses
 

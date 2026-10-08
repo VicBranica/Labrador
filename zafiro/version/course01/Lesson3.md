@@ -108,6 +108,4 @@ More practice: the "Try it" exercises in [Module 3](index.md#module-3--geochemis
 
 *← optional — where to go deeper*
 
-Albarède, *Geochemistry: An Introduction* · White, *Geochemistry* · Krauskopf & Bird, *Introduction to Geochemistry*
-
-*Not yet in course02, which has no resources chosen.*
+[Albarède, *Geochemistry: An Introduction*](../course02/05-albarede-geochemistry/) · [White, *Geochemistry*](../course02/16-white-geochemistry/) · [Krauskopf & Bird, *Introduction to Geochemistry*](../course02/17-krauskopf-bird-introduction-to-geochemistry/)

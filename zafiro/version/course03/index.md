@@ -134,4 +134,4 @@ The Bench column stays "—" until course04 is written.
 ## Sources
 
 - [course01 — Minerals & Gems as One Discipline](../course01/index.md): Modules 0–10 and Appendices A–G.
-- course02 — Reading list: not written yet; each domain file lists its books under F.
+- [course02 — Reading list](../course02/index.md): the books cited under F in each domain file.

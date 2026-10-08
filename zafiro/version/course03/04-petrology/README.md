@@ -143,11 +143,9 @@ Pressure is depth and temperature is heat flow; a single mineral can tell you bo
 
 ## F. What to read later
 
-- Winter, *Principles of Igneous and Metamorphic Petrology* — the petrology pile.
-- Philpotts & Ague, *Principles of Igneous and Metamorphic Petrology* — strong on processes and textures.
-- Boggs, *Principles of Sedimentology and Stratigraphy* — the sedimentary side.
-
-*Not yet in course02, which has no resources chosen.*
+- [Winter, *Principles of Igneous and Metamorphic Petrology*](../../course02/06-winter-igneous-metamorphic-petrology/) — the petrology pile.
+- [Philpotts & Ague, *Principles of Igneous and Metamorphic Petrology*](../../course02/18-philpotts-ague-igneous-metamorphic-petrology/) — strong on processes and textures.
+- [Boggs, *Principles of Sedimentology and Stratigraphy*](../../course02/19-boggs-sedimentology-stratigraphy/) — the sedimentary side.
 
 ## G. Related in other courses
 

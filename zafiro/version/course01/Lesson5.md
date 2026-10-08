@@ -112,6 +112,4 @@ More practice: the "Try it" exercises in [Module 5](index.md#module-5--economic-
 
 *← optional — where to go deeper*
 
-Robb, *Introduction to Ore-Forming Processes* · Evans, *An Introduction to Ore Geology* · Wills, *Mineral Processing Technology*
-
-*Not yet in course02, which has no resources chosen.*
+[Robb, *Introduction to Ore-Forming Processes*](../course02/07-robb-ore-forming-processes/) · [Evans, *An Introduction to Ore Geology*](../course02/20-evans-ore-geology/) · [Wills, *Mineral Processing Technology*](../course02/21-wills-mineral-processing-technology/)

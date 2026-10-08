@@ -150,11 +150,9 @@ Two numbers — RI and SG — separate diamond from its commonest simulant witho
 
 ## F. What to read later
 
-- Read, *Gemmology* — the gemology pile.
-- O'Donoghue (ed.), *Gems* — the reference by species.
-- Hurlbut & Kammerling, *Gemology* — mineralogy for gemologists.
-
-*Not yet in course02, which has no resources chosen.*
+- [Read, *Gemmology*](../../course02/08-read-gemmology/) — the gemology pile.
+- [O'Donoghue (ed.), *Gems*](../../course02/22-odonoghue-gems/) — the reference by species.
+- [Hurlbut & Kammerling, *Gemology*](../../course02/23-hurlbut-kammerling-gemology/) — mineralogy for gemologists.
 
 ## G. Related in other courses
 

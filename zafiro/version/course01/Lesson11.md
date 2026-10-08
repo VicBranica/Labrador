@@ -100,6 +100,4 @@ More practice: the "Try it" exercises in [Module 10](index.md#module-10--integra
 
 *← optional — where to go deeper*
 
-Robb, *Introduction to Ore-Forming Processes* · Lottermoser, *Mine Wastes*
-
-*Not yet in course02, which has no resources chosen.*
+[Robb, *Introduction to Ore-Forming Processes*](../course02/07-robb-ore-forming-processes/) · [Lottermoser, *Mine Wastes*](../course02/14-lottermoser-mine-wastes/)

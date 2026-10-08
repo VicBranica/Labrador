@@ -148,11 +148,9 @@ Two independent properties — here SG and hardness — name most common mineral
 
 ## F. What to read later
 
-- Klein & Dutrow, *Manual of Mineral Science* — the mineralogy pile.
-- Nesse, *Introduction to Mineralogy* — the systematic mineral descriptions.
-- Deer, Howie & Zussman, *An Introduction to the Rock-Forming Minerals* — the reference for silicates.
-
-*Not yet in course02, which has no resources chosen.*
+- [Klein & Dutrow, *Manual of Mineral Science*](../../course02/01-klein-dutrow-manual-of-mineral-science/) — the mineralogy pile.
+- [Nesse, *Introduction to Mineralogy*](../../course02/03-nesse-introduction-to-mineralogy/) — the systematic mineral descriptions.
+- [Deer, Howie & Zussman, *An Introduction to the Rock-Forming Minerals*](../../course02/12-deer-howie-zussman-rock-forming-minerals/) — the reference for silicates.
 
 ## G. Related in other courses
 

@@ -111,6 +111,4 @@ More practice: the "Try it" exercises in [Module 7](index.md#module-7--materials
 
 *← optional — where to go deeper*
 
-Callister & Rethwisch, *Materials Science and Engineering: An Introduction* · Newnham, *Properties of Materials* · Ashby, *Materials Selection in Mechanical Design*
-
-*Not yet in course02, which has no resources chosen.*
+[Callister & Rethwisch, *Materials Science and Engineering: An Introduction*](../course02/09-callister-rethwisch-materials-science/) · [Newnham, *Properties of Materials*](../course02/24-newnham-properties-of-materials/) · [Ashby, *Materials Selection in Mechanical Design*](../course02/25-ashby-materials-selection/)

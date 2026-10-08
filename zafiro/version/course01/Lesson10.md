@@ -99,6 +99,4 @@ More practice: the "Try it" exercises in [Module 9](index.md#module-9--cross-dom
 
 *← optional — where to go deeper*
 
-Nassau, *The Physics and Chemistry of Color* · Putnis, *Introduction to Mineral Sciences*
-
-*Not yet in course02, which has no resources chosen.*
+[Nassau, *The Physics and Chemistry of Color*](../course02/11-nassau-physics-chemistry-of-color/) · [Putnis, *Introduction to Mineral Sciences*](../course02/13-putnis-mineral-sciences/)

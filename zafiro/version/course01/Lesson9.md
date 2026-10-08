@@ -104,6 +104,4 @@ More practice: the "Try it" exercises in [Module 0](index.md#module-0--foundatio
 
 *← optional — where to go deeper*
 
-Klein & Dutrow, *Manual of Mineral Science* · Grotzinger & Jordan, *Understanding Earth*
-
-*Not yet in course02, which has no resources chosen.*
+[Klein & Dutrow, *Manual of Mineral Science*](../course02/01-klein-dutrow-manual-of-mineral-science/) · [Grotzinger & Jordan, *Understanding Earth*](../course02/02-grotzinger-jordan-understanding-earth/)

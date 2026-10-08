@@ -151,11 +151,9 @@ Frequency is set by geometry and the elastic constants of quartz; the crystal's 
 
 ## F. What to read later
 
-- Callister & Rethwisch, *Materials Science and Engineering: An Introduction* — the materials science pile.
-- Newnham, *Properties of Materials* — how crystal symmetry sets properties.
-- Ashby, *Materials Selection in Mechanical Design* — choosing materials (also in Labrador course02).
-
-*Not yet in course02, which has no resources chosen.*
+- [Callister & Rethwisch, *Materials Science and Engineering: An Introduction*](../../course02/09-callister-rethwisch-materials-science/) — the materials science pile.
+- [Newnham, *Properties of Materials*](../../course02/24-newnham-properties-of-materials/) — how crystal symmetry sets properties.
+- [Ashby, *Materials Selection in Mechanical Design*](../../course02/25-ashby-materials-selection/) — choosing materials (also in Labrador course02).
 
 ## G. Related in other courses
 

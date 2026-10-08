@@ -149,11 +149,9 @@ Grade × tonnage × recovery is the whole business in one line — and the same 
 
 ## F. What to read later
 
-- Robb, *Introduction to Ore-Forming Processes* — the economic geology pile.
-- Evans, *An Introduction to Ore Geology* — deposit types, compactly.
-- Wills, *Mineral Processing Technology* — from ore to concentrate.
-
-*Not yet in course02, which has no resources chosen.*
+- [Robb, *Introduction to Ore-Forming Processes*](../../course02/07-robb-ore-forming-processes/) — the economic geology pile.
+- [Evans, *An Introduction to Ore Geology*](../../course02/20-evans-ore-geology/) — deposit types, compactly.
+- [Wills, *Mineral Processing Technology*](../../course02/21-wills-mineral-processing-technology/) — from ore to concentrate.
 
 ## G. Related in other courses
 
