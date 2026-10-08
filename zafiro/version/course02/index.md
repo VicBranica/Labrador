@@ -9,35 +9,35 @@
 
 Numbered by reading priority: 1–2 first, then one book per domain (3–10), then the books that cross piles (11–14), then the deeper and second books (15–27).
 
-| # | Folder | Resource | Note |
-|---|---|---|---|
-| 1 | [01-klein-dutrow-manual-of-mineral-science](01-klein-dutrow-manual-of-mineral-science/) | Klein & Dutrow, *Manual of Mineral Science* | If you only read one, read this — mineralogy and crystallography in one book. |
-| 2 | [02-grotzinger-jordan-understanding-earth](02-grotzinger-jordan-understanding-earth/) | Grotzinger & Jordan, *Understanding Earth* | The background: plate tectonics and the rock cycle. |
-| 3 | [03-nesse-introduction-to-mineralogy](03-nesse-introduction-to-mineralogy/) | Nesse, *Introduction to Mineralogy* | Systematic descriptions of the common minerals. |
-| 4 | [04-hammond-basics-of-crystallography](04-hammond-basics-of-crystallography/) | Hammond, *The Basics of Crystallography and Diffraction* | The crystallography pile — symmetry, lattices, diffraction. |
-| 5 | [05-albarede-geochemistry](05-albarede-geochemistry/) | Albarède, *Geochemistry: An Introduction* | The geochemistry pile. |
-| 6 | [06-winter-igneous-metamorphic-petrology](06-winter-igneous-metamorphic-petrology/) | Winter, *Principles of Igneous and Metamorphic Petrology* | The petrology pile. |
-| 7 | [07-robb-ore-forming-processes](07-robb-ore-forming-processes/) | Robb, *Introduction to Ore-Forming Processes* | The economic geology pile — how ore deposits form. |
-| 8 | [08-read-gemmology](08-read-gemmology/) | Read, *Gemmology* | The gemology pile. |
-| 9 | [09-callister-rethwisch-materials-science](09-callister-rethwisch-materials-science/) | Callister & Rethwisch, *Materials Science and Engineering: An Introduction* | The materials science pile. |
-| 10 | [10-langmuir-aqueous-environmental-geochemistry](10-langmuir-aqueous-environmental-geochemistry/) | Langmuir, *Aqueous Environmental Geochemistry* | The environmental mineralogy pile. |
-| 11 | [11-nassau-physics-chemistry-of-color](11-nassau-physics-chemistry-of-color/) | Nassau, *The Physics and Chemistry of Color* | Why minerals and gems are coloured — one book across several piles. |
-| 12 | [12-deer-howie-zussman-rock-forming-minerals](12-deer-howie-zussman-rock-forming-minerals/) | Deer, Howie & Zussman, *An Introduction to the Rock-Forming Minerals* | The reference for rock-forming silicates. |
-| 13 | [13-putnis-mineral-sciences](13-putnis-mineral-sciences/) | Putnis, *Introduction to Mineral Sciences* | Structure, defects and transformations across piles. |
-| 14 | [14-lottermoser-mine-wastes](14-lottermoser-mine-wastes/) | Lottermoser, *Mine Wastes* | What mining leaves behind. |
-| 15 | [15-sands-introduction-to-crystallography](15-sands-introduction-to-crystallography/) | Sands, *Introduction to Crystallography* | A short start on symmetry. |
-| 16 | [16-white-geochemistry](16-white-geochemistry/) | White, *Geochemistry* | Isotopes and trace elements in depth. |
-| 17 | [17-krauskopf-bird-introduction-to-geochemistry](17-krauskopf-bird-introduction-to-geochemistry/) | Krauskopf & Bird, *Introduction to Geochemistry* | Water–rock chemistry. |
-| 18 | [18-philpotts-ague-igneous-metamorphic-petrology](18-philpotts-ague-igneous-metamorphic-petrology/) | Philpotts & Ague, *Principles of Igneous and Metamorphic Petrology* | Igneous and metamorphic processes and textures. |
-| 19 | [19-boggs-sedimentology-stratigraphy](19-boggs-sedimentology-stratigraphy/) | Boggs, *Principles of Sedimentology and Stratigraphy* | The sedimentary side of petrology. |
-| 20 | [20-evans-ore-geology](20-evans-ore-geology/) | Evans, *An Introduction to Ore Geology* | Ore deposit types, compactly. |
-| 21 | [21-wills-mineral-processing-technology](21-wills-mineral-processing-technology/) | Wills, *Mineral Processing Technology* | From ore to concentrate. |
-| 22 | [22-odonoghue-gems](22-odonoghue-gems/) | O'Donoghue (ed.), *Gems* | The reference by gem species. |
-| 23 | [23-hurlbut-kammerling-gemology](23-hurlbut-kammerling-gemology/) | Hurlbut & Kammerling, *Gemology* | Mineralogy for gemologists. |
-| 24 | [24-newnham-properties-of-materials](24-newnham-properties-of-materials/) | Newnham, *Properties of Materials* | How crystal symmetry sets properties. |
-| 25 | [25-ashby-materials-selection](25-ashby-materials-selection/) | Ashby, *Materials Selection in Mechanical Design* | Choosing materials as a map; also in [Labrador course02](../../../version/course02/03-ashby-materials-selection/). |
-| 26 | [26-appelo-postma-geochemistry-groundwater-pollution](26-appelo-postma-geochemistry-groundwater-pollution/) | Appelo & Postma, *Geochemistry, Groundwater and Pollution* | Water–mineral reactions in aquifers. |
-| 27 | [27-stumm-morgan-aquatic-chemistry](27-stumm-morgan-aquatic-chemistry/) | Stumm & Morgan, *Aquatic Chemistry* | The chemistry reference for natural waters. |
+| # | Folder | Resource | Edition | Publisher | Year | Note |
+|---|---|---|---|---|---|---|
+| 1 | [01-klein-dutrow-manual-of-mineral-science](01-klein-dutrow-manual-of-mineral-science/) | Klein & Dutrow, *Manual of Mineral Science* | 23rd | John Wiley & Sons, Hoboken, NJ | 2007 | If you only read one, read this — mineralogy and crystallography in one book. |
+| 2 | [02-grotzinger-jordan-understanding-earth](02-grotzinger-jordan-understanding-earth/) | Grotzinger & Jordan, *Understanding Earth* | 8th | Macmillan Learning | 2020 | The background: plate tectonics and the rock cycle. |
+| 3 | [03-nesse-introduction-to-mineralogy](03-nesse-introduction-to-mineralogy/) | Nesse, *Introduction to Mineralogy* | 3rd | Oxford University Press, New York | 2017 | Systematic descriptions of the common minerals. |
+| 4 | [04-hammond-basics-of-crystallography](04-hammond-basics-of-crystallography/) | Hammond, *The Basics of Crystallography and Diffraction* | 4th | Oxford University Press, with the International Union of Crystallography | 2015 | The crystallography pile — symmetry, lattices, diffraction. |
+| 5 | [05-albarede-geochemistry](05-albarede-geochemistry/) | Albarède, *Geochemistry: An Introduction* | 2nd | Cambridge University Press | 2009 | The geochemistry pile. |
+| 6 | [06-winter-igneous-metamorphic-petrology](06-winter-igneous-metamorphic-petrology/) | Winter, *Principles of Igneous and Metamorphic Petrology* | 2nd | Pearson | 2010 | The petrology pile. |
+| 7 | [07-robb-ore-forming-processes](07-robb-ore-forming-processes/) | Robb, *Introduction to Ore-Forming Processes* | 2nd | Wiley-Blackwell | 2020 | The economic geology pile — how ore deposits form. |
+| 8 | [08-read-gemmology](08-read-gemmology/) | Read, *Gemmology* | 3rd | Butterworth-Heinemann | 2005 | The gemology pile. |
+| 9 | [09-callister-rethwisch-materials-science](09-callister-rethwisch-materials-science/) | Callister & Rethwisch, *Materials Science and Engineering: An Introduction* | 10th | John Wiley & Sons, Hoboken, NJ | 2018 | The materials science pile. |
+| 10 | [10-langmuir-aqueous-environmental-geochemistry](10-langmuir-aqueous-environmental-geochemistry/) | Langmuir, *Aqueous Environmental Geochemistry* | 1st | Prentice Hall | 1997 | The environmental mineralogy pile. |
+| 11 | [11-nassau-physics-chemistry-of-color](11-nassau-physics-chemistry-of-color/) | Nassau, *The Physics and Chemistry of Color* | 2nd | John Wiley & Sons | 2001 | Why minerals and gems are coloured — one book across several piles. |
+| 12 | [12-deer-howie-zussman-rock-forming-minerals](12-deer-howie-zussman-rock-forming-minerals/) | Deer, Howie & Zussman, *An Introduction to the Rock-Forming Minerals* | 3rd | The Mineralogical Society, London | 2013 | The reference for rock-forming silicates. |
+| 13 | [13-putnis-mineral-sciences](13-putnis-mineral-sciences/) | Putnis, *Introduction to Mineral Sciences* | 1st | Cambridge University Press | 1992 | Structure, defects and transformations across piles. |
+| 14 | [14-lottermoser-mine-wastes](14-lottermoser-mine-wastes/) | Lottermoser, *Mine Wastes* | 3rd | Springer, Berlin and Heidelberg | 2010 | What mining leaves behind. |
+| 15 | [15-sands-introduction-to-crystallography](15-sands-introduction-to-crystallography/) | Sands, *Introduction to Crystallography* | Dover reprint | Dover Publications, New York | 1993 | A short start on symmetry. |
+| 16 | [16-white-geochemistry](16-white-geochemistry/) | White, *Geochemistry* | 2nd | Wiley-Blackwell | 2020 | Isotopes and trace elements in depth. |
+| 17 | [17-krauskopf-bird-introduction-to-geochemistry](17-krauskopf-bird-introduction-to-geochemistry/) | Krauskopf & Bird, *Introduction to Geochemistry* | 3rd | McGraw-Hill, New York | 1995 | Water–rock chemistry. |
+| 18 | [18-philpotts-ague-igneous-metamorphic-petrology](18-philpotts-ague-igneous-metamorphic-petrology/) | Philpotts & Ague, *Principles of Igneous and Metamorphic Petrology* | 3rd | Cambridge University Press | 2022 | Igneous and metamorphic processes and textures. |
+| 19 | [19-boggs-sedimentology-stratigraphy](19-boggs-sedimentology-stratigraphy/) | Boggs, *Principles of Sedimentology and Stratigraphy* | 5th | Prentice Hall | 2011 | The sedimentary side of petrology. |
+| 20 | [20-evans-ore-geology](20-evans-ore-geology/) | Evans, *An Introduction to Ore Geology* | 2nd | Blackwell Scientific Publications, Oxford and Boston | 1987 | Ore deposit types, compactly. |
+| 21 | [21-wills-mineral-processing-technology](21-wills-mineral-processing-technology/) | Wills, *Mineral Processing Technology* | 8th | Butterworth-Heinemann | 2015 | From ore to concentrate. |
+| 22 | [22-odonoghue-gems](22-odonoghue-gems/) | O'Donoghue (ed.), *Gems* | 6th | Butterworth-Heinemann | 2006 | The reference by gem species. |
+| 23 | [23-hurlbut-kammerling-gemology](23-hurlbut-kammerling-gemology/) | Hurlbut & Kammerling, *Gemology* | 2nd | John Wiley & Sons, New York | 1991 | Mineralogy for gemologists. |
+| 24 | [24-newnham-properties-of-materials](24-newnham-properties-of-materials/) | Newnham, *Properties of Materials* | 1st | Oxford University Press | 2005 | How crystal symmetry sets properties. |
+| 25 | [25-ashby-materials-selection](25-ashby-materials-selection/) | Ashby, *Materials Selection in Mechanical Design* | 5th | Butterworth-Heinemann | 2017 | Choosing materials as a map; also in [Labrador course02](../../../version/course02/03-ashby-materials-selection/). |
+| 26 | [26-appelo-postma-geochemistry-groundwater-pollution](26-appelo-postma-geochemistry-groundwater-pollution/) | Appelo & Postma, *Geochemistry, Groundwater and Pollution* | 2nd | A. A. Balkema, Leiden | 2005 | Water–mineral reactions in aquifers. |
+| 27 | [27-stumm-morgan-aquatic-chemistry](27-stumm-morgan-aquatic-chemistry/) | Stumm & Morgan, *Aquatic Chemistry* | 3rd | Wiley-Interscience | 1996 | The chemistry reference for natural waters. |
 
 ## By domain
 
@@ -86,4 +86,4 @@ All domains: [Klein & Dutrow](01-klein-dutrow-manual-of-mineral-science/) · [Gr
 | 26 | [Appelo & Postma, *Geochemistry, Groundwater and Pollution*](26-appelo-postma-geochemistry-groundwater-pollution/) | Environmental mineralogy |
 | 27 | [Stumm & Morgan, *Aquatic Chemistry*](27-stumm-morgan-aquatic-chemistry/) | Environmental mineralogy |
 
-Editions, publishers and years: — (not recorded yet).
+Each folder lists edition, publisher, year, ISBN, length, topics or contents, and the sources they came from (checked October 2026). Unknown details are "—".
