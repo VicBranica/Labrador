@@ -2,9 +2,9 @@
 
 [← Lesson {{N-1}} — {{Previous title}}](Lesson{{N-1}}.md) · [All lessons](index.md#lessons) · [Lesson {{N+1}} — {{Next title}} →](Lesson{{N+1}}.md)
 
-> {{Domain N of 8 | Across domains, N of {{total}}}}, in nine steps: start with something you can hold, get one mental model, build it, then learn what it's made of, how it's made, what trick unlocked it, and who got there first.
+> {{Domain N of 8 | Across domains, N of 3}}, in nine steps: start with something you can hold, get one mental model, build it, then learn what it's made of, how it's made, what trick unlocked it, and who got there first.
 
-*[Lessons 1–8 are one per domain, numbered as the domains. The number of lessons across domains is still open; Labrador has three (foundations, cross-domain, integration).]*
+*[Lessons 1–8 are one per domain, numbered as the domains. Lessons 9–11 work across domains: 9 Foundations (work first), 10 Composition + structure, 11 Integration. Lesson 1's previous link is [← Lesson 9 — Foundations](Lesson9.md); Lesson 8's next link is Lesson 10; Lesson 9's previous link is [← course01 index](index.md); Lesson 11's next link is [course01 index →](index.md).]*
 
 ## Lesson structure
 

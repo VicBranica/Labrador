@@ -2,7 +2,7 @@
 
 [← Labrador project map](../index.md) · [Opal domains](../opal/README.md) · [Course templates](course-templates/README.md)
 
-> Five courses that teach minerals and gems as one discipline organized around eight domains — mineralogy, crystallography, geochemistry, petrology, economic geology, gemology, materials science and environmental mineralogy — laid out like Labrador: theory and lessons, reading, the domain stack, a hands-on lab, and the companies behind the material. **Status: draft structure.** Only this map, the [course templates](course-templates/README.md) and each course's `index.md` header exist; every other entry in the tree below is planned.
+> Five courses that teach minerals and gems as one discipline organized around eight domains — mineralogy, crystallography, geochemistry, petrology, economic geology, gemology, materials science and environmental mineralogy: theory and lessons, reading, the domain stack (eight piles, six layers, three pillars), a hands-on lab, and the companies behind the material. **Status:** course01 (theory and lessons) and course03 (domain stack) are written; course02, course04 and course05 are headers only, and their entries in the tree below are planned.
 
 ## Project structure
 
@@ -18,8 +18,8 @@ zafiro/
 │   ├── course05-company.md                  → version/course05/NN-category/company.md
 │   └── course-index.md                      → version/courseNN/index.md
 └── version/
-    ├── course01/                          Core course
-    │   ├── index.md                         modules 0–10, appendices, lessons table
+    ├── course01/                          Core course — written
+    │   ├── index.md                         Modules 0–10, Appendices A–G, lessons tables
     │   ├── Lesson1.md                       01 Mineralogy
     │   ├── Lesson2.md                       02 Crystallography
     │   ├── Lesson3.md                       03 Geochemistry
@@ -28,16 +28,18 @@ zafiro/
     │   ├── Lesson6.md                       06 Gemology
     │   ├── Lesson7.md                       07 Materials science
     │   ├── Lesson8.md                       08 Environmental mineralogy
-    │   └── Lesson9.md …                     across domains — how many is open
-    ├── course02/                          Reading list
+    │   ├── Lesson9.md                       Foundations — work first
+    │   ├── Lesson10.md                      Composition + structure across domains
+    │   └── Lesson11.md                      Integration: deposit to product to waste
+    ├── course02/                          Reading list — header only
     │   ├── index.md
     │   └── NN-author-short-title/
-    │       └── README.md                    one per resource, by reading priority — none chosen yet
-    ├── course03/                          Domain stack
+    │       └── README.md                    planned: one per resource, by reading priority
+    ├── course03/                          Domain stack — written
     │   ├── index.md
-    │   ├── p1-….md                          pillar 1 — name open
-    │   ├── p2-….md                          pillar 2 — name open
-    │   ├── p3-….md                          pillar 3 — name open
+    │   ├── p1-cycles-between-piles.md
+    │   ├── p2-composition-and-structure.md
+    │   ├── p3-conditions-and-scale.md
     │   ├── 01-mineralogy/README.md
     │   ├── 02-crystallography/README.md
     │   ├── 03-geochemistry/README.md
@@ -47,9 +49,9 @@ zafiro/
     │   ├── 07-materials-science/README.md
     │   ├── 08-environmental-mineralogy/README.md
     │   └── 09-integration.md                integration pile
-    ├── course04/                          Hands-on lab
+    ├── course04/                          Hands-on lab — header only
     │   ├── index.md
-    │   ├── 00-starter-kit.md
+    │   ├── 00-starter-kit.md                planned
     │   ├── 01-bench-mineralogy.md
     │   ├── 02-bench-crystallography.md
     │   ├── 03-bench-geochemistry.md
@@ -58,9 +60,9 @@ zafiro/
     │   ├── 06-bench-gemology.md
     │   ├── 07-bench-materials-science.md
     │   └── 08-bench-environmental-mineralogy.md
-    └── course05/                          Companies & brands
+    └── course05/                          Companies & brands — header only
         ├── index.md
-        └── NN-category/                     categories open
+        └── NN-category/                     planned; categories open
             ├── index.md
             └── company.md                   one per company
 ```
@@ -68,10 +70,10 @@ zafiro/
 **Conventions**
 
 - Every course folder opens at `index.md`, which states the course's role, what it builds on and what it feeds into, with links to the previous and next course.
-- Domain numbers are the same in every course: `01` mineralogy · `02` crystallography · `03` geochemistry · `04` petrology · `05` economic geology · `06` gemology · `07` materials science · `08` environmental mineralogy. course03 adds `p1`–`p3` (pillars) and `09` (integration pile, since `08` is a domain here); course04 adds `00` (starter kit). course01 Modules 1–8 and Lessons 1–8 follow the same numbers.
+- Domain numbers are the same in every course: `01` mineralogy · `02` crystallography · `03` geochemistry · `04` petrology · `05` economic geology · `06` gemology · `07` materials science · `08` environmental mineralogy. course03 adds `p1`–`p3` (the three pillars) and `09` (integration pile, since `08` is a domain here); course04 adds `00` (starter kit). course01 Modules 1–8 and Lessons 1–8 follow the same numbers; Module 0 and Lesson 9 are foundations, Modules 9–10 and Lessons 10–11 work across domains.
 - Folder and file slugs: `mineralogy` · `crystallography` · `geochemistry` · `petrology` · `economic-geology` · `gemology` · `materials-science` · `environmental-mineralogy`.
 - course02 is numbered by reading priority, not by domain.
-- Every domain file links to the same domain in the other courses.
+- Every domain file links to the same domain in the other courses; links to course04 benches are plain text until the benches exist.
 - New course files start from [course-templates/](course-templates/README.md); its destinations are relative to `zafiro/`.
 - Unknown facts are "—", never guessed.
 
@@ -79,35 +81,100 @@ zafiro/
 
 | Course | Role | What it is | Builds on | Feeds into |
 |---|---|---|---|---|
-| [course01](version/course01/index.md) | Core course | Theory spine: Module 0 (foundations), Modules 1–8 (one per domain), modules across domains, appendices; Lessons 1–8 (one per domain, nine steps each) plus lessons across domains | — | course02, course03, course04, course05 |
-| [course02](version/course02/index.md) | Reading list | Books and other resources, one folder each, numbered by reading priority — none chosen yet | course01 (further reading) | course03 (sources) |
+| [course01](version/course01/index.md) | Core course | *Minerals & Gems as One Discipline* — Modules 0–10, Appendices A–G, and Lessons 1–11 (one per domain, plus three across domains; nine steps each) | — | course02, course03, course04, course05 |
+| [course02](version/course02/index.md) | Reading list | Books and other resources, one folder each, numbered by reading priority — none chosen yet; candidates are listed in [course01 Appendix G](version/course01/index.md#appendix-g--further-reading) | course01 Appendix G | course03 (sources) |
 | [course03](version/course03/index.md) | Domain stack | Three pillars, then one file per domain — hands-on pile (A–C), six layers (vocabulary → measurement → discovery → material → technique → features), back to the bench (D–G) — then the integration pile | course01, course02 | course04, course05 |
-| [course04](version/course04/index.md) | Hands-on lab | Starter kit + eight benches, each with four builds; the BOM format for mineral benches is open | course03 | Your lab notebook, course05 |
-| [course05](version/course05/index.md) | Companies & brands | One folder per category, one file per company cited in courses 01–04 — categories open | course01, course03, course04 | course04 (sourcing) |
+| [course04](version/course04/index.md) | Hands-on lab | Starter kit + eight benches — not written yet; the BOM format for mineral benches is open | course03 | Your lab notebook, course05 |
+| [course05](version/course05/index.md) | Companies & brands | One folder per category, one file per company cited in courses 01–04 — not written yet; categories open | course01, course03, course04 | course04 (sourcing) |
+
+## How the courses interact
+
+```mermaid
+graph LR
+  C01["course01<br/>Core course + lessons"]
+  C02["course02<br/>Reading list"]
+  C03["course03<br/>Domain stack"]
+  C04["course04<br/>Hands-on lab"]
+  C05["course05<br/>Companies & brands"]
+  C01 -- "Appendix G expands into" --> C02
+  C01 -- "Modules 1–8 become piles + six layers" --> C03
+  C02 -- "cited as sources" --> C03
+  C03 -- "domain behind each bench" --> C04
+  C04 -- "who supplies each item" --> C05
+```
+
+## Suggested study path
+
+1. **Foundations** — [course01 Lesson 9](version/course01/Lesson9.md) with [Module 0](version/course01/index.md#module-0--foundations), then the [course03 index](version/course03/index.md) (six layers, three pillars, the tray) and [Pillar 1 — Cycles between piles](version/course03/p1-cycles-between-piles.md).
+2. **Domain by domain** — for each of the eight domains, in order:
+   1. Work the course01 lesson (and the module for theory).
+   2. Work the course03 domain file: hands-on pile, then the six layers.
+   3. Do the kitchen-table builds in section D; the course04 bench will extend them.
+3. **Across domains** — [course01 Lesson 10](version/course01/Lesson10.md) with [Module 9](version/course01/index.md#module-9--cross-domain-links), [Pillar 2 — Composition + structure](version/course03/p2-composition-and-structure.md) and [Pillar 3 — Conditions and scale](version/course03/p3-conditions-and-scale.md).
+4. **Integration & capstone** — [course01 Lesson 11](version/course01/Lesson11.md) with [Module 10](version/course01/index.md#module-10--integration--capstone) and the [integration pile](version/course03/09-integration.md); write a specimen dossier.
 
 ## Domain cross-reference
 
-The same domain, in every course. Nothing below exists yet; each cell is the planned path, relative to `version/`.
+The same domain, in every course:
 
-| # | Domain | What it studies | Lesson (course01) | Module (course01) | Domain stack (course03) | Bench (course04) | course02 books |
+| # | Domain | What it studies | Lesson | Module | Domain stack (course03) | Bench (course04) | Books (course02) |
 |---|---|---|---|---|---|---|---|
-| 1 | Mineralogy | Mineral composition, properties, classification, and formation | planned: `course01/Lesson1.md` | planned: Module 1 | planned: `course03/01-mineralogy/README.md` | planned: `course04/01-bench-mineralogy.md` | — |
-| 2 | Crystallography | Atomic arrangement, symmetry, and crystal structure | planned: `course01/Lesson2.md` | planned: Module 2 | planned: `course03/02-crystallography/README.md` | planned: `course04/02-bench-crystallography.md` | — |
-| 3 | Geochemistry | Distribution and movement of chemical elements | planned: `course01/Lesson3.md` | planned: Module 3 | planned: `course03/03-geochemistry/README.md` | planned: `course04/03-bench-geochemistry.md` | — |
-| 4 | Petrology | Rocks and their constituent minerals | planned: `course01/Lesson4.md` | planned: Module 4 | planned: `course03/04-petrology/README.md` | planned: `course04/04-bench-petrology.md` | — |
-| 5 | Economic geology | Deposits, ores, and resource formation | planned: `course01/Lesson5.md` | planned: Module 5 | planned: `course03/05-economic-geology/README.md` | planned: `course04/05-bench-economic-geology.md` | — |
-| 6 | Gemology | Jewelry materials, identification, treatments, quality, and care | planned: `course01/Lesson6.md` | planned: Module 6 | planned: `course03/06-gemology/README.md` | planned: `course04/06-bench-gemology.md` | — |
-| 7 | Materials science | Physical properties and technological applications | planned: `course01/Lesson7.md` | planned: Module 7 | planned: `course03/07-materials-science/README.md` | planned: `course04/07-bench-materials-science.md` | — |
-| 8 | Environmental mineralogy | Weathering, contamination, and mineral–environment interactions | planned: `course01/Lesson8.md` | planned: Module 8 | planned: `course03/08-environmental-mineralogy/README.md` | planned: `course04/08-bench-environmental-mineralogy.md` | — |
-| — | All domains | — | planned: Lesson 9 onward | planned: Module 0, modules after 8 | planned: pillars `p1`–`p3` · `course03/09-integration.md` | planned: `course04/00-starter-kit.md` | — |
+| 1 | Mineralogy | Mineral composition, properties, classification, and formation | [Lesson 1](version/course01/Lesson1.md) | [Module 1](version/course01/index.md#module-1--mineralogy-domain) | [01-mineralogy](version/course03/01-mineralogy/README.md) | planned: `course04/01-bench-mineralogy.md` | Klein & Dutrow · Nesse · Deer, Howie & Zussman *(not yet in course02)* |
+| 2 | Crystallography | Atomic arrangement, symmetry, and crystal structure | [Lesson 2](version/course01/Lesson2.md) | [Module 2](version/course01/index.md#module-2--crystallography-domain) | [02-crystallography](version/course03/02-crystallography/README.md) | planned: `course04/02-bench-crystallography.md` | Hammond · Sands *(not yet in course02)* |
+| 3 | Geochemistry | Distribution and movement of chemical elements | [Lesson 3](version/course01/Lesson3.md) | [Module 3](version/course01/index.md#module-3--geochemistry-domain) | [03-geochemistry](version/course03/03-geochemistry/README.md) | planned: `course04/03-bench-geochemistry.md` | Albarède · White · Krauskopf & Bird *(not yet in course02)* |
+| 4 | Petrology | Rocks and their constituent minerals | [Lesson 4](version/course01/Lesson4.md) | [Module 4](version/course01/index.md#module-4--petrology-domain) | [04-petrology](version/course03/04-petrology/README.md) | planned: `course04/04-bench-petrology.md` | Winter · Philpotts & Ague · Boggs *(not yet in course02)* |
+| 5 | Economic geology | Deposits, ores, and resource formation | [Lesson 5](version/course01/Lesson5.md) | [Module 5](version/course01/index.md#module-5--economic-geology-domain) | [05-economic-geology](version/course03/05-economic-geology/README.md) | planned: `course04/05-bench-economic-geology.md` | Robb · Evans · Wills *(not yet in course02)* |
+| 6 | Gemology | Jewelry materials, identification, treatments, quality, and care | [Lesson 6](version/course01/Lesson6.md) | [Module 6](version/course01/index.md#module-6--gemology-domain) | [06-gemology](version/course03/06-gemology/README.md) | planned: `course04/06-bench-gemology.md` | Read · O'Donoghue · Hurlbut & Kammerling *(not yet in course02)* |
+| 7 | Materials science | Physical properties and technological applications | [Lesson 7](version/course01/Lesson7.md) | [Module 7](version/course01/index.md#module-7--materials-science-domain) | [07-materials-science](version/course03/07-materials-science/README.md) | planned: `course04/07-bench-materials-science.md` | Callister & Rethwisch · Newnham · Ashby *(not yet in course02)* |
+| 8 | Environmental mineralogy | Weathering, contamination, and mineral–environment interactions | [Lesson 8](version/course01/Lesson8.md) | [Module 8](version/course01/index.md#module-8--environmental-mineralogy-domain) | [08-environmental-mineralogy](version/course03/08-environmental-mineralogy/README.md) | planned: `course04/08-bench-environmental-mineralogy.md` | Langmuir · Appelo & Postma · Stumm & Morgan *(not yet in course02)* |
+| — | All domains | — | [Lessons 9](version/course01/Lesson9.md), [10](version/course01/Lesson10.md), [11](version/course01/Lesson11.md) | [Modules 0, 9, 10](version/course01/index.md#module-0--foundations) | [Pillars 1–3](version/course03/p1-cycles-between-piles.md) · [Integration](version/course03/09-integration.md) | planned: `course04/00-starter-kit.md` | [Appendix G](version/course01/index.md#appendix-g--further-reading) |
 
 Domain descriptions are from [opal/README.md](../opal/README.md). Companies: [course05](version/course05/index.md) — none listed yet.
 
+## Contents
+
+### [course01](version/course01/index.md) — Core course: *Minerals & Gems as One Discipline*
+
+- Lessons, one per domain, each in nine steps: [1 Mineralogy](version/course01/Lesson1.md) · [2 Crystallography](version/course01/Lesson2.md) · [3 Geochemistry](version/course01/Lesson3.md) · [4 Petrology](version/course01/Lesson4.md) · [5 Economic geology](version/course01/Lesson5.md) · [6 Gemology](version/course01/Lesson6.md) · [7 Materials science](version/course01/Lesson7.md) · [8 Environmental mineralogy](version/course01/Lesson8.md)
+- Lessons across domains, same nine steps: [9 Foundations](version/course01/Lesson9.md) (work first) · [10 Composition + structure](version/course01/Lesson10.md) · [11 Integration](version/course01/Lesson11.md)
+- [Module 0 — Foundations](version/course01/index.md#module-0--foundations)
+- [Module 1 — Mineralogy Domain](version/course01/index.md#module-1--mineralogy-domain)
+- [Module 2 — Crystallography Domain](version/course01/index.md#module-2--crystallography-domain)
+- [Module 3 — Geochemistry Domain](version/course01/index.md#module-3--geochemistry-domain)
+- [Module 4 — Petrology Domain](version/course01/index.md#module-4--petrology-domain)
+- [Module 5 — Economic Geology Domain](version/course01/index.md#module-5--economic-geology-domain)
+- [Module 6 — Gemology Domain](version/course01/index.md#module-6--gemology-domain)
+- [Module 7 — Materials Science Domain](version/course01/index.md#module-7--materials-science-domain)
+- [Module 8 — Environmental Mineralogy Domain](version/course01/index.md#module-8--environmental-mineralogy-domain)
+- [Module 9 — Cross-Domain Links](version/course01/index.md#module-9--cross-domain-links)
+- [Module 10 — Integration & Capstone](version/course01/index.md#module-10--integration--capstone)
+- Appendices A–G: [timeline](version/course01/index.md#appendix-a--timeline-of-key-discoveries), [people](version/course01/index.md#appendix-b--people-index), [minerals and materials](version/course01/index.md#appendix-c--minerals-and-materials-index), [techniques](version/course01/index.md#appendix-d--techniques-index), [glossary](version/course01/index.md#appendix-e--glossary), [equipment lineage](version/course01/index.md#appendix-f--equipment-lineage), [further reading](version/course01/index.md#appendix-g--further-reading)
+
+### [course03](version/course03/index.md) — Domain stack: eight piles, six layers
+
+| # | Topic | File |
+|---|---|---|
+| P1 | Pillar 1 — Cycles between piles | [p1-cycles-between-piles.md](version/course03/p1-cycles-between-piles.md) |
+| P2 | Pillar 2 — Composition + structure | [p2-composition-and-structure.md](version/course03/p2-composition-and-structure.md) |
+| P3 | Pillar 3 — Conditions and scale | [p3-conditions-and-scale.md](version/course03/p3-conditions-and-scale.md) |
+| 1 | Domain 1 — Mineralogy | [01-mineralogy/README.md](version/course03/01-mineralogy/README.md) |
+| 2 | Domain 2 — Crystallography | [02-crystallography/README.md](version/course03/02-crystallography/README.md) |
+| 3 | Domain 3 — Geochemistry | [03-geochemistry/README.md](version/course03/03-geochemistry/README.md) |
+| 4 | Domain 4 — Petrology | [04-petrology/README.md](version/course03/04-petrology/README.md) |
+| 5 | Domain 5 — Economic geology | [05-economic-geology/README.md](version/course03/05-economic-geology/README.md) |
+| 6 | Domain 6 — Gemology | [06-gemology/README.md](version/course03/06-gemology/README.md) |
+| 7 | Domain 7 — Materials science | [07-materials-science/README.md](version/course03/07-materials-science/README.md) |
+| 8 | Domain 8 — Environmental mineralogy | [08-environmental-mineralogy/README.md](version/course03/08-environmental-mineralogy/README.md) |
+| 9 | The integration pile | [09-integration.md](version/course03/09-integration.md) |
+
+## Decisions made while writing course01 and course03
+
+- **Lessons and modules across domains:** three lessons, as in Labrador — Lesson 9 Foundations (work first), Lesson 10 Composition + structure, Lesson 11 Integration — with Module 0 (foundations), Module 9 (cross-domain links) and Module 10 (integration & capstone).
+- **Pillars:** 1 · Cycles between piles · 2 · Composition + structure · 3 · Conditions and scale.
+- **Effort · flow · power** is replaced in each domain file by a **Key quantities** line.
+
 ## Open questions
 
-- **Lessons and modules across domains** — Labrador has three (foundations, cross-domain, integration). How many does Zafiro have, and what are they?
-- **Pillars** — Labrador's three pillars (arrows between piles, material + technique, bandwidth and ceiling) are about energy domains. What are Zafiro's?
-- **Effort · flow · power** — the course03 domain header line has no counterpart for minerals; replace with key quantities or drop.
 - **Benches and BOMs** — what a mineral & gem bench holds (tools, reagents, reference specimens?) and whether it is costed as a BOM; what replaces the free "teardown targets" category.
 - **course05 categories** — e.g. mining companies, gem labs, instrument makers, dealers and suppliers? Not decided.
-- **course02 resources** — none chosen.
+- **course02 resources** — the books cited under F in each domain file and in Appendix G are candidates; none has a course02 folder yet.
