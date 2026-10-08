@@ -8,6 +8,7 @@
 Labrador/
 ├── index.md                         ← project map (this file)
 ├── course-templates/                ← start every new course file here
+├── opal/                            ← mineral & gem domains (draft) + its own copy of course-templates
 ├── scaffolding/                     ← app skeleton: Next.js + pnpm monorepo + Supabase
 └── version/
     ├── course01/  index.md + Lesson1–10.md           Core course
@@ -26,6 +27,7 @@ Labrador/
 - Every domain file links to the same domain in the other courses.
 - [scaffolding/](scaffolding/README.md) is the empty skeleton for a Labrador web app (benches, BOMs, inventory, costing; EN / PL / RU).
 - New course files start from [course-templates/](course-templates/README.md): a lesson, a reading-list entry, a domain file, a bench, a company file or a course index, plus the list of other files to update.
+- [opal/](opal/README.md) is a separate track, outside the five courses: eight mineral and gem domains, with its own copy of the course templates. Not yet linked into the courses.
 
 ## The five courses
 
@@ -164,3 +166,18 @@ Who makes each part: [course05 — Manufacturers & Brands](version/course05/inde
 | 05 | Motion & fluid power | [05-motion-and-fluid-power/](version/course05/05-motion-and-fluid-power/index.md) |
 | 06 | Materials & trade names | [06-materials-and-trade-names/](version/course05/06-materials-and-trade-names/index.md) |
 | 07 | Suppliers & distributors | [07-suppliers/](version/course05/07-suppliers/index.md) |
+
+### [opal](opal/README.md) — Mineral & gem domains (draft)
+
+| Domain | What it studies |
+|---|---|
+| Mineralogy | Mineral composition, properties, classification, and formation |
+| Crystallography | Atomic arrangement, symmetry, and crystal structure |
+| Geochemistry | Distribution and movement of chemical elements |
+| Petrology | Rocks and their constituent minerals |
+| Economic geology | Deposits, ores, and resource formation |
+| Gemology | Jewelry materials, identification, treatments, quality, and care |
+| Materials science | Physical properties and technological applications |
+| Environmental mineralogy | Weathering, contamination, and mineral–environment interactions |
+
+Templates for new opal files: [opal/course-templates/](opal/course-templates/README.md).
