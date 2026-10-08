@@ -9,6 +9,7 @@ Labrador/
 ├── index.md                         ← project map (this file)
 ├── course-templates/                ← start every new course file here
 ├── scaffolding/                     ← app skeleton: Next.js + pnpm monorepo + Supabase
+├── zafiro/                          ← Zafiro: mineral & gem courses (draft structure)
 └── version/
     ├── course01/  index.md + Lesson1–10.md           Core course
     ├── course02/  index.md + 12 resource folders     Reading list
@@ -26,6 +27,7 @@ Labrador/
 - Every domain file links to the same domain in the other courses.
 - [scaffolding/](scaffolding/README.md) is the empty skeleton for a Labrador web app (benches, BOMs, inventory, costing; EN / PL / RU).
 - New course files start from [course-templates/](course-templates/README.md): a lesson, a reading-list entry, a domain file, a bench, a company file or a course index, plus the list of other files to update.
+- [zafiro/](zafiro/README.md) is a second project — mineral & gem courses in eight domains — laid out the same way, with its own project map and course templates; only its structure is drafted so far.
 
 ## The five courses
 
