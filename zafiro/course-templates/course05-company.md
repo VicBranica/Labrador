@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Type | {{Manufacturer · Distributor · Trade-name owner · …}} *[Labrador's types; Zafiro's company categories are still open.]* |
+| Type | {{Manufacturer · Distributor · Trade-name owner · …}} *[Labrador's types; course05 categories are still open.]* |
 | Headquarters | {{City, Country}} |
 | Founded | {{Year — or "—" if not confirmed}} |
 | Owner / parent | {{Parent — or "—"}} |

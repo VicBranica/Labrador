@@ -2,11 +2,9 @@
 
 [← Course 03 index](../index.md) · [← Domain {{N-1}} — {{Previous}}](../{{NN-1}}-{{previous}}/README.md) · [Domain {{N+1}} — {{Next}} →](../{{NN+1}}-{{next}}/README.md)
 
-*[Domain 1's previous link is [← Pillar 3](../p3-{{pillar-3}}.md); domain 8's next link is [Integration pile →](../09-integration.md). Zafiro's integration pile is `09`, because `08` is environmental mineralogy; the pillar names are still open.]*
+*[Domain 1's previous link is [← Pillar 3](../p3-conditions-and-scale.md); domain 8's next link is [Integration pile →](../09-integration.md). The integration pile is `09` because `08` is environmental mineralogy.]*
 
-**Effort:** {{Effort variable (symbol)}} · **Flow:** {{Flow variable (symbol)}} · **Power:** {{Effort × flow}}
-
-*[Effort · flow · power comes from Labrador's seven energy domains (electrical…radiant) and has no direct counterpart in the eight mineral & gem domains. Replace this line with the domain's key quantities, or delete it — open question.]*
+**Key quantities:** {{Quantity (symbol or unit)}} · {{…}}
 
 **Lesson:** [course01 Lesson {{N}}](../../course01/Lesson{{N}}.md) · **Theory:** [course01 Module {{N}}](../../course01/index.md#module-{{n}}--{{domain}}-domain) · **Bench:** [course04 Bench {{N}}](../../course04/{{NN}}-bench-{{domain}}.md)
 
@@ -24,17 +22,15 @@
 
 ## C. This pile on the three pillars
 
-*[The pillar names and the rows below are Labrador's (arrows between energy domains, bandwidth, energy-density ceiling, sensor input / actuator output). Keep the section; rename the pillars and rows once Zafiro's pillars are decided.]*
-
 | Pillar | At this pile |
 |---|---|
-| [1 · {{Pillar 1}}](../p1-{{pillar-1}}.md) | {{Typical device: this pile → other pile}} |
-| [2 · {{Pillar 2}}](../p2-{{pillar-2}}.md) | See [4. Material](#4-material) and [5. Technique](#5-technique) below |
-| [3 · {{Pillar 3}}](../p3-{{pillar-3}}.md) | {{Typical range — and what limits it}} |
-| [3 · {{Pillar 3, second row}}](../p3-{{pillar-3}}.md) | {{High / medium / low (material; technique)}} |
+| [1 · Cycles between piles](../p1-cycles-between-piles.md) | {{Processes that link this pile to others}} |
+| [2 · Composition + structure](../p2-composition-and-structure.md) | See [4. Material](#4-material) and [5. Technique](#5-technique) below |
+| [3 · Conditions](../p3-conditions-and-scale.md) | {{Typical P–T–fluid conditions}} |
+| [3 · Scale](../p3-conditions-and-scale.md) | {{Typical length and time scales}} |
 | Role | {{What this pile is mostly used for}} |
-| As sensor input / actuator output | {{Very common / Common / Specialty}} |
-| Characteristic effects | {{Named effects and laws}} |
+| Main tools | {{Field and lab tools}} |
+| Characteristic laws | {{Named laws, scales and rules}} |
 
 ## 1. Vocabulary
 
@@ -54,7 +50,7 @@
 
 ## 3. Discovery
 
-*The physical effects themselves.*
+*The minerals, effects and laws themselves.*
 
 | Year | Effect / law | Discoverer |
 |---|---|---|
@@ -66,13 +62,13 @@
 
 ## 4. Material
 
-*What carries the effect.*
+*What carries the property.*
 
 - **{{Device family}}:** {{materials and why}}.
 
 ## 5. Technique
 
-*How the material becomes a device.* *[Labrador wording; for minerals, how the material is found, processed, cut or treated — adapt.]*
+*How the material is found, identified, processed or treated.*
 
 - {{Technique — what it does and why it matters.}}
 

@@ -40,6 +40,7 @@ Destinations below are relative to `zafiro/`; the project map is [`zafiro/README
 ## Conventions
 
 - Domain numbers are the same everywhere: `01` mineralogy · `02` crystallography · `03` geochemistry · `04` petrology · `05` economic geology · `06` gemology · `07` materials science · `08` environmental mineralogy. course03 adds `p1`–`p3` (pillars) and `09` (integration pile); course04 adds `00` (starter kit).
+- Fixed names: pillars `p1-cycles-between-piles.md`, `p2-composition-and-structure.md`, `p3-conditions-and-scale.md`; integration pile `09-integration.md`; course01 Lessons 1–8 per domain, Lessons 9–11 across domains, Modules 0–10.
 - Folder and file slugs: `mineralogy`, `crystallography`, `geochemistry`, `petrology`, `economic-geology`, `gemology`, `materials-science`, `environmental-mineralogy`.
 - BOM codes are `bench.category.item` (`3.1.3`); the starter kit uses `S`. The teardown category is always last, at cost 0. *[Carried over from Labrador's sensor benches; for minerals a free category might be field-collected specimens instead of teardowns — open question.]*
 - In build tables, cite an item as `` `code` short name `` — the description without its parenthesis.
