@@ -1,4 +1,4 @@
-# Abap — ABAP Programming Learning Project
+# abap — ABAP Programming Learning Project
 
 [← Labrador project map](../index.md) · [Course templates](course-templates/README.md)
 
@@ -7,7 +7,7 @@
 ## Project structure
 
 ```
-Abap/
+abap/
 ├── README.md                              ← project map (this file)
 ├── course-templates/                      ← start every new course file here
 │   ├── README.md                            how templates map to files, follow-up edits
@@ -69,7 +69,7 @@ Abap/
 - Folder and file slugs: `language-core` · `data-dictionary` · `sql-and-cds` · `modularization-and-oo` · `ui` · `interfaces` · `performance` · `testing-and-quality`. Domain 06 uses `interfaces`, not `integration`, so it can't be confused with the course03 integration pile.
 - course02 is numbered by reading priority, not by domain.
 - Every domain file links to the same domain in the other courses; links to files that don't exist yet are plain text until they do.
-- New course files start from [course-templates/](course-templates/README.md); its destinations are relative to `Abap/`.
+- New course files start from [course-templates/](course-templates/README.md); its destinations are relative to `abap/`.
 - Unknown facts are "—", never guessed.
 
 ## The five courses
@@ -121,10 +121,10 @@ The same domain, in every course (**proposed — needs approval**):
 - **Domains — proposed, needs approval.** The eight domains above, their order, names and slugs are a draft; no domain list was given. Possible changes: split or merge (e.g. Open SQL and CDS as separate domains; UI split into classic and Fiori), add a domain (e.g. the RAP programming model, enhancements and modifications, security and authorizations, background processing), or rename `06-interfaces`.
 - **Benches and BOMs** — Labrador's benches are physical kits costed as a multilevel BOM. For ABAP the likely replacement is a hands-on lab on an SAP trial or ABAP environment (e.g. an SAP BTP ABAP environment trial or a locally installed ABAP Platform trial — which one, and whether both are covered, is not decided). Open: what the starter kit holds (system access, IDE, other tools), whether anything is costed, what replaces the BOM code `bench.category.item`, and what replaces the free "teardown targets" category (perhaps reading existing standard SAP code).
 - **course05 categories** — e.g. SAP itself, implementation partners and consultancies, tool vendors, training and certification providers, hosting and cloud providers, open-source projects (which aren't companies)? Not decided.
-- **Lessons and modules across domains** — Labrador and Zafiro have three lessons across domains (foundations, cross-domain, integration). How many does Abap have, and what are they?
-- **Pillars** — Labrador's three pillars (arrows between piles, material + technique, bandwidth and ceiling) are about energy domains. What are Abap's?
+- **Lessons and modules across domains** — Labrador and Zafiro have three lessons across domains (foundations, cross-domain, integration). How many does abap have, and what are they?
+- **Pillars** — Labrador's three pillars (arrows between piles, material + technique, bandwidth and ceiling) are about energy domains. What are abap's?
 - **Six layers** — vocabulary → measurement → discovery → material → technique → features fits physical effects; does it hold for a programming language, or do layers need renaming (e.g. measurement → tooling, material → runtime / platform)?
 - **Effort · flow · power** — the course03 domain header line has no counterpart for ABAP; replace with key concepts or drop.
 - **Release scope** — which ABAP releases and language versions the courses target (classic on-premise ABAP, ABAP Cloud, or both).
 - **course02 resources** — none chosen.
-- **Project name** — the folder is `Abap/`; the project's display name and course01's title are open.
+- **Project name** — the folder is `abap/`; the project's display name and course01's title are open.
