@@ -4,7 +4,7 @@
 
 > {{Domain N of 7 | Across domains, N of 3}}, in nine steps: start with something you can hold, get one mental model, build it, then learn what it's made of, how it's made, what trick unlocked it, and who got there first.
 
-*[abap has 8 proposed domains, so "Domain N of 7" becomes "Domain N of 8"; the number of lessons across domains is open. "Something you can hold", "materials" and "the industry" are sensor wording — rephrase for code once the six layers are settled.]*
+*[Abap has 8 proposed domains, so "Domain N of 7" becomes "Domain N of 8"; the number of lessons across domains is open. "Something you can hold", "materials" and "the industry" are sensor wording — rephrase for code once the six layers are settled.]*
 
 ## Lesson structure
 
@@ -38,7 +38,7 @@
 
 *← start concrete*
 
-{{Two or three things the learner can hold or find at home.}} *[For abap: things the learner can open in a system.]*
+{{Two or three things the learner can hold or find at home.}} *[For Abap: things the learner can open in a system.]*
 
 ## 2. The one thing to understand
 

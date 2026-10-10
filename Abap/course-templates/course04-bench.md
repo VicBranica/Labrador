@@ -4,7 +4,7 @@
 
 *[Bench 1's previous link is [← Starter kit](00-starter-kit.md); bench 8's next link is [Course 04 index →](index.md).]*
 
-*[Open question: Labrador's benches are physical kits costed as a BOM. An abap bench is likely a hands-on lab on an SAP trial or ABAP environment — system, packages, sample data and tools rather than parts; keep the BOM sections until the format is decided.]*
+*[Open question: Labrador's benches are physical kits costed as a BOM. An Abap bench is likely a hands-on lab on an SAP trial or ABAP environment — system, packages, sample data and tools rather than parts; keep the BOM sections until the format is decided.]*
 
 **Course:** [course01 Module {{N}}](../course01/index.md#module-{{n}}--{{domain}}-domain) · **Theory:** [course03/{{NN}}-{{domain}}](../course03/{{NN}}-{{domain}}/README.md) · **Shared tools:** [Universal Starter Kit](00-starter-kit.md)
 
@@ -53,7 +53,7 @@
 | This bench | `{{N}}.1.1` {{Short name}} · `{{N}}.1.2` {{Short name}} |
 | Other benches | `{{code}}` [{{Short name}}]({{NN}}-bench-{{domain}}.md) |
 | Starter kit | `S.{{x.y}}` [{{Short name}}](00-starter-kit.md) |
-| Not in any BOM | {{Household items}} *[For abap: anything outside the lab system.]* |
+| Not in any BOM | {{Household items}} *[For Abap: anything outside the lab system.]* |
 
 ### Build 2 — {{Title}}
 

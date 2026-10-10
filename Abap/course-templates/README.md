@@ -1,6 +1,6 @@
 # Course templates
 
-[← abap project map](../README.md)
+[← Abap project map](../README.md)
 
 > Start every new course file from one of these, so it matches the files already in the courses: same header, same sections, same anchors.
 
@@ -13,7 +13,7 @@
 
 Links inside the templates are written as they will be at the destination, so they only resolve after you copy the file into place.
 
-Destinations below are relative to `abap/`; the project map is [`abap/README.md`](../README.md).
+Destinations below are relative to `Abap/`; the project map is [`Abap/README.md`](../README.md).
 
 ## Templates
 
@@ -33,7 +33,7 @@ Destinations below are relative to `abap/`; the project map is [`abap/README.md`
 | Lesson | The lessons table in `version/course01/index.md`; the prev/next links of the neighbouring lessons; the project map's domain cross-reference and Contents; the `**Lesson:**` line of the matching course03 file. |
 | course02 resource | The table in `version/course02/index.md`; the project map's tree count, course02 table and domain cross-reference; section 9 of the lesson and section F of the course03 domain that cite it. |
 | course03 domain | The tables in `version/course03/index.md`; the prev/next links of the neighbouring domain files; the project map. |
-| course04 bench | The files table and BOM sums in `version/course04/index.md`; the starter kit's "Where used" table; the project map. Level 0 and level 1 costs are the sums of the level 2 items. *[Carried over from Labrador; revisit once the abap lab format is decided.]* |
+| course04 bench | The files table and BOM sums in `version/course04/index.md`; the starter kit's "Where used" table; the project map. Level 0 and level 1 costs are the sums of the level 2 items. *[Carried over from Labrador; revisit once the Abap lab format is decided.]* |
 | course05 company | The category `index.md`, the products table and company list in `version/course05/index.md`. |
 | Any text that names a company | That company's "Cited in the courses" table in course05. |
 

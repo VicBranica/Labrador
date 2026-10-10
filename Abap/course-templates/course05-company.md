@@ -17,7 +17,7 @@
 
 ## Why it's in the courses
 
-{{Which products or trade names the courses cite, and why. For a trade name, who owns it today and who first made it.}} *[Trade names fit Labrador's materials; for abap, perhaps products and tool names.]*
+{{Which products or trade names the courses cite, and why. For a trade name, who owns it today and who first made it.}} *[Trade names fit Labrador's materials; for Abap, perhaps products and tool names.]*
 
 ## Cited in the courses
 

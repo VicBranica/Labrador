@@ -9,4 +9,4 @@
 
 ## Status
 
-Not started — only this file exists. Planned files: [abap project structure](../../README.md#project-structure).
+Not started — only this file exists. Planned files: [Abap project structure](../../README.md#project-structure).

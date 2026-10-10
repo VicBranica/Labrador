@@ -2,7 +2,7 @@
 
 [← Course 03 index](../index.md) · [← Domain {{N-1}} — {{Previous}}](../{{NN-1}}-{{previous}}/README.md) · [Domain {{N+1}} — {{Next}} →](../{{NN+1}}-{{next}}/README.md)
 
-*[Domain 1's previous link is [← Pillar 3](../p3-bandwidth-and-ceiling.md); domain 8's next link is [Integration pile →](../09-integration.md). The integration pile is `09` because `08` is testing & quality. Pillar file names are Labrador's; abap's pillars are an open question.]*
+*[Domain 1's previous link is [← Pillar 3](../p3-bandwidth-and-ceiling.md); domain 8's next link is [Integration pile →](../09-integration.md). The integration pile is `09` because `08` is testing & quality. Pillar file names are Labrador's; Abap's pillars are an open question.]*
 
 **Effort:** {{Effort variable (symbol)}} · **Flow:** {{Flow variable (symbol)}} · **Power:** {{Effort × flow}}
 
@@ -14,7 +14,7 @@
 
 ## A. What you're looking at
 
-{{Three or four everyday objects that live in this pile.}} *[For abap: programs, transactions or objects in a system.]*
+{{Three or four everyday objects that live in this pile.}} *[For Abap: programs, transactions or objects in a system.]*
 
 ## B. The one thing to understand
 
@@ -34,7 +34,7 @@
 | As sensor input / actuator output | {{Very common / Common / Specialty}} |
 | Characteristic effects | {{Named effects and laws}} |
 
-*[Pillar rows, "sensor input / actuator output" and "effects and laws" fit sensors and actuators only; rename once abap's pillars are decided.]*
+*[Pillar rows, "sensor input / actuator output" and "effects and laws" fit sensors and actuators only; rename once Abap's pillars are decided.]*
 
 ## 1. Vocabulary
 
@@ -46,7 +46,7 @@
 
 ## 2. Measurement
 
-*The instruments that first saw each effect.* *[For abap, perhaps the tools that show each concept — open question with the six layers.]*
+*The instruments that first saw each effect.* *[For Abap, perhaps the tools that show each concept — open question with the six layers.]*
 
 | Year | Discoverer | What was measured | Equipment used |
 |---|---|---|---|
@@ -54,7 +54,7 @@
 
 ## 3. Discovery
 
-*The physical effects themselves.* *[For abap, perhaps the language features and when they arrived.]*
+*The physical effects themselves.* *[For Abap, perhaps the language features and when they arrived.]*
 
 | Year | Effect / law | Discoverer |
 |---|---|---|
@@ -66,13 +66,13 @@
 
 ## 4. Material
 
-*What carries the effect.* *[For abap, perhaps the runtime or platform.]*
+*What carries the effect.* *[For Abap, perhaps the runtime or platform.]*
 
 - **{{Device family}}:** {{materials and why}}.
 
 ## 5. Technique
 
-*How the material becomes a device.* *[For abap, perhaps the patterns and techniques.]*
+*How the material becomes a device.* *[For Abap, perhaps the patterns and techniques.]*
 
 - {{Technique — what it does and why it matters.}}
 
@@ -94,7 +94,7 @@
 
 ## D. What to build
 
-1. {{Build, small enough for a kitchen table.}} *[For abap: small enough for one session on a trial system.]*
+1. {{Build, small enough for a kitchen table.}} *[For Abap: small enough for one session on a trial system.]*
 2. {{…}}
 
 Full BOM and build steps: [course04 Bench {{N}}](../../course04/{{NN}}-bench-{{domain}}.md).
