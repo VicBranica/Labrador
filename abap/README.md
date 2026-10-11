@@ -6,6 +6,7 @@ ABAP sources under review, one folder per program. Each folder holds the source 
 |---|---|---|
 | [ZDEMO_SECURE_DYNAMIC_EXCEL](zdemo_secure_dynamic_excel/zdemo_secure_dynamic_excel.prog.abap) | Generic, metadata-driven `.xlsx` upload into a customer (Z*/Y*) transparent table | [REVIEW.md](zdemo_secure_dynamic_excel/REVIEW.md) |
 | [ZDEMO_SECURE_DYNAMIC_EXCEL_TBL2](zdemo_secure_dynamic_excel_tbl2/zdemo_secure_dynamic_excel_tbl2.prog.abap) | Version TBL2 of the program above, with every review finding fixed | [CHANGES.md](zdemo_secure_dynamic_excel_tbl2/CHANGES.md) · [REQUIREMENTS-REVIEW.md](zdemo_secure_dynamic_excel_tbl2/REQUIREMENTS-REVIEW.md) |
+| [ZDEMO_SECURE_DYNAMIC_EXCEL (AUTO)](zdemo_secure_dynamic_excel_auto/zdemo_secure_dynamic_excel.prog.abap) | Alternative version: auto-detects the header row, matches columns by label, creates the table if missing | [COMPARISON.md](zdemo_secure_dynamic_excel_auto/COMPARISON.md) (vs. TBL2) |
 
 **Conventions**
 
