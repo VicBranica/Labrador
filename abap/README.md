@@ -1,6 +1,6 @@
 # ABAP — code reviews
 
-ABAP sources under review, one folder per program. Each folder holds the source as received (abapGit naming, `<name>.prog.abap`) and a `REVIEW.md` with the findings.
+ABAP sources under review, one folder per program. Current state and open items: [STATUS.md](STATUS.md). Each folder holds the source as received (abapGit naming, `<name>.prog.abap`) and a `REVIEW.md` with the findings.
 
 | Program | What it does | Review |
 |---|---|---|
