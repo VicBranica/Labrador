@@ -2,6 +2,8 @@
 
 Source: [zdemo_secure_dynamic_excel.prog.abap](zdemo_secure_dynamic_excel.prog.abap) (1,147 lines). Reviewed on 2026-10-11 by reading the code; nothing was run on an SAP system. Line numbers refer to that file.
 
+**Status:** all findings are addressed in version [TBL2](../zdemo_secure_dynamic_excel_tbl2/CHANGES.md).
+
 ## Verdict
 
 The code is well structured and much better than a typical upload tool. It has a test run on by default, restricts uploads to customer tables, runs an authorization check, locks the table, commits once, rejects a row on any error and shows a clear ALV log. The syntax looks right for ABAP 7.55+.
